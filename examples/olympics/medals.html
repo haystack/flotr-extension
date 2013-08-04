@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SIMILE Widgets | Exhibit | Examples | Olympic Medals</title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <link rel='stylesheet'j href='http://www.simile-widgets.org/styles/common.css' type='text/css' />
+	
+	<!-- Load Data file -->
+    <link href="medals.js" type="application/json" rel="exhibit-data" />
+
+     <!-- Exhibit API -->
+    <script src="http://api.simile-widgets.org/exhibit/current/exhibit-api.js"></script>
+
+     <!-- Exhibit Extension for Flotr -->
+     <link rel="exhibit-extension" href="../api/flotr-extension.js"/>
+
+
+  </head>
+  <body style="background: #f4f4f4">
+    <ul id="path">
+      <li><a href="/">SIMILE Widgets</a></li>
+      <li><a href="/exhibit/">Exhibit</a></li>
+      <li><span>Examples: 2008 Olympics</span></li>
+    </ul>
+    <header style="background: #e0e0e0">
+      <h1 style="padding-left: 20px">Top 20 2008 Olympic Medal Winning Countries</h1>
+    </header>
+    <div id="content"><div style="width: 100%;">
+        <table width="100%" class="spaced-table">
+            <tr>
+            	<td width="15%" style="background: #e0e0e0">
+                    <div ex:role="facet" 
+                        ex:expression=".continent" 
+                        ex:facetLabel="Continents"
+                        ex:height="13em"></div>
+                    <div ex:role="facet" 
+                        ex:expression=".label" 
+                        ex:facetLabel="Countries" 
+                        ex:height="25em"></div>
+                    <!--div ex:role="facet" ex:facetClass="Exhibit.NumericRangeFacet" 
+                        ex:expression=".population" 
+                        ex:interval="10000000" 
+                        ex:facetLabel="Population" 
+                        ex:height="20em"></div-->
+                </td>
+                <div ex:role="coder"  ex:coderClass = "Color" id = "continent">
+                	<span ex:color = "#ff7676">ASIA</span>
+                	<span ex:color = "#ffff28">AFRICA</span>
+                	<span ex:color = "#76bbff">EUROPE</span>
+                	<span ex:color = "#ffa500">NORTH AMERICA</span>
+                	<span ex:color = "#a7ff4e">SOUTH AMERICA</span>
+                	<span ex:color = "#ff77ff">AUSTRALIA</span>
+                </div>
+                <td style="padding-left: 50px">
+                    <div ex:role="viewPanel">
+                    	<div ex:role="view"
+                           ex:viewClass="Exhibit.BarChartView"
+                           ex:label="Vertical View"
+                           ex:values=".totalMedal"
+                           ex:valueLabel="Medals"
+                           ex:groupedBy=".label"
+                           ex:groupLabel="Country Name"
+                           ex:colorCoder = "continent"
+                           ex:colorKey = ".continent"
+                           ex:axisType="linear"
+                           ex:tickNum = "10"
+                           ex:verticalChart="true">
+                        </div>
+                        <div ex:role="view"
+                           ex:viewClass="Exhibit.BarChartView"
+                           ex:label="Horizontal View"
+                           ex:values=".totalMedal"
+                           ex:valueLabel="Medals"
+                           ex:groupedBy=".label"
+                           ex:groupLabel="Country Name"
+                           ex:colorCoder = "continent"
+                           ex:colorKey = ".continent"
+                           ex:axisType="linear"
+                           ex:verticalChart="false">
+                        </div>
+                    	<div ex:role="view"
+                           ex:viewClass="Exhibit.BarChartView"
+                           ex:label="Gold"
+                           ex:values=".goldMedal"
+                           ex:valueLabel="Gold Medals"
+                           ex:groupedBy=".label"
+                           ex:groupLabel="Country Name"
+                           ex:colorCoder = "continent"
+                           ex:colorKey = ".continent"
+                           ex:axisType="linear"
+                           ex:verticalChart="true"
+                           ex:barWidth=".3">
+                        </div>
+                        <div ex:role="view"
+                           ex:viewClass="Exhibit.BarChartView"
+                           ex:label="Silver"
+                           ex:values=".silverMedal"
+                           ex:valueLabel="Silver Medals"
+                           ex:groupedBy=".label"
+                           ex:groupLabel="Country Name"
+                           ex:colorCoder = "continent"
+                           ex:colorKey = ".continent"
+                           ex:axisType="linear"
+                           ex:verticalChart="true">
+                        </div>
+                        <div ex:role="view"
+                           ex:viewClass="Exhibit.BarChartView"
+                           ex:label="Bronze"
+                           ex:values=".bronzeMedal"
+                           ex:valueLabel="Bronze Medals"
+                           ex:groupedBy=".label"
+                           ex:groupLabel="Country Name"
+                           ex:colorCoder = "continent"
+                           ex:colorKey = ".continent"
+                           ex:axisType="linear"
+                           ex:verticalChart="true">
+                        </div>
+                        <div ex:role="view"
+                           ex:viewClass="Exhibit.BarChartView"
+                           ex:label="Line Chart"
+                           ex:values=".totalMedal"
+                           ex:valueLabel="Medals"
+                           ex:groupedBy=".label"
+                           ex:groupLabel="Country Name"
+                           ex:axisType="linear"
+                           ex:lineChart="true"
+                           ex:verticalChart="false">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div></div>
+  </body>
+</html>

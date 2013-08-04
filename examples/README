@@ -1,0 +1,3 @@
+To use these examples, put an link in this directory called api to
+whatever directory constains the extension code you wish to test
+(e.g., ../dist after you run the build script).

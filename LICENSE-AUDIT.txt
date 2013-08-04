@@ -1,0 +1,9 @@
+Software Libraries
+==================
+
+flotr.min.js
+------
+ * http://code.google.com/p/flotr/
+ * 0.2.0 alpha
+ * MIT
+ * /src/lib/flotr.min.js

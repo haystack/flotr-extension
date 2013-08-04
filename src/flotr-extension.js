@@ -9,17 +9,25 @@
                     
     Exhibit.FlotrExtension = {
         params: {
-            bundle: false
+            bundle: true
         } 
     };
+
+    var scriptName = "flotr";
+
+    var extensionName = "Flotr extension";
 
     var javascriptFiles = [
         "bar-chart-view.js",
         "scatter-plot-view.js"
     ];
 
+    var javascriptLibs = [
+                          "flotr2.min.js"
+                          ];
+
     var cssFiles = [
-    ]
+                    ];
     
     var paramTypes = { bundle: Boolean };
     if (typeof Exhibit_FlotrExtension_urlPrefix == "string") {
@@ -30,12 +38,12 @@
                                           paramTypes);
         }
     } else {
-        var url = Exhibit.findScript(document, "/flotr-extension.js");
+        var url = Exhibit.findScript(document, "/" + scriptName + "-extension.js");
         if (url == null) {
-            Exhibit.Debug.exception(new Error("Failed to derive URL prefix for Simile Exhibit Flotr Extension code files"));
+            Exhibit.Debug.exception(new Error("Failed to derive URL prefix for " + extensionName));
             return;
         }
-        Exhibit.FlotrExtension.urlPrefix = url.substr(0, url.indexOf("flotr-extension.js"));
+        Exhibit.FlotrExtension.urlPrefix = url.substr(0, url.indexOf(scriptName + "-extension.js"));
         
         Exhibit.parseURLParameters(url, Exhibit.FlotrExtension.params, paramTypes);
     }
@@ -44,19 +52,21 @@
     var cssURLs = [];
     
     if (Exhibit.FlotrExtension.params.bundle) {
-        scriptURLs.push(Exhibit.FlotrExtension.urlPrefix + "flotr-extension-bundle.js");
-        cssURLs.push(Exhibit.FlotrExtension.urlPrefix + "flotr-extension-bundle.css");
+        scriptURLs.push(Exhibit.FlotrExtension.urlPrefix + scriptName + "-extension-bundle.js");
+        cssURLs.push(Exhibit.FlotrExtension.urlPrefix + scriptName + "-bundle.css");
     } else {
         Exhibit.prefixURLs(scriptURLs, Exhibit.FlotrExtension.urlPrefix + "scripts/", javascriptFiles);
+        Exhibit.prefixURLs(scriptURLs, Exhibit.FlotrExtension.urlPrefix + "lib/", javascriptLibs);
         Exhibit.prefixURLs(cssURLs, Exhibit.FlotrExtension.urlPrefix + "styles/", cssFiles);
     }
+
     
     for (var i = 0; i < Exhibit.locales.length; i++) {
-        scriptURLs.push(Exhibit.FlotrExtension.urlPrefix + "locales/" + Exhibit.locales[i] + "/flotr-locale.js");
+        scriptURLs.push(Exhibit.FlotrExtension.urlPrefix + "locales/" + Exhibit.locales[i] + "/" + scriptName + "-locale.js");
     };
     
     if (!isCompiled) {
-        Exhibit.includeJavascriptFiles(document, "", scriptURLs);
+        Exhibit.includeJavascriptFiles("", scriptURLs, false);
         Exhibit.includeCssFiles(document, "", cssURLs);
     }
 })();
