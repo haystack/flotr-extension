@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Flotr2 Scatter Plot Documentation
+    </title>
+    <style>
+        body{
+            border: 1px solid grey;
+            padding: 10px 20px;
+        }
+        #intro{
+            width: 40em;
+            padding: 10px 10px;
+            height: auto;
+            border: 1px dotted grey;        
+        }
+        .border{
+            border: 1px dashed grey;
+        }
+    </style>
+</head>
+<body>
+    <h1> Flotr2 Scatter Plot</h1>
+    <div id="intro"> 
+        We are using
+        the <a href="https://github.com/HumbleSoftware/Flotr2">Flotr2</a>
+        library to make a scatter plot. 
+
+        ScatterPlot can be used to visualize the relation between two types of variables.
+        In the scatter example, we are trying to see the relationship of death and birth rate. 
+        You can use size and color "coders" to give specific size and color to different data groups.
+        <br>
+        Note: Scatter and bar chart are quite similar in terms of settings. 
+    </div>
+    <p>To add a scatterplot to your exhibit, you must include the chart extension (after you include exhibit-api.js):
+    </p>
+    <div class="border">
+	    <pre> &lt;link rel="exhibit-extension" href=<a href="http://projects.csail.mit.edu/exhibit/extensions/flotrExtensions/flotr-extension.js">"http://projects.csail.mit.edu/exhibit/extensions/flotrExtensions/flotr-extension.js"</a>/&gt;
+	    </pre>       
+    </div>
+
+    <p>To include a scatterplot, add to your HTML
+    </p>
+    <div class="border">
+     <pre> &lt;div ex:role="view" 
+       ex:viewClass="Exhibit.ScatterPlot" 
+       ex:x=".birthrate"
+       ex:y=".deathrate"&gt;
+     &lt;/div&gt;
+    </pre>
+    </div>
+
+    <p> Replace <b>.birthrate</b> and <b>.deathrate</b> with appropriate expressions.</p>
+    
+    <p>Other settings (all preceded with ex:) include: </p>
+    
+    <table border="1">
+        <tr>
+            <th>setting name</th>
+            <th>type of value</th>
+            <th>default</th>
+            <th>choices</th>
+            <th>meaning</th>
+        </tr>
+        <tr>
+            <td>plotHeight</td>
+            <td>int</td>
+            <td>400</td>
+            <td></td>
+            <td>Height of the plot in pixels</td>
+        </tr>
+        <tr>
+            <td>plotWidth</td>
+            <td>int</td>
+            <td>600</td>
+            <td></td>
+            <td>Width of the plot in pixels</td>
+        </tr>
+        <tr>
+            <td>color</td>
+            <td>text</td>
+            <td>#D95F0E</td>
+            <td>Any color in accepted html format</td>
+            <td>All the nodes in the graph will be of this color in the absence of color coders</td>
+        </tr>
+        <tr>
+            <td>colorCoder</td>
+            <td>text</td>
+            <td>null</td>
+            <td></td>
+            <td>id of a colorCoder</td>
+        </tr>
+        <tr>
+            <td>xLabel</td>
+            <td>text</td>
+            <td>x</td>
+            <td></td>
+            <td>Label for the X-axis</td>
+        </tr>
+        <tr>
+            <td>yLabel</td>
+            <td>text</td>
+            <td>y</td>
+            <td></td>
+            <td>Label for the Y-axis</td>
+        </tr>
+        <tr>
+            <td>xAxisType</td>
+            <td>enum</td>
+            <td>linear</td>
+            <td>linear, log</td>
+            <td>Scale for X-axis</td>
+        </tr>
+        <tr>
+            <td>yAxisType</td>
+            <td>enum</td>
+            <td>linear</td>
+            <td>linear, log</td>
+            <td>Scale for Y-axis</td>
+        </tr>
+        <tr>
+            <td>xAxisMin</td>
+            <td>float</td>
+            <td></td>
+            <td></td>
+            <td>Minimum value on X-axis</td>
+        </tr>
+        <tr>
+            <td>xAxisMax</td>
+            <td>float</td>
+            <td></td>
+            <td></td>
+            <td>Maximum value on X-axis</td>
+        </tr>
+        <tr>
+            <td>yAxisMin</td>
+            <td>float</td>
+            <td></td>
+            <td></td>
+            <td>Minimum value on Y-axis</td>
+        </tr>
+        <tr>
+            <td>yAxisMax</td>
+            <td>float</td>
+            <td></td>
+            <td></td>
+            <td>Maximum value on Y-axis</td>
+        </tr>
+        <tr>
+            <td>backgroundColor</td>
+            <td>text</td>
+            <td>white</td>
+            <td></td>
+            <td>Chart Background Color</td>
+        </tr>
+        <tr>
+            <td>yLabel</td>
+            <td>text</td>
+            <td>y</td>
+            <td></td>
+            <td>Label for the Y-axis</td>
+        </tr>
+        <tr>
+            <td>bubbleHeight</td>
+            <td>int</td>
+            <td>300</td>
+            <td></td>
+            <td>Height of the popUp in pixels</td>
+        </tr>
+        <tr>
+            <td>bubbleWidth</td>
+            <td>int</td>
+            <td>400</td>
+            <td></td>
+            <td>Width of the popUp in pixels</td>
+        </tr>
+    </table>
+</body>
+</html>
