@@ -23,7 +23,7 @@
     ];
 
     var javascriptLibs = [
-                          "flotr2.min.js"
+                          "flotr2.js"
                           ];
 
     var cssFiles = [

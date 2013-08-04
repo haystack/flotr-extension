@@ -1,9 +1,9 @@
 Software Libraries
 ==================
 
-flotr.min.js
+flotr.js
 ------
- * http://code.google.com/p/flotr/
- * 0.2.0 alpha
+ * https://github.com/HumbleSoftware/Flotr2
+ * no releases.  build of 02-2013
  * MIT
  * /src/lib/flotr.min.js
