@@ -19,7 +19,8 @@
 
     var javascriptFiles = [
         "bar-chart-view.js",
-        "scatter-plot-view.js"
+        "scatter-plot-view.js",
+        "pie-chart-view.js"
     ];
 
     var javascriptLibs = [
