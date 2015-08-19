@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<head>
+    <title>
+        Flotr2 Stacked Bar Chart Documentation
+    </title>
+    <style>
+        body{
+            border: 1px solid grey;
+            padding: 10px 20px;
+        }
+        #intro{
+            width: 40em;
+            padding: 10px 10px;
+            height: auto;
+            border: 1px dotted grey;        
+        }
+        .border{
+            border: 1px dashed grey;
+        }
+    </style>
+</head>
+<body>
+    <h1> Flotr2 Stacked Bar Chart</h1>
+    <div id="intro"> 
+        We are using the <a href="https://github.com/HumbleSoftware/Flotr2">Flotr2</a> library to make a stacked bar chart here. 
+        <br>
+        Note: stacked bar chart and bar chart are quite similar in terms of settings. 
+    </div>
+    <p>To add a stacked bar chart to your exhibit, you must include the
+    flotr extension for Exhibit (in addition to the Exhibit API):
+    </p>
+    <div class="border">
+        <pre> &lt;link rel="exhibit-extension" href=<a href="http://projects.csail.mit.edu/exhibit/api/extensions/flotr/flotr-extension.js">"http://projects.csail.mit.edu/exhibit/api/extensions/flotr/flotr-extension.js"</a>/&gt;
+        </pre>       
+    </div>
+
+    <p>To include a bar chart, add to your HTML
+    </p>
+    <div class="border">
+    <pre> &lt;data-ex-role="view" 
+        data-ex-view-class="BarChart" 
+        data-ex-stacked="true"
+        data-ex-values=".confirmed, .suspected, .probable"
+        data-ex-grouped-by=".countries"&gt;
+     &lt;/div&gt;
+    </pre>
+    </div>
+
+    <p> Replace <b>.confirmed</b>, <b>.suspected</b>, <b>.probable</b>, and <b>.countries</b> with appropriate expressions.</p>
+    
+    <p>Other settings include: </p>
+    
+    <table border="1">
+        <tr>
+            <th>setting name</th>
+            <th>type of value</th>
+            <th>default</th>
+            <th>choices</th>
+            <th>meaning</th>
+        </tr>
+        <tr>
+            <td>plotHeight</td>
+            <td>int</td>
+            <td>400</td>
+            <td></td>
+            <td>Height of the plot in pixels</td>
+        </tr>
+        <tr>
+            <td>plotWidth</td>
+            <td>int</td>
+            <td>600</td>
+            <td></td>
+            <td>Width of the plot in pixels</td>
+        </tr>
+        <tr>
+            <td>verticalChart</td>
+            <td>boolean</td>
+            <td>true</td>
+            <td>true, false</td>
+            <td>Orientation of bars; bars go horizontally in a vertical chart</td>
+        </tr>
+        <tr>
+            <td>valueLabel</td>
+            <td>text</td>
+            <td>x</td>
+            <td></td>
+            <td>Label for the values</td>
+        </tr>
+        <tr>
+            <td>groupLabel</td>
+            <td>text</td>
+            <td>y</td>
+            <td></td>
+            <td>Label for each bar</td>
+        </tr>
+        <tr>
+            <td>stackLabel</td>
+            <td>text</td>
+            <td>y</td>
+            <td></td>
+            <td>Label for each stack separated by commas; shown in the legend</td>
+        </tr>
+        <tr>
+            <td>barWidth</td>
+            <td>float</td>
+            <td>0.8</td>
+            <td></td>
+            <td>Width of each bar</td>
+        </tr>
+        <tr>
+            <td>tickNum</td>
+            <td>int</td>
+            <td></td>
+            <td></td>
+            <td>Number of ticks along the axis</td>
+        </tr>
+        <tr>
+            <td>xAxisMin</td>
+            <td>float</td>
+            <td></td>
+            <td></td>
+            <td>Minimum value on axis</td>
+        </tr>
+        <tr>
+            <td>xAxisMax</td>
+            <td>float</td>
+            <td></td>
+            <td></td>
+            <td>Maximum value on axis</td>
+        </tr>
+    </table>
+</body>
+</html>
