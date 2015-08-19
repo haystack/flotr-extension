@@ -24,11 +24,11 @@
     <h1> Flotr2 Bar Chart</h1>
     <div id="intro"> 
         We are using the <a href="https://github.com/HumbleSoftware/Flotr2">Flotr2</a> library to make a bar chart here. 
-        You can use size and color "coders" to give specific size and color to different data groups.
+        You can use color "coders" to give specific color to different data groups.
         <br>
         Note: Scatter and bar chart are quite similar in terms of settings. 
     </div>
-    <p>To add a scatterplot to your exhibit, you must include the
+    <p>To add a bar chart to your exhibit, you must include the
     flotr extension for Exhibit (in addition to the Exhibit API):
     </p>
     <div class="border">
@@ -36,18 +36,18 @@
 	    </pre>       
     </div>
 
-    <p>To include a scatterplot, add to your HTML
+    <p>To include a bar chart, add to your HTML
     </p>
     <div class="border">
-     <pre> &lt;div ex:role="view" 
-       ex:viewClass="ScatterPlotView" 
-       ex:x=".birthrate"
-       ex:y=".deathrate"&gt;
+    <pre> &lt;data-ex-role="view" 
+        data-ex-view-class="BarChart" 
+        data-ex-values=".birthrate"
+        data-ex-grouped-by=".deathrate"&gt;
      &lt;/div&gt;
     </pre>
     </div>
 
-    <p> Replace <b>.birthrate</b> and <b>.deathrate with appropriate expressions.</b></p>
+    <p> Replace <b>.birthrate</b> and <b>.deathrate</b> with appropriate expressions.</p>
     
     <p>Other settings include: </p>
     
@@ -76,9 +76,9 @@
         <tr>
             <td>color</td>
             <td>text</td>
-            <td>#D95F0E</td>
+            <td>#FF9000</td>
             <td>Any color in accepted html format</td>
-            <td>All the nodes in the graph will be of this color in the absence of color coders</td>
+            <td>All the bars in the chart will be of this color in the absence of color coders</td>
         </tr>
         <tr>
             <td>colorCoder</td>
@@ -88,88 +88,67 @@
             <td>id of a colorCoder</td>
         </tr>
         <tr>
-            <td>xLabel</td>
+            <td>verticalChart</td>
+            <td>boolean</td>
+            <td>true</td>
+            <td>true, false</td>
+            <td>Orientation of bars; bars go horizontally in a vertical chart</td>
+        </tr>
+        <tr>
+            <td>valueLabel</td>
             <td>text</td>
             <td>x</td>
             <td></td>
-            <td>Label for the X-axis</td>
+            <td>Label for the values</td>
         </tr>
         <tr>
-            <td>yLabel</td>
+            <td>groupLabel</td>
             <td>text</td>
             <td>y</td>
             <td></td>
-            <td>Label for the Y-axis</td>
+            <td>Label for each bar</td>
         </tr>
         <tr>
-            <td>xAxisType</td>
-            <td>enum</td>
-            <td>linear</td>
-            <td>linear, log</td>
-            <td>Scale for X-axis</td>
+            <td>barWidth</td>
+            <td>float</td>
+            <td>0.8</td>
+            <td></td>
+            <td>Width of each bar</td>
         </tr>
         <tr>
-            <td>yAxisType</td>
+            <td>axisType</td>
             <td>enum</td>
             <td>linear</td>
-            <td>linear, log</td>
-            <td>Scale for Y-axis</td>
+            <td>linear, logarithmic, log</td>
+            <td>Scale for axis</td>
+        </tr>
+        <tr>
+            <td>tickNum</td>
+            <td>int</td>
+            <td></td>
+            <td></td>
+            <td>Number of ticks along the axis</td>
         </tr>
         <tr>
             <td>xAxisMin</td>
             <td>float</td>
             <td></td>
             <td></td>
-            <td>Minimum value on X-axis</td>
+            <td>Minimum value on axis</td>
         </tr>
         <tr>
             <td>xAxisMax</td>
             <td>float</td>
             <td></td>
             <td></td>
-            <td>Maximum value on X-axis</td>
+            <td>Maximum value on axis</td>
         </tr>
         <tr>
-            <td>yAxisMin</td>
-            <td>float</td>
+            <td>lineChart</td>
+            <td>boolean</td>
+            <td>false</td>
+            <td>true, false</td>
             <td></td>
-            <td></td>
-            <td>Minimum value on Y-axis</td>
-        </tr>
-        <tr>
-            <td>yAxisMax</td>
-            <td>float</td>
-            <td></td>
-            <td></td>
-            <td>Maximum value on Y-axis</td>
-        </tr>
-        <tr>
-            <td>backgroundColor</td>
-            <td>text</td>
-            <td>white</td>
-            <td></td>
-            <td>Chart Background Color</td>
-        </tr>
-        <tr>
-            <td>yLabel</td>
-            <td>text</td>
-            <td>y</td>
-            <td></td>
-            <td>Label for the Y-axis</td>
-        </tr>
-        <tr>
-            <td>bubbleHeight</td>
-            <td>int</td>
-            <td>300</td>
-            <td></td>
-            <td>Height of the popUp in pixels</td>
-        </tr>
-        <tr>
-            <td>bubbleWidth</td>
-            <td>int</td>
-            <td>400</td>
-            <td></td>
-            <td>Width of the popUp in pixels</td>
         </tr>
     </table>
 </body>

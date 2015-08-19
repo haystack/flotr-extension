@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<head>
+    <title>
+        Flotr2 Pie Chart Documentation
+    </title>
+    <style>
+        body{
+            border: 1px solid grey;
+            padding: 10px 20px;
+        }
+        #intro{
+            width: 40em;
+            padding: 10px 10px;
+            height: auto;
+            border: 1px dotted grey;        
+        }
+        .border{
+            border: 1px dashed grey;
+        }
+    </style>
+</head>
+<body>
+    <h1> Flotr2 Pie Chart</h1>
+    <div id="intro"> 
+        We are using the <a href="https://github.com/HumbleSoftware/Flotr2">Flotr2</a> library to make a pie chart here. 
+        <br>
+    </div>
+    <p>To add a pie chart to your exhibit, you must include the
+    flotr extension for Exhibit (in addition to the Exhibit API):
+    </p>
+    <div class="border">
+	    <pre> &lt;link rel="exhibit-extension" href=<a href="http://projects.csail.mit.edu/exhibit/api/extensions/flotr/flotr-extension.js">"http://projects.csail.mit.edu/exhibit/api/extensions/flotr/flotr-extension.js"</a>/&gt;
+	    </pre>       
+    </div>
+
+    <p>To include a pie chart, add to your HTML
+    </p>
+    <div class="border">
+        <pre> &lt;data-ex-role="view" 
+            data-ex-view-class="PieChart" 
+            data-ex-values=".cases"
+            data-ex-labels=".country"&gt;
+         &lt;/div&gt;
+        </pre>
+    </div>
+
+    <p> Replace <b>.cases</b> and <b>.country </b> with appropriate expressions.</p>
+    
+    <p>Other settings include: </p>
+    
+    <table border="1">
+        <tr>
+            <th>setting name</th>
+            <th>type of value</th>
+            <th>default</th>
+            <th>choices</th>
+            <th>meaning</th>
+        </tr>
+        <tr>
+            <td>plotHeight</td>
+            <td>int</td>
+            <td>400</td>
+            <td></td>
+            <td>Height of the plot in pixels</td>
+        </tr>
+        <tr>
+            <td>plotWidth</td>
+            <td>int</td>
+            <td>700</td>
+            <td></td>
+            <td>Width of the plot in pixels</td>
+        </tr>
+        <tr>
+            <td>explode</td>
+            <td>int</td>
+            <td>6</td>
+            <td></td>
+            <td>Separation between the slices</td>
+        </tr>
+        <tr>
+            <td>group</td>
+            <td>boolean</td>
+            <td>false</td>
+            <td>true, false</td>
+            <td>All items less than the cutoff will be grouped into one slice</td>
+        </tr>
+        <tr>
+            <td>cutoff</td>
+            <td>float</td>
+            <td>0.01</td>
+            <td></td>
+            <td>Cutoff used to group items into one slice</td>
+        </tr>
+    </table>
+</body>
+</html>
