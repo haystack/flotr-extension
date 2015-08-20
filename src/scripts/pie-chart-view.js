@@ -225,7 +225,7 @@ Exhibit.PieChartView.prototype._reconstruct = function() {
         if (settings.group && groupLabel.length > 0){
             flotrData.push({
                 data : [[0, groupValue]],
-                label: groupLabel
+                label: 'Others'
             });
         }
         
