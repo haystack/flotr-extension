@@ -68,73 +68,107 @@ Exhibit.ScatterPlotView = function(containerElmt, uiContext) {
 Exhibit.ScatterPlotView._settingSpecs = {
     "plotHeight" : {
         type : "int",
-        defaultValue : 400
+        defaultValue : 400,
+        description: "height of the plot in pixels",
+        importance: 2
     },
     "plotWidth" : {
         type : "int",
-        defaultValue : 689
+        defaultValue : 689,
+        description: "width of the plot in pixels",
+        importance: 2
     },
     "bubbleWidth" : {
         type : "int",
-        defaultValue : 400
+        defaultValue : 400,
+        description: "width of the pop-up in pixels",
+        importance: 2
     },
     "bubbleHeight" : {
         type : "int",
-        defaultValue : 300
+        defaultValue : 300,
+        description: "height of the pop-up in pixels",
+        importance: 2
     },
     "xAxisMin" : {
         type : "float",
-        defaultValue : Number.POSITIVE_INFINITY
+        defaultValue : Number.POSITIVE_INFINITY,
+        description: "minimum value on X-axis",
+        importance: 2.5
     },
     "xAxisMax" : {
         type : "float",
-        defaultValue : Number.NEGATIVE_INFINITY
+        defaultValue : Number.NEGATIVE_INFINITY,
+        description: "maximum value on X-axis",
+        importance: 2.5
     },
     "xAxisType" : {
         type : "enum",
         defaultValue : "linear",
-        choices : ["linear", "log"]
+        choices : ["linear", "log"],
+        description: "scale for X-axis",
+        importance: 3
     },
     "yAxisMin" : {
         type : "float",
-        defaultValue : Number.POSITIVE_INFINITY
+        defaultValue : Number.POSITIVE_INFINITY,
+        description: "minimum value on Y-axis",
+        importance: 2.5
     },
     "yAxisMax" : {
         type : "float",
-        defaultValue : Number.NEGATIVE_INFINITY
+        defaultValue : Number.NEGATIVE_INFINITY,
+        description: "maximum value on Y-axis",
+        importance: 3.5
     },
     "yAxisType" : {
         type : "enum",
         defaultValue : "linear",
-        choices : ["linear", "log"]
+        choices : ["linear", "log"],
+        description: "scale for Y-axis",
+        importance: 3
     },
     "xLabel" : {
         type : "text",
-        defaultValue : "x"
+        defaultValue : "x",
+        description: "label for the X-axis",
+        importance: 7
     },
     "yLabel" : {
         type : "text",
-        defaultValue : "y"
+        defaultValue : "y",
+        description: "label for the Y-axis",
+        importance: 7
     },
     "color" : {
         type : "text",
-        defaultValue : "#0000aa"
+        defaultValue : "#0000aa",
+        description: "all nodes in graph will be of this color in the absence of color coders",
+        importance: 1
     },
     "colorCoder" : {
         type : "text",
-        defaultValue : null
+        defaultValue : null,
+        description: "id of a colorCoder",
+        importance: 1
     },
     "backgroundColor" : {
         type : "text",
-        defaultValue : "white"
+        defaultValue : "white",
+        description: "background color of plot",
+        importance: 1
     }, 
     "pointSize" : {
         type : "int",
-        defaultValue : 2
+        defaultValue : 2,
+        description: "all nodes in graph will be of this size in the absence of size coders",
+        importance: 1
     },
     "sizeCoder" : {
         type : "text",
-        defaultValue : null
+        defaultValue : null,
+        description: "id of sizeCoder",
+        importance: 1
     },
 };
 
@@ -143,10 +177,13 @@ Exhibit.ScatterPlotView._settingSpecs = {
  */
 Exhibit.ScatterPlotView._accessorSpecs = [{
     "accessorName" : "getProxy",
-    "attributeName" : "proxy"
+    "attributeName" : "proxy",
+    importance: 1
 }, {
     "accessorName" : "getPointLabel",
-    "attributeName" : "pointLabel"
+    "attributeName" : "pointLabel",
+    "description": "property used to label each data point",
+    importance: 5
 }, {
     "accessorName" : "getXY",
     "alternatives" : [{
@@ -165,17 +202,23 @@ Exhibit.ScatterPlotView._accessorSpecs = [{
             "type" : "float",
             "bindingName" : "y"
         }]
-    }]
+    }],
+    required: true,
+    "description": "properties used for x and y data",
+    importance: 9
 }, {
     "accessorName" : "getColorKey",
     "attributeName" : "colorKey",
-    "type" : "text"
+    "type" : "text",
+    "description": "property used by the color coder",
+    importance: 1
 }, {
     "accessorName" : "getSizeKey",
     "attributeName" : "sizeKey",
-    "type" : "text"
-}
-];
+    "type" : "text",
+    "description": "property used by the size coder",
+    importance: 1
+}];
 
 
 /**
@@ -376,7 +419,6 @@ Exhibit.ScatterPlotView.prototype._reconstruct = function() {
 
         color = settings.color;
         size = settings.pointSize;
-        console.log(size);
         currentSet.visit(function(itemID) {
             xys = [];
 
@@ -451,31 +493,36 @@ Exhibit.ScatterPlotView.prototype._reconstruct = function() {
         xInterval = 1;
         yInterval = 1;
         
-        if (xDiff > 1) {
-            while (xInterval * 20 < xDiff) { 
-                xInterval *= 10;
+        if (isFinite(xDiff)){
+            if (xDiff > 1) {
+                while (xInterval * 20 < xDiff) { 
+                    xInterval *= 10;
+                }
+            } else {
+                while (xInterval < xDiff * 20) {
+                    xInterval /= 10;
+                }
             }
-        } else {
-            while (xInterval < xDiff * 20) {
-                xInterval /= 10;
-            }
-        }
-        
-        if (yDiff > 1) {
-            while (yInterval * 20 < yDiff) {
-                yInterval *= 10;
-            }
-        } else {
-            while (yInterval < yDiff * 20) {
-                yInterval /= 10;
-            }
-        }
-        
-        settings.xAxisMin = Math.floor(xAxisMin / xInterval) * xInterval;
-        settings.xAxisMax = Math.ceil(xAxisMax / xInterval) * xInterval;
-        settings.yAxisMin = Math.floor(yAxisMin / yInterval) * yInterval;
-        settings.yAxisMax = Math.ceil(yAxisMax / yInterval) * yInterval;
+            
+            settings.xAxisMin = Math.floor(xAxisMin / xInterval) * xInterval;
+            settings.xAxisMax = Math.ceil(xAxisMax / xInterval) * xInterval;
 
+        }
+        
+        if (isFinite(yDiff)) {
+            if (yDiff > 1) {
+                while (yInterval * 20 < yDiff) {
+                    yInterval *= 10;
+                }
+            } else {
+                while (yInterval < yDiff * 20) {
+                    yInterval /= 10;
+                }
+            }
+
+            settings.yAxisMin = Math.floor(yAxisMin / yInterval) * yInterval;
+            settings.yAxisMax = Math.ceil(yAxisMax / yInterval) * yInterval;
+        }
     }
     
     createLegend = function() {
@@ -549,7 +596,6 @@ Exhibit.ScatterPlotView.prototype._clickHandler = function(flotr, container, xyT
     });
 
     Exhibit.jQuery("body").click( function(e) {
-        console.log("click in scatter");
         var disX, disY, key, items;
         
         //close the existing popUp if the user has clicked outside the popUp
@@ -599,13 +645,11 @@ Exhibit.ScatterPlotView.prototype._createFlotrScatter = function(flotr, containe
         });
         i++
     }
-    console.log(dataList);
     
     //shows the data info when the point is hovered over
     trackFn = function(o) {
         x = o.x;
         y = o.y;
-        console.log(x,y);
 
         key = x + "," + y;
         if ( key in xyToData) {
@@ -649,4 +693,3 @@ Exhibit.ScatterPlotView.prototype._createFlotrScatter = function(flotr, containe
     });
 
 };
-

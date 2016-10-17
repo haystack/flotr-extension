@@ -18,9 +18,6 @@ Exhibit.PieChartView = function(containerElmt, uiContext) {
     this.addSettingSpecs(Exhibit.PieChartView._settingSpecs);
 
     this._accessors = {
-        getPointLabel : function(itemID, database, visitor) {
-            visitor(database.getObject(itemID, "label"));
-        },
         getProxy : function(itemID, database, visitor) {
             visitor(itemID);
         },
@@ -36,20 +33,19 @@ Exhibit.PieChartView = function(containerElmt, uiContext) {
 
     this.register();
 };
+
 Exhibit.PieChartView._settingSpecs = {
-    "plotHeight"        : {type : "int",     defaultValue : 400},
-    "plotWidth"         : {type : "int"},
-    "explode"           : {type : "int",     defaultValue : 6},
-    "group"             : {type : "boolean", defaultValue : false},
-    "cutoff"            : {type : "float",   defaultValue : 0.01},
+    "plotHeight"        : {type : "int",     defaultValue : 400,    required : false, description : "height of plot in pixels", importance: 2},
+    "plotWidth"         : {type : "int",    required: false, description : "width of plot in pixels", importance: 2},
+    "explode"           : {type : "int",     defaultValue : 6,  required: false, description : "level of separation between slices", importance: 4},
+    "group"             : {type : "boolean", defaultValue : false, required: false, description: "grouping of items below cutoff", importance:5},
+    "cutoff"            : {type : "float",   defaultValue : 0.01, required: false, description: "decimal percentile; items with a value below this cutoff (decimal * sum of values) are grouped into one slice", importance:5}
 };
 
 Exhibit.PieChartView._accessorSpecs = [{
     accessorName : "getProxy",
-    attributeName : "proxy"
-}, {
-    accessorName : "getPointLabel",
-    attributeName : "pointLabel"
+    attributeName : "proxy",
+    importance: 1
 }, {
     accessorName : "getXY",
     alternatives : [{
@@ -68,11 +64,10 @@ Exhibit.PieChartView._accessorSpecs = [{
             type : "text",
             bindingName : "y"
         }]
-    }]
-}, {
-    accessorName : "getExplosion",
-    attributeName: "explosion",
-    type : "int"
+    }],
+    required: true,
+    description: "values: property to plot\ngroupedBy: property used to label each item",
+    importance: 10
 }];
 
 Exhibit.PieChartView.create = function(configuration, containerElmt, uiContext) {
@@ -86,7 +81,6 @@ Exhibit.PieChartView.create = function(configuration, containerElmt, uiContext) 
 Exhibit.PieChartView.createFromDOM = function(configElmt, containerElmt, uiContext) {
     var configuration = Exhibit.getConfigurationFromDOM(configElmt);
     var view = new Exhibit.PieChartView(containerElmt != null ? containerElmt : configElmt, Exhibit.UIContext.createFromDOM(configElmt, uiContext));
-
     Exhibit.SettingsUtilities.createAccessorsFromDOM(configElmt, Exhibit.PieChartView._accessorSpecs, view._accessors);
     Exhibit.SettingsUtilities.collectSettingsFromDOM(configElmt, view.getSettingSpecs(), view._settings);
     Exhibit.PieChartView._configure(view, configuration);
@@ -225,7 +219,7 @@ Exhibit.PieChartView.prototype._reconstruct = function() {
         if (settings.group && groupLabel.length > 0){
             flotrData.push({
                 data : [[0, groupValue]],
-                label: groupLabel
+                label: 'Others'
             });
         }
         

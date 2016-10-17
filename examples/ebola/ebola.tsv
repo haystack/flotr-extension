@@ -1,0 +1,1291 @@
+country	date	category	type	confirmed	probable	suspected	total	label
+Spain	2014-10-25	cases	2014-10-25-cases	1	0	0	1	Spain-cases-2014-10-25
+Mali	2015-01-27	deaths	2015-01-27-deaths	0	0	0	6	Mali-deaths-2015-01-27
+Guinea	2014-09-16	cases	2014-09-16-cases	743	162	31	64	Guinea-cases-2014-09-16
+Sierra Leone	2014-09-08	deaths	2014-09-08-deaths	461	30	11	55	Sierra Leone-deaths-2014-09-08
+Nigeria	2015-02-25	deaths	2015-02-25-deaths	7	1	0	8	Nigeria-deaths-2015-02-25
+Spain	2015-01-26	cases	2015-01-26-cases	1	0	0	1	Spain-cases-2015-01-26
+Liberia	2014-10-29	cases	2014-10-29-cases	2515	1540	2480	6535	Liberia-cases-2014-10-29
+Senegal	2014-11-07	deaths	2014-11-07-deaths	0	0	0	0	Senegal-deaths-2014-11-07
+Senegal	2015-02-25	deaths	2015-02-25-deaths	0	0	0	0	Senegal-deaths-2015-02-25
+United States of America	2014-12-23	cases	2014-12-23-cases	4	0	0	4	United States of America-cases-2014-12-23
+Mali	2015-02-20	deaths	2015-02-20-deaths	0	0	0	6	Mali-deaths-2015-02-20
+Spain	2014-12-26	deaths	2014-12-26-deaths	0	0	0	0	Spain-deaths-2014-12-26
+Guinea	2015-02-03	cases	2015-02-03-cases	2608	347	20	2975	Guinea-cases-2015-02-03
+Sierra Leone	2014-12-26	cases	2014-12-26-cases	7160	287	1756	9203	Sierra Leone-cases-2014-12-26
+Senegal	2015-01-28	deaths	2015-01-28-deaths	0	0	0	0	Senegal-deaths-2015-01-28
+Liberia	2014-11-26	cases	2014-11-26-cases	2727	1754	2687	7168	Liberia-cases-2014-11-26
+Nigeria	2015-02-27	cases	2015-02-27-cases	19	1	0	20	Nigeria-cases-2015-02-27
+Senegal	2015-01-22	deaths	2015-01-22-deaths	0	0	0	0	Senegal-deaths-2015-01-22
+Nigeria	2014-10-08	cases	2014-10-08-cases	19	1	0	20	Nigeria-cases-2014-10-08
+Senegal	2014-10-22	cases	2014-10-22-cases	1	0	0	1	Senegal-cases-2014-10-22
+Mali	2014-12-29	deaths	2014-12-29-deaths	0	0	0	6	Mali-deaths-2014-12-29
+Nigeria	2015-02-20	cases	2015-02-20-cases	19	1	0	20	Nigeria-cases-2015-02-20
+Senegal	2014-09-16	cases	2014-09-16-cases	1	0	0	0	Senegal-cases-2014-09-16
+Liberia	2015-01-02	deaths	2015-01-02-deaths	0	0	0	3423	Liberia-deaths-2015-01-02
+Sierra Leone	2015-01-16	cases	2015-01-16-cases	7825	287	2074	10186	Sierra Leone-cases-2015-01-16
+Nigeria	2014-12-03	cases	2014-12-03-cases	19	1	0	20	Nigeria-cases-2014-12-03
+Sierra Leone	2015-01-22	cases	2015-01-22-cases	7909	287	2166	10362	Sierra Leone-cases-2015-01-22
+United Kingdom	2015-01-29	deaths	2015-01-29-deaths	0	0	0	0	United Kingdom-deaths-2015-01-29
+Senegal	2015-02-02	cases	2015-02-02-cases	1	0	0	1	Senegal-cases-2015-02-02
+Guinea	2014-08-29	cases	2014-08-29-cases	482	141	25	66	Guinea-cases-2014-08-29
+Guinea	2015-01-29	deaths	2015-01-29-deaths	1579	332	0	1911	Guinea-deaths-2015-01-29
+Sierra Leone	2015-01-19	cases	2015-01-19-cases	7883	287	2136	10306	Sierra Leone-cases-2015-01-19
+Guinea	2014-11-14	deaths	2014-11-14-deaths	958	208	0	1166	Guinea-deaths-2014-11-14
+Liberia	2014-12-17	deaths	2014-12-17-deaths	0	185	0	3290	Liberia-deaths-2014-12-17
+Spain	2015-02-06	deaths	2015-02-06-deaths	0	0	0	0	Spain-deaths-2015-02-06
+Mali	2015-01-02	deaths	2015-01-02-deaths	0	0	0	6	Mali-deaths-2015-01-02
+Liberia	2014-10-08	cases	2014-10-08-cases	941	1795	1188	3924	Liberia-cases-2014-10-08
+Nigeria	2015-02-16	cases	2015-02-16-cases	19	1	0	20	Nigeria-cases-2015-02-16
+Guinea	2015-02-16	cases	2015-02-16-cases	2720	374	7	3101	Guinea-cases-2015-02-16
+Sierra Leone	2015-02-16	deaths	2015-02-16-deaths	3035	208	158	3401	Sierra Leone-deaths-2015-02-16
+Senegal	2015-01-14	cases	2015-01-14-cases	1	0	0	1	Senegal-cases-2015-01-14
+Sierra Leone	2015-01-30	cases	2015-01-30-cases	7989	287	2285	10561	Sierra Leone-cases-2015-01-30
+United States of America	2014-12-24	cases	2014-12-24-cases	4	0	0	4	United States of America-cases-2014-12-24
+United Kingdom	2015-01-26	cases	2015-01-26-cases	1	0	0	1	United Kingdom-cases-2015-01-26
+United States of America	2015-01-28	deaths	2015-01-28-deaths	1	0	0	1	United States of America-deaths-2015-01-28
+Mali	2015-02-27	deaths	2015-02-27-deaths	0	0	0	6	Mali-deaths-2015-02-27
+United Kingdom	2015-01-07	cases	2015-01-07-cases	1	0	0	1	United Kingdom-cases-2015-01-07
+United States of America	2014-10-03	deaths	2014-10-03-deaths	0	0	0	0	United States of America-deaths-2014-10-03
+Spain	2015-01-14	deaths	2015-01-14-deaths	0	0	0	0	Spain-deaths-2015-01-14
+Nigeria	2014-12-03	deaths	2014-12-03-deaths	7	1	0	8	Nigeria-deaths-2014-12-03
+Liberia	2015-03-02	deaths	2015-03-02-deaths	0	0	0	4057	Liberia-deaths-2015-03-02
+Nigeria	2015-03-06	deaths	2015-03-06-deaths	7	1	0	8	Nigeria-deaths-2015-03-06
+Nigeria	2014-12-17	cases	2014-12-17-cases	19	1	0	20	Nigeria-cases-2014-12-17
+Spain	2014-12-10	deaths	2014-12-10-deaths	0	0	0	0	Spain-deaths-2014-12-10
+Liberia	2015-02-10	deaths	2015-02-10-deaths	3826	0	0	3826	Liberia-deaths-2015-02-10
+Guinea	2014-10-29	cases	2014-10-29-cases	1391	199	316	1906	Guinea-cases-2014-10-29
+Guinea	2015-03-04	cases	2015-03-04-cases	2808	392	5	3205	Guinea-cases-2015-03-04
+Nigeria	2015-03-10	deaths	2015-03-10-deaths	7	1	0	8	Nigeria-deaths-2015-03-10
+Mali	2014-12-24	deaths	2014-12-24-deaths	0	0	0	6	Mali-deaths-2014-12-24
+Spain	2015-03-05	deaths	2015-03-05-deaths	0	0	0	0	Spain-deaths-2015-03-05
+Sierra Leone	2014-10-22	cases	2014-10-22-cases	3223	37	446	3706	Sierra Leone-cases-2014-10-22
+Sierra Leone	2015-01-02	cases	2015-01-02-cases	7476	287	1870	9633	Sierra Leone-cases-2015-01-02
+Sierra Leone	2015-01-08	cases	2015-01-08-cases	7759	287	1984	10030	Sierra Leone-cases-2015-01-08
+Spain	2015-01-05	deaths	2015-01-05-deaths	0	0	0	0	Spain-deaths-2015-01-05
+United States of America	2014-10-10	cases	2014-10-10-cases	1	0	0	1	United States of America-cases-2014-10-10
+Guinea	2015-02-18	deaths	2015-02-18-deaths	1683	374	0	2057	Guinea-deaths-2015-02-18
+Sierra Leone	2015-02-27	deaths	2015-02-27-deaths	3124	208	158	3490	Sierra Leone-deaths-2015-02-27
+Liberia	2014-09-18	cases	2014-09-18-cases	812	1233	675	2710	Liberia-cases-2014-09-18
+Spain	2014-10-15	cases	2014-10-15-cases	1	0	0	1	Spain-cases-2014-10-15
+Guinea	2015-02-12	deaths	2015-02-12-deaths	1651	367	0	2018	Guinea-deaths-2015-02-12
+Guinea	2015-02-12	cases	2015-02-12-cases	2685	367	16	3068	Guinea-cases-2015-02-12
+Sierra Leone	2015-01-29	cases	2015-01-29-cases	7977	287	2273	10537	Sierra Leone-cases-2015-01-29
+Mali	2015-01-21	deaths	2015-01-21-deaths	0	0	0	6	Mali-deaths-2015-01-21
+Spain	2015-02-12	cases	2015-02-12-cases	1	0	0	1	Spain-cases-2015-02-12
+Mali	2015-01-20	cases	2015-01-20-cases	7	1	0	8	Mali-cases-2015-01-20
+Senegal	2015-03-05	cases	2015-03-05-cases	1	0	0	1	Senegal-cases-2015-03-05
+United States of America	2015-02-18	cases	2015-02-18-cases	4	0	0	4	United States of America-cases-2015-02-18
+Sierra Leone	2015-02-13	deaths	2015-02-13-deaths	2997	208	158	3363	Sierra Leone-deaths-2015-02-13
+Nigeria	2015-01-26	cases	2015-01-26-cases	19	1	0	20	Nigeria-cases-2015-01-26
+Sierra Leone	2015-01-26	deaths	2015-01-26-deaths	2829	208	158	3195	Sierra Leone-deaths-2015-01-26
+Liberia	2015-02-27	cases	2015-02-27-cases	3153	1888	4224	9265	Liberia-cases-2015-02-27
+Sierra Leone	2014-10-31	cases	2014-10-31-cases	3778	322	1238	5338	Sierra Leone-cases-2014-10-31
+Liberia	2015-01-09	deaths	2015-01-09-deaths	0	0	0	3515	Liberia-deaths-2015-01-09
+Nigeria	2014-10-17	deaths	2014-10-17-deaths	7	1	0	8	Nigeria-deaths-2014-10-17
+Liberia	2014-10-25	deaths	2014-10-25-deaths	1241	803	661	2705	Liberia-deaths-2014-10-25
+Liberia	2014-12-30	deaths	2014-12-30-deaths	0	0	0	3413	Liberia-deaths-2014-12-30
+Mali	2014-11-19	cases	2014-11-19-cases	5	1	0	6	Mali-cases-2014-11-19
+Liberia	2015-03-02	cases	2015-03-02-cases	3153	1888	4224	9265	Liberia-cases-2015-03-02
+Mali	2015-02-04	cases	2015-02-04-cases	7	1	0	8	Mali-cases-2015-02-04
+Guinea	2015-02-26	deaths	2015-02-26-deaths	1714	387	0	2101	Guinea-deaths-2015-02-26
+Mali	2015-02-04	deaths	2015-02-04-deaths	0	0	0	6	Mali-deaths-2015-02-04
+United Kingdom	2015-01-07	deaths	2015-01-07-deaths	0	0	0	0	United Kingdom-deaths-2015-01-07
+United Kingdom	2015-02-13	cases	2015-02-13-cases	1	0	0	1	United Kingdom-cases-2015-02-13
+Mali	2014-12-23	deaths	2014-12-23-deaths	0	0	0	6	Mali-deaths-2014-12-23
+Liberia	2015-01-26	cases	2015-01-26-cases	3136	1854	3534	8524	Liberia-cases-2015-01-26
+United States of America	2014-12-22	cases	2014-12-22-cases	4	0	0	4	United States of America-cases-2014-12-22
+Senegal	2014-09-26	deaths	2014-09-26-deaths	0	0	0	0	Senegal-deaths-2014-09-26
+United Kingdom	2015-02-26	cases	2015-02-26-cases	1	0	0	1	United Kingdom-cases-2015-02-26
+Sierra Leone	2014-10-08	cases	2014-10-08-cases	2455	37	297	2789	Sierra Leone-cases-2014-10-08
+United States of America	2014-10-03	cases	2014-10-03-cases	1	0	0	1	United States of America-cases-2014-10-03
+Liberia	2015-01-14	cases	2015-01-14-cases	3127	1839	3365	8331	Liberia-cases-2015-01-14
+Guinea	2015-02-17	deaths	2015-02-17-deaths	1683	374	0	2057	Guinea-deaths-2015-02-17
+Guinea	2014-12-29	deaths	2014-12-29-deaths	1422	275	0	1697	Guinea-deaths-2014-12-29
+United Kingdom	2015-01-29	cases	2015-01-29-cases	1	0	0	1	United Kingdom-cases-2015-01-29
+Spain	2015-01-22	cases	2015-01-22-cases	1	0	0	1	Spain-cases-2015-01-22
+Sierra Leone	2015-01-29	deaths	2015-01-29-deaths	2841	208	158	3207	Sierra Leone-deaths-2015-01-29
+Liberia	2014-12-01	cases	2014-12-01-cases	2801	1792	3042	7635	Liberia-cases-2014-12-01
+Spain	2014-10-15	deaths	2014-10-15-deaths	0	0	0	0	Spain-deaths-2014-10-15
+Sierra Leone	2015-01-23	deaths	2015-01-23-deaths	2793	208	158	3159	Sierra Leone-deaths-2015-01-23
+Spain	2015-01-30	deaths	2015-01-30-deaths	0	0	0	0	Spain-deaths-2015-01-30
+Nigeria	2014-11-21	deaths	2014-11-21-deaths	7	1	0	8	Nigeria-deaths-2014-11-21
+Nigeria	2014-11-14	deaths	2014-11-14-deaths	7	1	0	8	Nigeria-deaths-2014-11-14
+Liberia	2014-10-03	deaths	2014-10-03-deaths	934	677	458	2069	Liberia-deaths-2014-10-03
+Spain	2015-01-15	deaths	2015-01-15-deaths	0	0	0	0	Spain-deaths-2015-01-15
+Mali	2014-10-29	deaths	2014-10-29-deaths	1	0	0	1	Mali-deaths-2014-10-29
+Senegal	2014-09-24	cases	2014-09-24-cases	1	0	0	1	Senegal-cases-2014-09-24
+Nigeria	2015-03-10	cases	2015-03-10-cases	19	1	0	20	Nigeria-cases-2015-03-10
+United States of America	2014-12-15	deaths	2014-12-15-deaths	1	0	0	1	United States of America-deaths-2014-12-15
+Mali	2015-02-16	cases	2015-02-16-cases	7	1	0	8	Mali-cases-2015-02-16
+Spain	2014-12-26	cases	2014-12-26-cases	1	0	0	1	Spain-cases-2014-12-26
+United States of America	2014-12-30	cases	2014-12-30-cases	4	0	0	4	United States of America-cases-2014-12-30
+Senegal	2015-02-06	deaths	2015-02-06-deaths	0	0	0	0	Senegal-deaths-2015-02-06
+Liberia	2015-02-23	deaths	2015-02-23-deaths	0	0	0	4032	Liberia-deaths-2015-02-23
+Guinea	2014-09-18	cases	2014-09-18-cases	750	162	30	942	Guinea-cases-2014-09-18
+Guinea	2015-01-02	deaths	2015-01-02-deaths	1463	276	0	1739	Guinea-deaths-2015-01-02
+Guinea	2014-10-01	deaths	2014-10-01-deaths	535	170	5	710	Guinea-deaths-2014-10-01
+Spain	2015-02-19	cases	2015-02-19-cases	1	0	0	1	Spain-cases-2015-02-19
+Mali	2015-02-12	deaths	2015-02-12-deaths	0	0	0	6	Mali-deaths-2015-02-12
+Spain	2014-12-03	deaths	2014-12-03-deaths	0	0	0	0	Spain-deaths-2014-12-03
+United States of America	2014-10-22	deaths	2014-10-22-deaths	1	0	0	1	United States of America-deaths-2014-10-22
+Spain	2015-02-02	cases	2015-02-02-cases	1	0	0	1	Spain-cases-2015-02-02
+Mali	2015-01-02	cases	2015-01-02-cases	7	1	0	8	Mali-cases-2015-01-02
+Senegal	2014-12-03	cases	2014-12-03-cases	1	0	0	1	Senegal-cases-2014-12-03
+Liberia	2014-10-01	cases	2014-10-01-cases	927	1656	1113	3696	Liberia-cases-2014-10-01
+Senegal	2014-10-17	deaths	2014-10-17-deaths	0	0	0	0	Senegal-deaths-2014-10-17
+United States of America	2015-02-13	deaths	2015-02-13-deaths	1	0	0	1	United States of America-deaths-2015-02-13
+Nigeria	2014-12-31	deaths	2014-12-31-deaths	7	1	0	8	Nigeria-deaths-2014-12-31
+Liberia	2015-01-15	deaths	2015-01-15-deaths	0	0	0	3556	Liberia-deaths-2015-01-15
+Sierra Leone	2014-11-14	deaths	2014-11-14-deaths	978	174	35	1187	Sierra Leone-deaths-2014-11-14
+Spain	2014-11-21	deaths	2014-11-21-deaths	0	0	0	0	Spain-deaths-2014-11-21
+United States of America	2015-01-07	cases	2015-01-07-cases	4	0	0	4	United States of America-cases-2015-01-07
+Liberia	2015-01-29	deaths	2015-01-29-deaths	0	0	0	3700	Liberia-deaths-2015-01-29
+Senegal	2015-01-06	deaths	2015-01-06-deaths	0	0	0	0	Senegal-deaths-2015-01-06
+Liberia	2014-11-05	deaths	2014-11-05-deaths	0	398	0	2697	Liberia-deaths-2014-11-05
+Guinea	2014-10-25	cases	2014-10-25-cases	1312	194	47	1553	Guinea-cases-2014-10-25
+Spain	2015-02-20	cases	2015-02-20-cases	1	0	0	1	Spain-cases-2015-02-20
+Sierra Leone	2014-12-31	deaths	2014-12-31-deaths	2392	208	158	2758	Sierra Leone-deaths-2014-12-31
+Spain	2014-10-22	deaths	2014-10-22-deaths	0	0	0	0	Spain-deaths-2014-10-22
+Liberia	2014-11-14	cases	2014-11-14-cases	2562	1716	2600	6878	Liberia-cases-2014-11-14
+Guinea	2014-11-19	cases	2014-11-19-cases	1698	210	63	1971	Guinea-cases-2014-11-19
+Senegal	2015-02-13	cases	2015-02-13-cases	1	0	0	1	Senegal-cases-2015-02-13
+United States of America	2015-01-02	cases	2015-01-02-cases	4	0	0	4	United States of America-cases-2015-01-02
+Senegal	2015-02-26	cases	2015-02-26-cases	1	0	0	1	Senegal-cases-2015-02-26
+United Kingdom	2015-01-20	deaths	2015-01-20-deaths	0	0	0	0	United Kingdom-deaths-2015-01-20
+Liberia	2014-09-24	deaths	2014-09-24-deaths	671	593	413	1677	Liberia-deaths-2014-09-24
+Senegal	2015-01-06	cases	2015-01-06-cases	1	0	0	1	Senegal-cases-2015-01-06
+United States of America	2014-11-07	cases	2014-11-07-cases	4	0	0	4	United States of America-cases-2014-11-07
+Nigeria	2015-02-02	cases	2015-02-02-cases	19	1	0	20	Nigeria-cases-2015-02-02
+Liberia	2015-01-05	cases	2015-01-05-cases	3116	1805	3198	8115	Liberia-cases-2015-01-05
+United Kingdom	2015-01-05	deaths	2015-01-05-deaths	0	0	0	0	United Kingdom-deaths-2015-01-05
+Nigeria	2015-01-23	deaths	2015-01-23-deaths	7	1	0	8	Nigeria-deaths-2015-01-23
+Guinea	2015-01-12	deaths	2015-01-12-deaths	1523	284	0	1807	Guinea-deaths-2015-01-12
+Nigeria	2014-10-25	cases	2014-10-25-cases	19	1	0	20	Nigeria-cases-2014-10-25
+Sierra Leone	2015-02-20	cases	2015-02-20-cases	8223	287	2645	11155	Sierra Leone-cases-2015-02-20
+Nigeria	2015-02-03	cases	2015-02-03-cases	19	1	0	20	Nigeria-cases-2015-02-03
+Spain	2014-12-15	cases	2014-12-15-cases	1	0	0	1	Spain-cases-2014-12-15
+Sierra Leone	2015-02-04	cases	2015-02-04-cases	8059	287	2394	10740	Sierra Leone-cases-2015-02-04
+Senegal	2015-02-10	deaths	2015-02-10-deaths	0	0	0	0	Senegal-deaths-2015-02-10
+Guinea	2015-02-19	cases	2015-02-19-cases	2732	381	2	3115	Guinea-cases-2015-02-19
+Sierra Leone	2015-03-10	deaths	2015-03-10-deaths	3263	208	158	3629	Sierra Leone-deaths-2015-03-10
+Sierra Leone	2015-01-07	deaths	2015-01-07-deaths	2577	900	158	900	Sierra Leone-deaths-2015-01-07
+Spain	2014-12-31	deaths	2014-12-31-deaths	0	0	0	0	Spain-deaths-2014-12-31
+Spain	2015-02-05	deaths	2015-02-05-deaths	0	0	0	0	Spain-deaths-2015-02-05
+Spain	2015-03-04	cases	2015-03-04-cases	1	0	0	1	Spain-cases-2015-03-04
+Senegal	2015-01-15	deaths	2015-01-15-deaths	0	0	0	0	Senegal-deaths-2015-01-15
+Liberia	2015-02-19	deaths	2015-02-19-deaths	0	0	0	3947	Liberia-deaths-2015-02-19
+Guinea	2015-01-15	cases	2015-01-15-cases	2522	284	11	2817	Guinea-cases-2015-01-15
+Guinea	2014-10-17	deaths	2014-10-17-deaths	671	191	0	862	Guinea-deaths-2014-10-17
+Liberia	2015-02-02	cases	2015-02-02-cases	3138	1864	3666	8668	Liberia-cases-2015-02-02
+Nigeria	2015-01-27	cases	2015-01-27-cases	19	1	0	20	Nigeria-cases-2015-01-27
+Guinea	2014-12-23	cases	2014-12-23-cases	2284	263	50	2597	Guinea-cases-2014-12-23
+Sierra Leone	2014-09-26	deaths	2014-09-26-deaths	557	37	11	605	Sierra Leone-deaths-2014-09-26
+United Kingdom	2015-02-18	cases	2015-02-18-cases	1	0	0	1	United Kingdom-cases-2015-02-18
+United Kingdom	2015-02-11	deaths	2015-02-11-deaths	0	0	0	0	United Kingdom-deaths-2015-02-11
+Liberia	2014-09-22	deaths	2014-09-22-deaths	670	544	364	1578	Liberia-deaths-2014-09-22
+Sierra Leone	2014-12-03	deaths	2014-12-03-deaths	1374	174	35	1583	Sierra Leone-deaths-2014-12-03
+Guinea	2015-02-11	deaths	2015-02-11-deaths	1643	352	0	1995	Guinea-deaths-2015-02-11
+Mali	2015-02-26	cases	2015-02-26-cases	7	1	0	8	Mali-cases-2015-02-26
+Senegal	2014-11-21	cases	2014-11-21-cases	1	0	0	1	Senegal-cases-2014-11-21
+United Kingdom	2015-01-27	deaths	2015-01-27-deaths	0	0	0	0	United Kingdom-deaths-2015-01-27
+United Kingdom	2015-02-06	cases	2015-02-06-cases	1	0	0	1	United Kingdom-cases-2015-02-06
+Mali	2015-01-12	cases	2015-01-12-cases	7	1	0	0	Mali-cases-2015-01-12
+Senegal	2015-01-21	cases	2015-01-21-cases	1	0	0	1	Senegal-cases-2015-01-21
+United States of America	2015-01-15	cases	2015-01-15-cases	4	0	0	4	United States of America-cases-2015-01-15
+Senegal	2014-12-30	cases	2014-12-30-cases	1	0	0	1	Senegal-cases-2014-12-30
+Nigeria	2015-03-02	cases	2015-03-02-cases	19	1	0	20	Nigeria-cases-2015-03-02
+Liberia	2014-12-24	cases	2014-12-24-cases	3085	1757	3020	7862	Liberia-cases-2014-12-24
+Liberia	2014-12-26	deaths	2014-12-26-deaths	0	0	0	3384	Liberia-deaths-2014-12-26
+Liberia	2014-09-05	cases	2014-09-05-cases	614	888	369	58	Liberia-cases-2014-09-05
+Liberia	2014-09-24	cases	2014-09-24-cases	890	1469	921	3280	Liberia-cases-2014-09-24
+Nigeria	2015-02-13	deaths	2015-02-13-deaths	7	1	0	8	Nigeria-deaths-2015-02-13
+Sierra Leone	2015-02-18	deaths	2015-02-18-deaths	3042	208	158	3408	Sierra Leone-deaths-2015-02-18
+Nigeria	2015-01-20	deaths	2015-01-20-deaths	7	1	0	8	Nigeria-deaths-2015-01-20
+Senegal	2015-02-04	cases	2015-02-04-cases	1	0	0	1	Senegal-cases-2015-02-04
+Sierra Leone	2014-11-12	deaths	2014-11-12-deaths	960	174	35	1169	Sierra Leone-deaths-2014-11-12
+Sierra Leone	2015-02-03	deaths	2015-02-03-deaths	2910	208	158	3276	Sierra Leone-deaths-2015-02-03
+Guinea	2014-11-07	cases	2014-11-07-cases	1479	204	77	1760	Guinea-cases-2014-11-07
+Spain	2015-01-05	cases	2015-01-05-cases	1	0	0	1	Spain-cases-2015-01-05
+Liberia	2015-03-04	deaths	2015-03-04-deaths	0	0	0	4057	Liberia-deaths-2015-03-04
+Mali	2014-12-10	cases	2014-12-10-cases	7	1	0	8	Mali-cases-2014-12-10
+Nigeria	2015-02-10	cases	2015-02-10-cases	19	1	0	20	Nigeria-cases-2015-02-10
+Guinea	2014-10-22	cases	2014-10-22-cases	1289	193	58	1540	Guinea-cases-2014-10-22
+United States of America	2015-01-30	cases	2015-01-30-cases	4	0	0	4	United States of America-cases-2015-01-30
+Mali	2014-12-22	cases	2014-12-22-cases	7	1	0	8	Mali-cases-2014-12-22
+Nigeria	2014-12-26	cases	2014-12-26-cases	19	1	0	20	Nigeria-cases-2014-12-26
+Sierra Leone	2014-10-17	cases	2014-10-17-cases	2977	37	396	3410	Sierra Leone-cases-2014-10-17
+Senegal	2014-10-31	cases	2014-10-31-cases	1	0	0	1	Senegal-cases-2014-10-31
+Liberia	2014-12-31	cases	2014-12-31-cases	3110	1776	3132	8018	Liberia-cases-2014-12-31
+United Kingdom	2015-01-08	deaths	2015-01-08-deaths	0	0	0	0	United Kingdom-deaths-2015-01-08
+Mali	2015-02-18	deaths	2015-02-18-deaths	0	0	0	6	Mali-deaths-2015-02-18
+Guinea	2015-01-23	cases	2015-01-23-cases	2545	319	9	2873	Guinea-cases-2015-01-23
+Guinea	2015-03-06	deaths	2015-03-06-deaths	1755	392	0	2147	Guinea-deaths-2015-03-06
+Sierra Leone	2014-09-05	cases	2014-09-05-cases	1146	37	78	39	Sierra Leone-cases-2014-09-05
+Guinea	2015-03-06	cases	2015-03-06-cases	2840	392	16	3248	Guinea-cases-2015-03-06
+Sierra Leone	2015-03-06	deaths	2015-03-06-deaths	3210	208	158	3576	Sierra Leone-deaths-2015-03-06
+Sierra Leone	2014-09-18	cases	2014-09-18-cases	1513	37	123	1673	Sierra Leone-cases-2014-09-18
+Spain	2015-03-06	cases	2015-03-06-cases	1	0	0	1	Spain-cases-2015-03-06
+United States of America	2014-11-21	deaths	2014-11-21-deaths	1	0	0	1	United States of America-deaths-2014-11-21
+United Kingdom	2015-01-08	cases	2015-01-08-cases	1	0	0	0	United Kingdom-cases-2015-01-08
+Nigeria	2014-12-01	deaths	2014-12-01-deaths	7	1	0	8	Nigeria-deaths-2014-12-01
+United States of America	2015-01-20	cases	2015-01-20-cases	4	0	0	4	United States of America-cases-2015-01-20
+United States of America	2015-02-19	deaths	2015-02-19-deaths	1	0	0	1	United States of America-deaths-2015-02-19
+Senegal	2014-10-15	deaths	2014-10-15-deaths	0	0	0	0	Senegal-deaths-2014-10-15
+Spain	2014-12-22	cases	2014-12-22-cases	1	0	0	1	Spain-cases-2014-12-22
+Nigeria	2015-02-10	deaths	2015-02-10-deaths	7	1	0	8	Nigeria-deaths-2015-02-10
+Sierra Leone	2014-11-19	cases	2014-11-19-cases	5056	79	938	6073	Sierra Leone-cases-2014-11-19
+Senegal	2014-10-10	cases	2014-10-10-cases	1	0	0	1	Senegal-cases-2014-10-10
+Sierra Leone	2015-01-13	cases	2015-01-13-cases	7766	287	2041	10094	Sierra Leone-cases-2015-01-13
+Nigeria	2014-11-26	cases	2014-11-26-cases	19	1	0	20	Nigeria-cases-2014-11-26
+Spain	2014-10-31	cases	2014-10-31-cases	1	0	0	1	Spain-cases-2014-10-31
+Guinea	2014-11-12	cases	2014-11-12-cases	1612	208	58	1878	Guinea-cases-2014-11-12
+Spain	2014-12-29	cases	2014-12-29-cases	1	0	0	1	Spain-cases-2014-12-29
+Nigeria	2015-02-06	deaths	2015-02-06-deaths	7	1	0	8	Nigeria-deaths-2015-02-06
+United States of America	2015-02-20	cases	2015-02-20-cases	4	0	0	4	United States of America-cases-2015-02-20
+Nigeria	2015-01-20	cases	2015-01-20-cases	19	1	0	20	Nigeria-cases-2015-01-20
+Nigeria	2014-11-14	cases	2014-11-14-cases	19	1	0	20	Nigeria-cases-2014-11-14
+Sierra Leone	2014-11-26	cases	2014-11-26-cases	5441	79	1079	6599	Sierra Leone-cases-2014-11-26
+Spain	2014-11-12	deaths	2014-11-12-deaths	0	0	0	0	Spain-deaths-2014-11-12
+Sierra Leone	2015-03-02	cases	2015-03-02-cases	8353	287	2803	11443	Sierra Leone-cases-2015-03-02
+Sierra Leone	2014-10-01	cases	2014-10-01-cases	2076	37	191	2304	Sierra Leone-cases-2014-10-01
+Senegal	2015-03-10	deaths	2015-03-10-deaths	0	0	0	0	Senegal-deaths-2015-03-10
+Mali	2014-11-12	deaths	2014-11-12-deaths	2	2	0	4	Mali-deaths-2014-11-12
+Liberia	2015-02-17	cases	2015-02-17-cases	3149	1876	3982	9007	Liberia-cases-2015-02-17
+Mali	2015-01-12	deaths	2015-01-12-deaths	0	0	0	6	Mali-deaths-2015-01-12
+Liberia	2014-09-08	deaths	2014-09-08-deaths	508	62	296	71	Liberia-deaths-2014-09-08
+Liberia	2014-11-14	deaths	2014-11-14-deaths	0	0	0	2812	Liberia-deaths-2014-11-14
+Liberia	2015-01-07	deaths	2015-01-07-deaths	0	70	0	70	Liberia-deaths-2015-01-07
+Spain	2015-01-19	deaths	2015-01-19-deaths	0	0	0	0	Spain-deaths-2015-01-19
+United Kingdom	2015-02-11	cases	2015-02-11-cases	1	0	0	1	United Kingdom-cases-2015-02-11
+Liberia	2015-02-18	cases	2015-02-18-cases	3149	1876	3982	9007	Liberia-cases-2015-02-18
+Mali	2014-11-12	cases	2014-11-12-cases	2	2	0	4	Mali-cases-2014-11-12
+Guinea	2014-12-23	deaths	2014-12-23-deaths	1344	263	0	1607	Guinea-deaths-2014-12-23
+Senegal	2014-09-22	cases	2014-09-22-cases	1	0	0	1	Senegal-cases-2014-09-22
+United States of America	2015-02-10	cases	2015-02-10-cases	4	0	0	4	United States of America-cases-2015-02-10
+Liberia	2015-02-02	deaths	2015-02-02-deaths	0	0	0	3710	Liberia-deaths-2015-02-02
+Sierra Leone	2014-12-23	deaths	2014-12-23-deaths	2216	208	158	2582	Sierra Leone-deaths-2014-12-23
+Senegal	2014-10-10	deaths	2014-10-10-deaths	0	0	0	0	Senegal-deaths-2014-10-10
+Nigeria	2015-02-19	deaths	2015-02-19-deaths	7	1	0	8	Nigeria-deaths-2015-02-19
+Nigeria	2014-09-05	deaths	2014-09-05-deaths	7	50	0	0	Nigeria-deaths-2014-09-05
+Spain	2015-02-03	deaths	2015-02-03-deaths	0	0	0	0	Spain-deaths-2015-02-03
+Mali	2015-01-30	cases	2015-01-30-cases	7	1	0	8	Mali-cases-2015-01-30
+Senegal	2014-10-25	deaths	2014-10-25-deaths	0	0	0	0	Senegal-deaths-2014-10-25
+Spain	2014-12-31	cases	2014-12-31-cases	1	0	0	1	Spain-cases-2014-12-31
+Sierra Leone	2014-09-24	cases	2014-09-24-cases	1745	37	158	1940	Sierra Leone-cases-2014-09-24
+Spain	2015-02-18	deaths	2015-02-18-deaths	0	0	0	0	Spain-deaths-2015-02-18
+Sierra Leone	2014-09-16	cases	2014-09-16-cases	1464	37	119	35	Sierra Leone-cases-2014-09-16
+Spain	2014-10-17	cases	2014-10-17-cases	1	0	0	1	Spain-cases-2014-10-17
+Nigeria	2015-02-03	deaths	2015-02-03-deaths	7	1	0	8	Nigeria-deaths-2015-02-03
+Senegal	2015-01-02	deaths	2015-01-02-deaths	0	0	0	0	Senegal-deaths-2015-01-02
+Guinea	2015-01-19	cases	2015-01-19-cases	2539	319	15	2873	Guinea-cases-2015-01-19
+Nigeria	2015-01-27	deaths	2015-01-27-deaths	7	1	0	8	Nigeria-deaths-2015-01-27
+Nigeria	2014-10-15	cases	2014-10-15-cases	19	1	0	20	Nigeria-cases-2014-10-15
+United States of America	2014-12-10	cases	2014-12-10-cases	4	0	0	4	United States of America-cases-2014-12-10
+Nigeria	2015-01-23	cases	2015-01-23-cases	19	1	0	20	Nigeria-cases-2015-01-23
+Guinea	2015-01-23	deaths	2015-01-23-deaths	1561	319	0	1880	Guinea-deaths-2015-01-23
+Liberia	2015-02-25	deaths	2015-02-25-deaths	0	10	0	4037	Liberia-deaths-2015-02-25
+Guinea	2015-02-25	cases	2015-02-25-cases	2762	387	6	3155	Guinea-cases-2015-02-25
+United States of America	2014-11-26	deaths	2014-11-26-deaths	1	0	0	1	United States of America-deaths-2014-11-26
+Nigeria	2014-09-24	deaths	2014-09-24-deaths	7	1	0	8	Nigeria-deaths-2014-09-24
+Senegal	2014-11-21	deaths	2014-11-21-deaths	0	0	0	0	Senegal-deaths-2014-11-21
+United States of America	2014-11-19	cases	2014-11-19-cases	4	0	0	4	United States of America-cases-2014-11-19
+United States of America	2015-01-30	deaths	2015-01-30-deaths	1	0	0	1	United States of America-deaths-2015-01-30
+United States of America	2015-03-05	cases	2015-03-05-cases	4	0	0	4	United States of America-cases-2015-03-05
+Senegal	2014-12-10	deaths	2014-12-10-deaths	0	0	0	0	Senegal-deaths-2014-12-10
+Liberia	2015-03-10	cases	2015-03-10-cases	3150	1879	4314	9343	Liberia-cases-2015-03-10
+Liberia	2015-01-28	cases	2015-01-28-cases	3138	1864	3620	8622	Liberia-cases-2015-01-28
+Senegal	2014-10-03	cases	2014-10-03-cases	1	0	0	1	Senegal-cases-2014-10-03
+Senegal	2015-01-05	deaths	2015-01-05-deaths	0	0	0	0	Senegal-deaths-2015-01-05
+Sierra Leone	2015-03-04	cases	2015-03-04-cases	8353	287	2803	11443	Sierra Leone-cases-2015-03-04
+Liberia	2014-09-22	cases	2014-09-22-cases	863	1342	817	3022	Liberia-cases-2014-09-22
+Liberia	2015-01-02	cases	2015-01-02-cases	3110	1776	3132	8018	Liberia-cases-2015-01-02
+Guinea	2014-12-17	deaths	2014-12-17-deaths	1262	263	0	1525	Guinea-deaths-2014-12-17
+Senegal	2015-02-16	cases	2015-02-16-cases	1	0	0	1	Senegal-cases-2015-02-16
+Mali	2015-03-04	cases	2015-03-04-cases	7	1	0	8	Mali-cases-2015-03-04
+Liberia	2015-03-05	cases	2015-03-05-cases	3150	1877	4222	9249	Liberia-cases-2015-03-05
+Mali	2015-01-22	cases	2015-01-22-cases	7	1	0	8	Mali-cases-2015-01-22
+Guinea	2014-09-08	deaths	2014-09-08-deaths	400	28	4	0	Guinea-deaths-2014-09-08
+Mali	2015-02-03	deaths	2015-02-03-deaths	0	0	0	6	Mali-deaths-2015-02-03
+Senegal	2015-02-23	cases	2015-02-23-cases	1	0	0	1	Senegal-cases-2015-02-23
+Nigeria	2015-01-28	cases	2015-01-28-cases	19	1	0	20	Nigeria-cases-2015-01-28
+Senegal	2015-02-04	deaths	2015-02-04-deaths	0	0	0	0	Senegal-deaths-2015-02-04
+United Kingdom	2015-02-27	deaths	2015-02-27-deaths	0	0	0	0	United Kingdom-deaths-2015-02-27
+United States of America	2015-01-15	deaths	2015-01-15-deaths	1	0	0	1	United States of America-deaths-2015-01-15
+Liberia	2015-01-08	cases	2015-01-08-cases	3118	1816	3232	8166	Liberia-cases-2015-01-08
+Mali	2015-03-05	cases	2015-03-05-cases	7	1	0	8	Mali-cases-2015-03-05
+United Kingdom	2015-02-12	deaths	2015-02-12-deaths	0	0	0	0	United Kingdom-deaths-2015-02-12
+Liberia	2014-10-15	deaths	2014-10-15-deaths	0	26	0	2458	Liberia-deaths-2014-10-15
+Liberia	2014-09-08	cases	2014-09-08-cases	634	969	443	2046	Liberia-cases-2014-09-08
+United States of America	2015-01-07	deaths	2015-01-07-deaths	1	0	0	1	United States of America-deaths-2015-01-07
+United Kingdom	2015-02-18	deaths	2015-02-18-deaths	0	0	0	0	United Kingdom-deaths-2015-02-18
+United States of America	2014-12-26	deaths	2014-12-26-deaths	1	0	0	1	United States of America-deaths-2014-12-26
+Mali	2014-12-31	deaths	2014-12-31-deaths	0	0	0	6	Mali-deaths-2014-12-31
+Guinea	2015-02-06	cases	2015-02-06-cases	2628	349	11	2988	Guinea-cases-2015-02-06
+Mali	2015-01-14	deaths	2015-01-14-deaths	0	0	0	6	Mali-deaths-2015-01-14
+Spain	2014-11-26	cases	2014-11-26-cases	1	0	0	1	Spain-cases-2014-11-26
+Spain	2015-01-20	cases	2015-01-20-cases	1	0	0	1	Spain-cases-2015-01-20
+Mali	2015-01-19	cases	2015-01-19-cases	7	1	0	8	Mali-cases-2015-01-19
+Sierra Leone	2014-09-12	deaths	2014-09-12-deaths	478	34	12	524	Sierra Leone-deaths-2014-09-12
+Spain	2014-12-10	cases	2014-12-10-cases	1	0	0	1	Spain-cases-2014-12-10
+Guinea	2014-11-26	deaths	2014-11-26-deaths	1050	210	0	1260	Guinea-deaths-2014-11-26
+United States of America	2014-12-30	deaths	2014-12-30-deaths	1	0	0	1	United States of America-deaths-2014-12-30
+Senegal	2015-01-23	deaths	2015-01-23-deaths	0	0	0	0	Senegal-deaths-2015-01-23
+Liberia	2015-02-04	deaths	2015-02-04-deaths	0	17	0	3746	Liberia-deaths-2015-02-04
+Senegal	2015-03-04	deaths	2015-03-04-deaths	0	0	0	0	Senegal-deaths-2015-03-04
+Spain	2015-02-25	cases	2015-02-25-cases	1	0	0	1	Spain-cases-2015-02-25
+Sierra Leone	2015-02-04	deaths	2015-02-04-deaths	2910	208	158	3276	Sierra Leone-deaths-2015-02-04
+United States of America	2014-12-03	cases	2014-12-03-cases	4	0	0	4	United States of America-cases-2014-12-03
+Liberia	2015-01-30	deaths	2015-01-30-deaths	0	0	0	3700	Liberia-deaths-2015-01-30
+Nigeria	2014-11-12	cases	2014-11-12-cases	19	1	0	20	Nigeria-cases-2014-11-12
+Guinea	2014-12-30	deaths	2014-12-30-deaths	1433	275	0	1708	Guinea-deaths-2014-12-30
+Guinea	2014-09-18	deaths	2014-09-18-deaths	435	161	5	601	Guinea-deaths-2014-09-18
+Spain	2015-01-30	cases	2015-01-30-cases	1	0	0	1	Spain-cases-2015-01-30
+Liberia	2015-01-05	deaths	2015-01-05-deaths	0	0	0	3471	Liberia-deaths-2015-01-05
+United Kingdom	2015-02-03	cases	2015-02-03-cases	1	0	0	1	United Kingdom-cases-2015-02-03
+Sierra Leone	2015-01-12	deaths	2015-01-12-deaths	2683	208	158	3049	Sierra Leone-deaths-2015-01-12
+Sierra Leone	2014-11-07	cases	2014-11-07-cases	4149	79	634	4862	Sierra Leone-cases-2014-11-07
+United States of America	2014-11-14	cases	2014-11-14-cases	4	0	0	4	United States of America-cases-2014-11-14
+Sierra Leone	2015-02-02	cases	2015-02-02-cases	8042	287	2378	10707	Sierra Leone-cases-2015-02-02
+Spain	2014-12-23	cases	2014-12-23-cases	1	0	0	1	Spain-cases-2014-12-23
+Senegal	2014-09-22	deaths	2014-09-22-deaths	0	0	0	0	Senegal-deaths-2014-09-22
+United Kingdom	2015-03-05	deaths	2015-03-05-deaths	0	0	0	0	United Kingdom-deaths-2015-03-05
+Nigeria	2014-11-05	cases	2014-11-05-cases	19	1	0	20	Nigeria-cases-2014-11-05
+Sierra Leone	2015-01-09	cases	2015-01-09-cases	7759	287	1984	10030	Sierra Leone-cases-2015-01-09
+Guinea	2015-03-05	deaths	2015-03-05-deaths	1749	392	0	2141	Guinea-deaths-2015-03-05
+Sierra Leone	2015-02-19	cases	2015-02-19-cases	8223	287	2645	11155	Sierra Leone-cases-2015-02-19
+United States of America	2015-01-02	deaths	2015-01-02-deaths	1	0	0	1	United States of America-deaths-2015-01-02
+Liberia	2015-02-13	cases	2015-02-13-cases	3147	1876	3908	8931	Liberia-cases-2015-02-13
+Guinea	2014-12-15	cases	2014-12-15-cases	2115	263	16	2394	Guinea-cases-2014-12-15
+Nigeria	2015-02-23	deaths	2015-02-23-deaths	7	1	0	8	Nigeria-deaths-2015-02-23
+Sierra Leone	2014-12-17	cases	2014-12-17-cases	6702	79	1575	8356	Sierra Leone-cases-2014-12-17
+United States of America	2014-12-29	deaths	2014-12-29-deaths	1	0	0	1	United States of America-deaths-2014-12-29
+United Kingdom	2015-02-04	deaths	2015-02-04-deaths	0	0	0	0	United Kingdom-deaths-2015-02-04
+Senegal	2014-09-26	cases	2014-09-26-cases	1	0	0	1	Senegal-cases-2014-09-26
+Senegal	2014-12-22	cases	2014-12-22-cases	1	0	0	1	Senegal-cases-2014-12-22
+Guinea	2014-10-31	deaths	2014-10-31-deaths	0	0	0	1018	Guinea-deaths-2014-10-31
+United States of America	2015-03-04	deaths	2015-03-04-deaths	1	0	0	1	United States of America-deaths-2015-03-04
+Mali	2015-01-07	cases	2015-01-07-cases	7	1	0	8	Mali-cases-2015-01-07
+Liberia	2014-09-16	cases	2014-09-16-cases	790	1078	539	54	Liberia-cases-2014-09-16
+Sierra Leone	2014-10-22	deaths	2014-10-22-deaths	986	164	109	1259	Sierra Leone-deaths-2014-10-22
+Spain	2014-11-19	cases	2014-11-19-cases	1	0	0	1	Spain-cases-2014-11-19
+United States of America	2015-02-13	cases	2015-02-13-cases	4	0	0	4	United States of America-cases-2015-02-13
+United States of America	2014-10-15	cases	2014-10-15-cases	2	0	0	2	United States of America-cases-2014-10-15
+Guinea	2015-01-28	cases	2015-01-28-cases	2569	332	16	2917	Guinea-cases-2015-01-28
+Nigeria	2014-11-07	deaths	2014-11-07-deaths	7	1	0	8	Nigeria-deaths-2014-11-07
+Sierra Leone	2015-01-06	cases	2015-01-06-cases	7602	287	1819	9780	Sierra Leone-cases-2015-01-06
+Nigeria	2014-08-29	deaths	2014-08-29-deaths	6	57	0	0	Nigeria-deaths-2014-08-29
+Spain	2015-01-29	deaths	2015-01-29-deaths	0	0	0	0	Spain-deaths-2015-01-29
+Sierra Leone	2015-01-26	cases	2015-01-26-cases	7963	287	2241	10491	Sierra Leone-cases-2015-01-26
+Sierra Leone	2015-01-15	deaths	2015-01-15-deaths	2701	208	158	3067	Sierra Leone-deaths-2015-01-15
+Guinea	2015-01-08	deaths	2015-01-08-deaths	1504	282	0	1786	Guinea-deaths-2015-01-08
+Spain	2015-01-02	cases	2015-01-02-cases	1	0	0	1	Spain-cases-2015-01-02
+Mali	2015-01-20	deaths	2015-01-20-deaths	0	0	0	6	Mali-deaths-2015-01-20
+Guinea	2015-01-02	cases	2015-01-02-cases	2435	276	19	2730	Guinea-cases-2015-01-02
+Nigeria	2014-12-15	deaths	2014-12-15-deaths	7	1	0	8	Nigeria-deaths-2014-12-15
+Guinea	2014-10-10	cases	2014-10-10-cases	1097	180	73	1350	Guinea-cases-2014-10-10
+Mali	2015-01-26	deaths	2015-01-26-deaths	0	0	0	6	Mali-deaths-2015-01-26
+United States of America	2014-11-21	cases	2014-11-21-cases	4	0	0	4	United States of America-cases-2014-11-21
+Sierra Leone	2015-02-12	deaths	2015-02-12-deaths	2984	208	158	3350	Sierra Leone-deaths-2015-02-12
+Sierra Leone	2015-02-27	cases	2015-02-27-cases	8320	287	2763	11370	Sierra Leone-cases-2015-02-27
+Spain	2014-10-31	deaths	2014-10-31-deaths	0	0	0	0	Spain-deaths-2014-10-31
+Senegal	2015-01-29	cases	2015-01-29-cases	1	0	0	1	Senegal-cases-2015-01-29
+United Kingdom	2015-01-30	cases	2015-01-30-cases	1	0	0	1	United Kingdom-cases-2015-01-30
+Mali	2014-11-26	cases	2014-11-26-cases	7	1	0	8	Mali-cases-2014-11-26
+Nigeria	2014-12-29	deaths	2014-12-29-deaths	7	1	0	8	Nigeria-deaths-2014-12-29
+United Kingdom	2015-02-16	cases	2015-02-16-cases	1	0	0	1	United Kingdom-cases-2015-02-16
+United Kingdom	2015-01-12	cases	2015-01-12-cases	1	0	0	0	United Kingdom-cases-2015-01-12
+Senegal	2015-01-29	deaths	2015-01-29-deaths	0	0	0	0	Senegal-deaths-2015-01-29
+Nigeria	2015-03-04	deaths	2015-03-04-deaths	7	1	0	8	Nigeria-deaths-2015-03-04
+Guinea	2014-10-29	deaths	2014-10-29-deaths	0	35	0	997	Guinea-deaths-2014-10-29
+Sierra Leone	2014-11-07	deaths	2014-11-07-deaths	921	174	35	1130	Sierra Leone-deaths-2014-11-07
+United Kingdom	2015-02-23	cases	2015-02-23-cases	1	0	0	1	United Kingdom-cases-2015-02-23
+Mali	2014-12-30	cases	2014-12-30-cases	7	1	0	8	Mali-cases-2014-12-30
+Spain	2015-01-22	deaths	2015-01-22-deaths	0	0	0	0	Spain-deaths-2015-01-22
+Liberia	2015-01-09	cases	2015-01-09-cases	3123	1831	3309	8263	Liberia-cases-2015-01-09
+Nigeria	2015-02-18	cases	2015-02-18-cases	19	1	0	20	Nigeria-cases-2015-02-18
+Nigeria	2014-10-22	cases	2014-10-22-cases	19	1	0	20	Nigeria-cases-2014-10-22
+Guinea	2014-09-16	deaths	2014-09-16-deaths	429	162	4	595	Guinea-deaths-2014-09-16
+United States of America	2015-01-19	deaths	2015-01-19-deaths	1	0	0	1	United States of America-deaths-2015-01-19
+Guinea	2015-02-17	cases	2015-02-17-cases	2727	374	7	3108	Guinea-cases-2015-02-17
+Sierra Leone	2015-02-16	cases	2015-02-16-cases	8199	287	2588	11074	Sierra Leone-cases-2015-02-16
+Guinea	2015-02-16	deaths	2015-02-16-deaths	1678	374	0	2052	Guinea-deaths-2015-02-16
+Spain	2015-01-29	cases	2015-01-29-cases	1	0	0	1	Spain-cases-2015-01-29
+Guinea	2014-09-24	cases	2014-09-24-cases	832	162	28	1022	Guinea-cases-2014-09-24
+Guinea	2015-01-28	deaths	2015-01-28-deaths	1578	92	0	92	Guinea-deaths-2015-01-28
+Sierra Leone	2015-02-23	cases	2015-02-23-cases	8223	287	2645	11155	Sierra Leone-cases-2015-02-23
+Guinea	2014-11-14	cases	2014-11-14-cases	1647	208	64	1919	Guinea-cases-2014-11-14
+Liberia	2014-09-26	deaths	2014-09-26-deaths	792	623	415	1830	Liberia-deaths-2014-09-26
+United States of America	2015-01-19	cases	2015-01-19-cases	4	0	0	4	United States of America-cases-2015-01-19
+Mali	2015-01-23	deaths	2015-01-23-deaths	0	0	0	6	Mali-deaths-2015-01-23
+Guinea	2015-02-02	cases	2015-02-02-cases	2593	342	24	2959	Guinea-cases-2015-02-02
+Guinea	2014-11-21	deaths	2014-11-21-deaths	998	216	0	1214	Guinea-deaths-2014-11-21
+Senegal	2015-01-07	cases	2015-01-07-cases	1	0	0	1	Senegal-cases-2015-01-07
+Spain	2015-02-26	cases	2015-02-26-cases	1	0	0	1	Spain-cases-2015-02-26
+Sierra Leone	2015-01-22	deaths	2015-01-22-deaths	2787	208	158	3153	Sierra Leone-deaths-2015-01-22
+Guinea	2015-02-26	cases	2015-02-26-cases	2781	387	7	3175	Guinea-cases-2015-02-26
+Sierra Leone	2015-03-05	deaths	2015-03-05-deaths	3199	208	158	3565	Sierra Leone-deaths-2015-03-05
+United Kingdom	2015-01-14	cases	2015-01-14-cases	1	0	0	1	United Kingdom-cases-2015-01-14
+Sierra Leone	2014-12-31	cases	2014-12-31-cases	7354	287	1805	9446	Sierra Leone-cases-2014-12-31
+Mali	2015-02-13	cases	2015-02-13-cases	7	1	0	8	Mali-cases-2015-02-13
+Senegal	2015-01-19	deaths	2015-01-19-deaths	0	0	0	0	Senegal-deaths-2015-01-19
+United Kingdom	2015-02-04	cases	2015-02-04-cases	1	0	0	1	United Kingdom-cases-2015-02-04
+Liberia	2014-11-19	deaths	2014-11-19-deaths	0	532	0	2964	Liberia-deaths-2014-11-19
+Liberia	2014-09-12	cases	2014-09-12-cases	654	974	453	55	Liberia-cases-2014-09-12
+Senegal	2014-11-12	deaths	2014-11-12-deaths	0	0	0	0	Senegal-deaths-2014-11-12
+Nigeria	2015-02-23	cases	2015-02-23-cases	19	1	0	20	Nigeria-cases-2015-02-23
+Spain	2015-01-28	cases	2015-01-28-cases	1	0	0	1	Spain-cases-2015-01-28
+Liberia	2015-02-13	deaths	2015-02-13-deaths	3858	0	0	3858	Liberia-deaths-2015-02-13
+Liberia	2014-12-22	cases	2014-12-22-cases	3085	1754	2991	7830	Liberia-cases-2014-12-22
+Senegal	2015-02-03	cases	2015-02-03-cases	1	0	0	1	Senegal-cases-2015-02-03
+United States of America	2015-01-05	cases	2015-01-05-cases	4	0	0	4	United States of America-cases-2015-01-05
+Liberia	2015-02-26	cases	2015-02-26-cases	3153	1888	4224	9265	Liberia-cases-2015-02-26
+Spain	2015-02-12	deaths	2015-02-12-deaths	0	0	0	0	Spain-deaths-2015-02-12
+Mali	2015-01-21	cases	2015-01-21-cases	7	1	0	8	Mali-cases-2015-01-21
+Senegal	2015-02-18	cases	2015-02-18-cases	1	0	0	1	Senegal-cases-2015-02-18
+Senegal	2014-12-24	cases	2014-12-24-cases	1	0	0	1	Senegal-cases-2014-12-24
+Liberia	2014-10-10	deaths	2014-10-10-deaths	1072	725	519	2316	Liberia-deaths-2014-10-10
+Nigeria	2014-12-15	cases	2014-12-15-cases	19	1	0	20	Nigeria-cases-2014-12-15
+Liberia	2014-09-18	deaths	2014-09-18-deaths	631	518	310	1459	Liberia-deaths-2014-09-18
+Nigeria	2015-02-25	cases	2015-02-25-cases	19	1	0	20	Nigeria-cases-2015-02-25
+Liberia	2014-12-22	deaths	2014-12-22-deaths	0	0	0	3376	Liberia-deaths-2014-12-22
+Nigeria	2014-10-10	deaths	2014-10-10-deaths	7	1	0	8	Nigeria-deaths-2014-10-10
+Sierra Leone	2015-01-15	cases	2015-01-15-cases	7802	287	2061	10150	Sierra Leone-cases-2015-01-15
+Mali	2014-11-19	deaths	2014-11-19-deaths	4	1	0	5	Mali-deaths-2014-11-19
+Sierra Leone	2014-10-03	cases	2014-10-03-cases	2179	37	221	2437	Sierra Leone-cases-2014-10-03
+Guinea	2015-01-07	cases	2015-01-07-cases	2471	282	22	2775	Guinea-cases-2015-01-07
+Senegal	2014-12-23	deaths	2014-12-23-deaths	0	0	0	0	Senegal-deaths-2014-12-23
+Guinea	2014-09-12	deaths	2014-09-12-deaths	403	150	4	557	Guinea-deaths-2014-09-12
+United States of America	2015-02-11	cases	2015-02-11-cases	4	0	0	4	United States of America-cases-2015-02-11
+Sierra Leone	2014-12-30	cases	2014-12-30-cases	7354	287	1805	9446	Sierra Leone-cases-2014-12-30
+Nigeria	2014-11-07	cases	2014-11-07-cases	19	1	0	20	Nigeria-cases-2014-11-07
+United States of America	2015-03-02	deaths	2015-03-02-deaths	1	0	0	1	United States of America-deaths-2015-03-02
+Sierra Leone	2015-01-14	cases	2015-01-14-cases	7786	287	2051	10124	Sierra Leone-cases-2015-01-14
+Liberia	2015-02-10	cases	2015-02-10-cases	3146	1873	3862	8881	Liberia-cases-2015-02-10
+Liberia	2014-11-21	deaths	2014-11-21-deaths	0	0	0	2963	Liberia-deaths-2014-11-21
+United Kingdom	2015-01-22	cases	2015-01-22-cases	1	0	0	1	United Kingdom-cases-2015-01-22
+Mali	2014-10-25	deaths	2014-10-25-deaths	1	0	0	1	Mali-deaths-2014-10-25
+United States of America	2015-02-27	cases	2015-02-27-cases	4	0	0	4	United States of America-cases-2015-02-27
+Mali	2014-12-01	cases	2014-12-01-cases	7	1	0	8	Mali-cases-2014-12-01
+Senegal	2014-09-05	cases	2014-09-05-cases	1	0	0	0	Senegal-cases-2014-09-05
+Mali	2015-02-10	cases	2015-02-10-cases	7	1	0	8	Mali-cases-2015-02-10
+Nigeria	2015-01-05	deaths	2015-01-05-deaths	7	1	0	8	Nigeria-deaths-2015-01-05
+Spain	2014-11-26	deaths	2014-11-26-deaths	0	0	0	0	Spain-deaths-2014-11-26
+United States of America	2015-02-03	cases	2015-02-03-cases	4	0	0	4	United States of America-cases-2015-02-03
+Senegal	2014-12-31	cases	2014-12-31-cases	1	0	0	1	Senegal-cases-2014-12-31
+Nigeria	2014-09-24	cases	2014-09-24-cases	19	1	0	20	Nigeria-cases-2014-09-24
+Senegal	2015-01-14	deaths	2015-01-14-deaths	0	0	0	0	Senegal-deaths-2015-01-14
+Nigeria	2014-10-08	deaths	2014-10-08-deaths	7	1	0	8	Nigeria-deaths-2014-10-08
+Guinea	2015-02-27	deaths	2015-02-27-deaths	1721	392	0	2113	Guinea-deaths-2015-02-27
+Nigeria	2015-01-28	deaths	2015-01-28-deaths	7	1	0	8	Nigeria-deaths-2015-01-28
+Mali	2015-02-05	deaths	2015-02-05-deaths	0	0	0	6	Mali-deaths-2015-02-05
+Liberia	2015-02-12	cases	2015-02-12-cases	3146	1873	3862	8881	Liberia-cases-2015-02-12
+Sierra Leone	2014-12-17	deaths	2014-12-17-deaths	1876	174	35	2085	Sierra Leone-deaths-2014-12-17
+United Kingdom	2015-01-02	cases	2015-01-02-cases	1	0	0	0	United Kingdom-cases-2015-01-02
+Nigeria	2014-11-26	deaths	2014-11-26-deaths	7	1	0	8	Nigeria-deaths-2014-11-26
+Liberia	2014-10-31	cases	2014-10-31-cases	2515	1540	2480	6535	Liberia-cases-2014-10-31
+Sierra Leone	2015-01-19	deaths	2015-01-19-deaths	2766	208	158	3132	Sierra Leone-deaths-2015-01-19
+United Kingdom	2015-03-06	deaths	2015-03-06-deaths	0	0	0	0	United Kingdom-deaths-2015-03-06
+Mali	2014-11-05	cases	2014-11-05-cases	1	0	0	1	Mali-cases-2014-11-05
+Nigeria	2015-02-05	cases	2015-02-05-cases	19	1	0	20	Nigeria-cases-2015-02-05
+Mali	2014-11-05	deaths	2014-11-05-deaths	1	0	0	1	Mali-deaths-2014-11-05
+Mali	2015-01-06	cases	2015-01-06-cases	7	1	0	8	Mali-cases-2015-01-06
+Guinea	2014-12-24	cases	2014-12-24-cases	2284	263	50	2597	Guinea-cases-2014-12-24
+Sierra Leone	2015-02-25	deaths	2015-02-25-deaths	3095	208	158	3461	Sierra Leone-deaths-2015-02-25
+United Kingdom	2015-02-03	deaths	2015-02-03-deaths	0	0	0	0	United Kingdom-deaths-2015-02-03
+Nigeria	2014-09-08	deaths	2014-09-08-deaths	7	50	0	100	Nigeria-deaths-2014-09-08
+Liberia	2014-10-22	deaths	2014-10-22-deaths	1241	803	661	2705	Liberia-deaths-2014-10-22
+Sierra Leone	2015-01-28	deaths	2015-01-28-deaths	2833	366	158	3199	Sierra Leone-deaths-2015-01-28
+Sierra Leone	2014-09-24	deaths	2014-09-24-deaths	552	34	11	597	Sierra Leone-deaths-2014-09-24
+Guinea	2014-09-26	deaths	2014-09-26-deaths	481	162	5	648	Guinea-deaths-2014-09-26
+Senegal	2015-01-22	cases	2015-01-22-cases	1	0	0	1	Senegal-cases-2015-01-22
+United Kingdom	2015-01-30	deaths	2015-01-30-deaths	0	0	0	0	United Kingdom-deaths-2015-01-30
+Spain	2015-02-04	deaths	2015-02-04-deaths	0	0	0	0	Spain-deaths-2015-02-04
+Liberia	2015-03-10	deaths	2015-03-10-deaths	0	0	0	4162	Liberia-deaths-2015-03-10
+United States of America	2015-02-02	cases	2015-02-02-cases	4	0	0	4	United States of America-cases-2015-02-02
+Spain	2014-11-05	cases	2014-11-05-cases	1	0	0	1	Spain-cases-2014-11-05
+Senegal	2014-11-19	cases	2014-11-19-cases	1	0	0	1	Senegal-cases-2014-11-19
+Mali	2015-02-20	cases	2015-02-20-cases	7	1	0	8	Mali-cases-2015-02-20
+Nigeria	2015-01-30	cases	2015-01-30-cases	19	1	0	20	Nigeria-cases-2015-01-30
+Senegal	2015-02-17	cases	2015-02-17-cases	1	0	0	1	Senegal-cases-2015-02-17
+Senegal	2014-09-18	cases	2014-09-18-cases	1	0	0	1	Senegal-cases-2014-09-18
+Senegal	2015-02-27	deaths	2015-02-27-deaths	0	0	0	0	Senegal-deaths-2015-02-27
+Sierra Leone	2014-10-03	deaths	2014-10-03-deaths	575	37	11	623	Sierra Leone-deaths-2014-10-03
+United States of America	2014-12-10	deaths	2014-12-10-deaths	1	0	0	1	United States of America-deaths-2014-12-10
+Liberia	2014-10-08	deaths	2014-10-08-deaths	1018	701	491	2210	Liberia-deaths-2014-10-08
+United States of America	2014-12-26	cases	2014-12-26-cases	4	0	0	4	United States of America-cases-2014-12-26
+Sierra Leone	2014-08-29	cases	2014-08-29-cases	935	37	54	41	Sierra Leone-cases-2014-08-29
+Sierra Leone	2015-01-21	cases	2015-01-21-cases	7903	287	2150	10340	Sierra Leone-cases-2015-01-21
+Mali	2015-03-05	deaths	2015-03-05-deaths	0	0	0	6	Mali-deaths-2015-03-05
+Spain	2014-12-24	cases	2014-12-24-cases	1	0	0	1	Spain-cases-2014-12-24
+Mali	2015-02-02	cases	2015-02-02-cases	7	1	0	8	Mali-cases-2015-02-02
+United States of America	2014-10-17	cases	2014-10-17-cases	3	0	0	3	United States of America-cases-2014-10-17
+United States of America	2015-01-29	deaths	2015-01-29-deaths	1	0	0	1	United States of America-deaths-2015-01-29
+United Kingdom	2015-03-10	deaths	2015-03-10-deaths	0	0	0	0	United Kingdom-deaths-2015-03-10
+Spain	2015-01-19	cases	2015-01-19-cases	1	0	0	1	Spain-cases-2015-01-19
+Mali	2014-12-03	deaths	2014-12-03-deaths	0	0	0	6	Mali-deaths-2014-12-03
+Senegal	2015-02-23	deaths	2015-02-23-deaths	0	0	0	0	Senegal-deaths-2015-02-23
+Nigeria	2014-09-22	cases	2014-09-22-cases	19	1	0	20	Nigeria-cases-2014-09-22
+United States of America	2015-02-10	deaths	2015-02-10-deaths	1	0	0	1	United States of America-deaths-2015-02-10
+Liberia	2014-10-22	cases	2014-10-22-cases	965	2106	1594	4665	Liberia-cases-2014-10-22
+Mali	2015-02-17	cases	2015-02-17-cases	7	1	0	8	Mali-cases-2015-02-17
+Senegal	2015-02-16	deaths	2015-02-16-deaths	0	0	0	0	Senegal-deaths-2015-02-16
+Sierra Leone	2014-11-05	cases	2014-11-05-cases	4057	79	623	4759	Sierra Leone-cases-2014-11-05
+United States of America	2014-10-31	deaths	2014-10-31-deaths	1	0	0	1	United States of America-deaths-2014-10-31
+Guinea	2014-12-10	cases	2014-12-10-cases	2051	221	20	2292	Guinea-cases-2014-12-10
+Spain	2014-10-17	deaths	2014-10-17-deaths	0	0	0	0	Spain-deaths-2014-10-17
+Senegal	2015-01-20	deaths	2015-01-20-deaths	0	0	0	0	Senegal-deaths-2015-01-20
+Senegal	2014-12-29	deaths	2014-12-29-deaths	0	0	0	0	Senegal-deaths-2014-12-29
+Liberia	2015-01-28	deaths	2015-01-28-deaths	0	20	0	20	Liberia-deaths-2015-01-28
+United States of America	2014-10-29	cases	2014-10-29-cases	4	0	0	4	United States of America-cases-2014-10-29
+Guinea	2015-02-10	cases	2015-02-10-cases	2674	352	18	3044	Guinea-cases-2015-02-10
+United States of America	2015-02-26	deaths	2015-02-26-deaths	1	0	0	1	United States of America-deaths-2015-02-26
+Liberia	2015-01-16	cases	2015-01-16-cases	3127	1841	3394	8362	Liberia-cases-2015-01-16
+United States of America	2015-03-06	cases	2015-03-06-cases	4	0	0	4	United States of America-cases-2015-03-06
+United States of America	2014-12-17	deaths	2014-12-17-deaths	1	0	0	1	United States of America-deaths-2014-12-17
+Mali	2014-12-17	deaths	2014-12-17-deaths	0	0	0	6	Mali-deaths-2014-12-17
+Liberia	2015-01-27	cases	2015-01-27-cases	3138	1864	3620	8622	Liberia-cases-2015-01-27
+Mali	2014-12-29	cases	2014-12-29-cases	7	1	0	8	Mali-cases-2014-12-29
+Senegal	2015-03-10	cases	2015-03-10-cases	1	0	0	1	Senegal-cases-2015-03-10
+United Kingdom	2015-03-04	cases	2015-03-04-cases	1	0	0	1	United Kingdom-cases-2015-03-04
+Spain	2014-12-22	deaths	2014-12-22-deaths	0	0	0	0	Spain-deaths-2014-12-22
+United Kingdom	2015-01-21	deaths	2015-01-21-deaths	0	0	0	0	United Kingdom-deaths-2015-01-21
+Guinea	2014-11-12	deaths	2014-11-12-deaths	934	208	0	1142	Guinea-deaths-2014-11-12
+Spain	2014-12-23	deaths	2014-12-23-deaths	0	0	0	0	Spain-deaths-2014-12-23
+Liberia	2014-12-15	deaths	2014-12-15-deaths	0	0	0	3290	Liberia-deaths-2014-12-15
+Sierra Leone	2015-02-11	cases	2015-02-11-cases	8135	287	2512	10934	Sierra Leone-cases-2015-02-11
+Guinea	2015-01-19	deaths	2015-01-19-deaths	1556	319	0	1875	Guinea-deaths-2015-01-19
+Senegal	2015-02-11	cases	2015-02-11-cases	1	0	0	1	Senegal-cases-2015-02-11
+United States of America	2014-11-12	deaths	2014-11-12-deaths	1	0	0	1	United States of America-deaths-2014-11-12
+Sierra Leone	2014-09-05	deaths	2014-09-05-deaths	443	28	11	55	Sierra Leone-deaths-2014-09-05
+Nigeria	2014-10-01	cases	2014-10-01-cases	19	1	0	20	Nigeria-cases-2014-10-01
+United States of America	2014-11-12	cases	2014-11-12-cases	4	0	0	4	United States of America-cases-2014-11-12
+Sierra Leone	2014-12-22	cases	2014-12-22-cases	6975	287	1677	8939	Sierra Leone-cases-2014-12-22
+Spain	2014-12-29	deaths	2014-12-29-deaths	0	0	0	0	Spain-deaths-2014-12-29
+United Kingdom	2015-03-02	cases	2015-03-02-cases	1	0	0	1	United Kingdom-cases-2015-03-02
+United States of America	2015-01-20	deaths	2015-01-20-deaths	1	0	0	1	United States of America-deaths-2015-01-20
+Senegal	2015-02-11	deaths	2015-02-11-deaths	0	0	0	0	Senegal-deaths-2015-02-11
+Spain	2015-02-17	cases	2015-02-17-cases	1	0	0	1	Spain-cases-2015-02-17
+United States of America	2015-02-23	cases	2015-02-23-cases	4	0	0	4	United States of America-cases-2015-02-23
+Nigeria	2015-02-19	cases	2015-02-19-cases	19	1	0	20	Nigeria-cases-2015-02-19
+Nigeria	2015-01-15	cases	2015-01-15-cases	19	1	0	20	Nigeria-cases-2015-01-15
+Liberia	2015-01-06	deaths	2015-01-06-deaths	0	0	0	3496	Liberia-deaths-2015-01-06
+Liberia	2015-02-16	cases	2015-02-16-cases	3149	1876	3982	9007	Liberia-cases-2015-02-16
+Mali	2014-12-26	cases	2014-12-26-cases	7	1	0	8	Mali-cases-2014-12-26
+Liberia	2015-02-18	deaths	2015-02-18-deaths	0	11	0	3900	Liberia-deaths-2015-02-18
+Mali	2014-12-26	deaths	2014-12-26-deaths	0	0	0	6	Mali-deaths-2014-12-26
+Liberia	2015-01-27	deaths	2015-01-27-deaths	0	0	0	3686	Liberia-deaths-2015-01-27
+Senegal	2014-10-31	deaths	2014-10-31-deaths	0	0	0	0	Senegal-deaths-2014-10-31
+Liberia	2015-01-19	deaths	2015-01-19-deaths	0	0	0	3587	Liberia-deaths-2015-01-19
+Guinea	2015-03-02	deaths	2015-03-02-deaths	1735	392	0	2127	Guinea-deaths-2015-03-02
+United States of America	2015-01-06	cases	2015-01-06-cases	4	0	0	4	United States of America-cases-2015-01-06
+Guinea	2015-02-10	deaths	2015-02-10-deaths	1643	352	0	1995	Guinea-deaths-2015-02-10
+United States of America	2015-02-05	deaths	2015-02-05-deaths	1	0	0	1	United States of America-deaths-2015-02-05
+Sierra Leone	2015-02-03	cases	2015-02-03-cases	8059	287	2394	10740	Sierra Leone-cases-2015-02-03
+Sierra Leone	2014-11-12	cases	2014-11-12-cases	4523	79	766	5368	Sierra Leone-cases-2014-11-12
+United States of America	2014-10-25	deaths	2014-10-25-deaths	1	0	0	1	United States of America-deaths-2014-10-25
+Liberia	2014-10-17	cases	2014-10-17-cases	0	0	0	4262	Liberia-cases-2014-10-17
+Nigeria	2015-02-06	cases	2015-02-06-cases	19	1	0	20	Nigeria-cases-2015-02-06
+Sierra Leone	2015-02-11	deaths	2015-02-11-deaths	2975	208	158	3341	Sierra Leone-deaths-2015-02-11
+Liberia	2015-01-16	deaths	2015-01-16-deaths	0	0	0	3556	Liberia-deaths-2015-01-16
+Sierra Leone	2014-11-19	deaths	2014-11-19-deaths	1041	174	35	1250	Sierra Leone-deaths-2014-11-19
+Mali	2015-01-09	deaths	2015-01-09-deaths	0	0	0	6	Mali-deaths-2015-01-09
+Sierra Leone	2014-11-21	cases	2014-11-21-cases	5152	79	959	6190	Sierra Leone-cases-2014-11-21
+United Kingdom	2015-03-10	cases	2015-03-10-cases	1	0	0	1	United Kingdom-cases-2015-03-10
+Guinea	2015-01-14	deaths	2015-01-14-deaths	1530	284	0	1814	Guinea-deaths-2015-01-14
+Spain	2014-12-24	deaths	2014-12-24-deaths	0	0	0	0	Spain-deaths-2014-12-24
+Spain	2015-01-27	cases	2015-01-27-cases	1	0	0	1	Spain-cases-2015-01-27
+United States of America	2014-10-25	cases	2014-10-25-cases	4	0	0	4	United States of America-cases-2014-10-25
+Senegal	2014-11-14	deaths	2014-11-14-deaths	0	0	0	0	Senegal-deaths-2014-11-14
+Guinea	2015-02-20	cases	2015-02-20-cases	2734	384	2	3120	Guinea-cases-2015-02-20
+Sierra Leone	2014-12-03	cases	2014-12-03-cases	5978	79	1255	7312	Sierra Leone-cases-2014-12-03
+Senegal	2015-01-16	deaths	2015-01-16-deaths	0	0	0	0	Senegal-deaths-2015-01-16
+Spain	2015-03-06	deaths	2015-03-06-deaths	0	0	0	0	Spain-deaths-2015-03-06
+Liberia	2014-12-23	cases	2014-12-23-cases	3085	1754	2991	7830	Liberia-cases-2014-12-23
+Spain	2015-02-27	deaths	2015-02-27-deaths	0	0	0	0	Spain-deaths-2015-02-27
+Mali	2015-02-17	deaths	2015-02-17-deaths	0	0	0	6	Mali-deaths-2015-02-17
+United Kingdom	2015-01-13	cases	2015-01-13-cases	1	0	0	0	United Kingdom-cases-2015-01-13
+United States of America	2015-02-06	deaths	2015-02-06-deaths	1	0	0	1	United States of America-deaths-2015-02-06
+Guinea	2014-12-01	cases	2014-12-01-cases	1921	210	24	2155	Guinea-cases-2014-12-01
+Sierra Leone	2014-12-01	cases	2014-12-01-cases	5831	79	1199	7109	Sierra Leone-cases-2014-12-01
+Nigeria	2014-12-24	cases	2014-12-24-cases	19	1	0	20	Nigeria-cases-2014-12-24
+Spain	2014-10-29	cases	2014-10-29-cases	1	0	0	1	Spain-cases-2014-10-29
+United States of America	2015-01-29	cases	2015-01-29-cases	4	0	0	4	United States of America-cases-2015-01-29
+Spain	2015-01-16	cases	2015-01-16-cases	1	0	0	1	Spain-cases-2015-01-16
+Spain	2014-12-15	deaths	2014-12-15-deaths	0	0	0	0	Spain-deaths-2014-12-15
+United States of America	2015-02-16	deaths	2015-02-16-deaths	1	0	0	1	United States of America-deaths-2015-02-16
+Liberia	2015-03-04	cases	2015-03-04-cases	3153	1888	4224	9265	Liberia-cases-2015-03-04
+Liberia	2014-11-12	cases	2014-11-12-cases	2553	1687	2582	6822	Liberia-cases-2014-11-12
+Sierra Leone	2015-01-21	deaths	2015-01-21-deaths	2779	208	158	3145	Sierra Leone-deaths-2015-01-21
+Sierra Leone	2015-01-28	cases	2015-01-28-cases	7968	287	2263	10518	Sierra Leone-cases-2015-01-28
+Guinea	2015-01-12	cases	2015-01-12-cases	2508	284	7	2799	Guinea-cases-2015-01-12
+Guinea	2015-03-10	cases	2015-03-10-cases	2871	392	22	3285	Guinea-cases-2015-03-10
+Guinea	2014-09-22	deaths	2014-09-22-deaths	465	162	5	632	Guinea-deaths-2014-09-22
+Guinea	2014-09-26	cases	2014-09-26-cases	876	162	36	1074	Guinea-cases-2014-09-26
+Sierra Leone	2015-02-25	cases	2015-02-25-cases	8289	287	2725	11301	Sierra Leone-cases-2015-02-25
+United States of America	2015-01-14	deaths	2015-01-14-deaths	1	0	0	1	United States of America-deaths-2015-01-14
+Spain	2015-01-15	cases	2015-01-15-cases	1	0	0	1	Spain-cases-2015-01-15
+Nigeria	2015-02-05	deaths	2015-02-05-deaths	7	1	0	8	Nigeria-deaths-2015-02-05
+Liberia	2014-12-10	deaths	2014-12-10-deaths	0	225	0	3177	Liberia-deaths-2014-12-10
+United States of America	2014-11-05	cases	2014-11-05-cases	4	0	0	4	United States of America-cases-2014-11-05
+Sierra Leone	2014-09-16	deaths	2014-09-16-deaths	514	37	11	562	Sierra Leone-deaths-2014-09-16
+Nigeria	2014-09-26	deaths	2014-09-26-deaths	7	1	0	8	Nigeria-deaths-2014-09-26
+United Kingdom	2015-01-02	deaths	2015-01-02-deaths	0	0	0	0	United Kingdom-deaths-2015-01-02
+Mali	2015-01-15	deaths	2015-01-15-deaths	0	0	0	6	Mali-deaths-2015-01-15
+Mali	2015-02-05	cases	2015-02-05-cases	7	1	0	8	Mali-cases-2015-02-05
+Spain	2015-02-20	deaths	2015-02-20-deaths	0	0	0	0	Spain-deaths-2015-02-20
+Guinea	2015-02-05	cases	2015-02-05-cases	2621	347	18	2986	Guinea-cases-2015-02-05
+Senegal	2014-12-17	cases	2014-12-17-cases	1	0	0	1	Senegal-cases-2014-12-17
+Sierra Leone	2014-09-26	cases	2014-09-26-cases	1816	37	168	2021	Sierra Leone-cases-2014-09-26
+Guinea	2015-01-13	deaths	2015-01-13-deaths	1523	284	0	1807	Guinea-deaths-2015-01-13
+United States of America	2015-02-03	deaths	2015-02-03-deaths	1	0	0	1	United States of America-deaths-2015-02-03
+Guinea	2014-12-01	deaths	2014-12-01-deaths	1102	210	0	1312	Guinea-deaths-2014-12-01
+Nigeria	2015-02-26	cases	2015-02-26-cases	19	1	0	20	Nigeria-cases-2015-02-26
+Senegal	2014-12-01	deaths	2014-12-01-deaths	0	0	0	0	Senegal-deaths-2014-12-01
+Guinea	2015-01-15	deaths	2015-01-15-deaths	1537	284	0	1821	Guinea-deaths-2015-01-15
+Liberia	2015-02-05	deaths	2015-02-05-deaths	0	0	0	3746	Liberia-deaths-2015-02-05
+Mali	2014-10-25	cases	2014-10-25-cases	1	0	0	1	Mali-cases-2014-10-25
+Guinea	2014-12-24	deaths	2014-12-24-deaths	1344	263	0	1607	Guinea-deaths-2014-12-24
+Liberia	2015-01-12	deaths	2015-01-12-deaths	0	0	0	3515	Liberia-deaths-2015-01-12
+Spain	2015-02-05	cases	2015-02-05-cases	1	0	0	1	Spain-cases-2015-02-05
+United States of America	2015-01-26	deaths	2015-01-26-deaths	1	0	0	1	United States of America-deaths-2015-01-26
+Spain	2015-03-10	deaths	2015-03-10-deaths	0	0	0	0	Spain-deaths-2015-03-10
+Sierra Leone	2015-03-10	cases	2015-03-10-cases	8428	287	2904	11619	Sierra Leone-cases-2015-03-10
+Guinea	2014-12-03	deaths	2014-12-03-deaths	1117	210	0	1327	Guinea-deaths-2014-12-03
+Guinea	2015-01-21	cases	2015-01-21-cases	2539	319	13	2871	Guinea-cases-2015-01-21
+Liberia	2014-11-07	deaths	2014-11-07-deaths	0	0	0	2766	Liberia-deaths-2014-11-07
+Spain	2015-02-02	deaths	2015-02-02-deaths	0	0	0	0	Spain-deaths-2015-02-02
+Sierra Leone	2014-09-18	deaths	2014-09-18-deaths	517	34	11	562	Sierra Leone-deaths-2014-09-18
+Senegal	2014-09-05	deaths	2014-09-05-deaths	0	0	0	0	Senegal-deaths-2014-09-05
+Spain	2015-02-10	cases	2015-02-10-cases	1	0	0	1	Spain-cases-2015-02-10
+Spain	2015-02-19	deaths	2015-02-19-deaths	0	0	0	0	Spain-deaths-2015-02-19
+Liberia	2015-01-21	deaths	2015-01-21-deaths	0	25	0	3605	Liberia-deaths-2015-01-21
+United States of America	2015-01-22	cases	2015-01-22-cases	4	0	0	4	United States of America-cases-2015-01-22
+Mali	2014-10-31	deaths	2014-10-31-deaths	1	0	0	1	Mali-deaths-2014-10-31
+Nigeria	2015-02-02	deaths	2015-02-02-deaths	7	1	0	8	Nigeria-deaths-2015-02-02
+Senegal	2014-12-03	deaths	2014-12-03-deaths	0	0	0	0	Senegal-deaths-2014-12-03
+Guinea	2015-01-08	cases	2015-01-08-cases	2477	282	17	2776	Guinea-cases-2015-01-08
+Guinea	2014-10-03	deaths	2014-10-03-deaths	562	177	0	739	Guinea-deaths-2014-10-03
+United States of America	2015-02-04	cases	2015-02-04-cases	4	0	0	4	United States of America-cases-2015-02-04
+United Kingdom	2015-01-20	cases	2015-01-20-cases	1	0	0	1	United Kingdom-cases-2015-01-20
+Guinea	2015-01-22	deaths	2015-01-22-deaths	1560	319	0	1879	Guinea-deaths-2015-01-22
+Liberia	2015-02-26	deaths	2015-02-26-deaths	0	0	0	4057	Liberia-deaths-2015-02-26
+United States of America	2015-01-05	deaths	2015-01-05-deaths	1	0	0	1	United States of America-deaths-2015-01-05
+United Kingdom	2015-01-22	deaths	2015-01-22-deaths	0	0	0	0	United Kingdom-deaths-2015-01-22
+Nigeria	2014-11-19	cases	2014-11-19-cases	19	1	0	20	Nigeria-cases-2014-11-19
+Mali	2015-02-11	deaths	2015-02-11-deaths	0	0	0	6	Mali-deaths-2015-02-11
+Senegal	2014-09-24	deaths	2014-09-24-deaths	0	0	0	0	Senegal-deaths-2014-09-24
+Mali	2015-01-16	deaths	2015-01-16-deaths	0	0	0	6	Mali-deaths-2015-01-16
+United States of America	2014-10-15	deaths	2014-10-15-deaths	1	0	0	1	United States of America-deaths-2014-10-15
+Mali	2014-10-29	cases	2014-10-29-cases	1	0	0	1	Mali-cases-2014-10-29
+Guinea	2014-11-19	deaths	2014-11-19-deaths	982	210	0	1192	Guinea-deaths-2014-11-19
+Liberia	2014-11-19	cases	2014-11-19-cases	2643	1762	2664	7069	Liberia-cases-2014-11-19
+Senegal	2014-11-26	cases	2014-11-26-cases	1	0	0	1	Senegal-cases-2014-11-26
+Spain	2014-10-10	deaths	2014-10-10-deaths	0	0	0	0	Spain-deaths-2014-10-10
+Nigeria	2014-12-23	cases	2014-12-23-cases	19	1	0	20	Nigeria-cases-2014-12-23
+Liberia	2015-02-06	deaths	2015-02-06-deaths	0	0	0	3746	Liberia-deaths-2015-02-06
+Senegal	2015-03-02	deaths	2015-03-02-deaths	0	0	0	0	Senegal-deaths-2015-03-02
+Sierra Leone	2015-02-06	deaths	2015-02-06-deaths	2935	208	158	3301	Sierra Leone-deaths-2015-02-06
+Liberia	2014-09-05	deaths	2014-09-05-deaths	431	57	257	67	Liberia-deaths-2014-09-05
+Senegal	2015-02-18	deaths	2015-02-18-deaths	0	0	0	0	Senegal-deaths-2015-02-18
+Senegal	2014-12-24	deaths	2014-12-24-deaths	0	0	0	0	Senegal-deaths-2014-12-24
+Senegal	2014-10-01	deaths	2014-10-01-deaths	0	0	0	0	Senegal-deaths-2014-10-01
+Spain	2014-11-21	cases	2014-11-21-cases	1	0	0	1	Spain-cases-2014-11-21
+United Kingdom	2015-02-20	deaths	2015-02-20-deaths	0	0	0	0	United Kingdom-deaths-2015-02-20
+Liberia	2015-02-25	cases	2015-02-25-cases	3153	1888	4197	9238	Liberia-cases-2015-02-25
+Liberia	2014-10-01	deaths	2014-10-01-deaths	890	664	444	1998	Liberia-deaths-2014-10-01
+Senegal	2015-02-03	deaths	2015-02-03-deaths	0	0	0	0	Senegal-deaths-2015-02-03
+Liberia	2015-01-22	deaths	2015-01-22-deaths	0	0	0	3636	Liberia-deaths-2015-01-22
+Spain	2015-01-20	deaths	2015-01-20-deaths	0	0	0	0	Spain-deaths-2015-01-20
+United Kingdom	2015-02-26	deaths	2015-02-26-deaths	0	0	0	0	United Kingdom-deaths-2015-02-26
+Guinea	2015-01-06	deaths	2015-01-06-deaths	1499	282	0	1781	Guinea-deaths-2015-01-06
+United States of America	2015-02-12	cases	2015-02-12-cases	4	0	0	4	United States of America-cases-2015-02-12
+Spain	2014-12-01	deaths	2014-12-01-deaths	0	0	0	0	Spain-deaths-2014-12-01
+Senegal	2014-11-12	cases	2014-11-12-cases	1	0	0	1	Senegal-cases-2014-11-12
+Liberia	2014-09-12	deaths	2014-09-12-deaths	498	428	211	1137	Liberia-deaths-2014-09-12
+United Kingdom	2015-02-13	deaths	2015-02-13-deaths	0	0	0	0	United Kingdom-deaths-2015-02-13
+Nigeria	2014-12-10	deaths	2014-12-10-deaths	7	1	0	8	Nigeria-deaths-2014-12-10
+Guinea	2015-01-27	deaths	2015-01-27-deaths	1578	332	0	1910	Guinea-deaths-2015-01-27
+Nigeria	2014-09-18	deaths	2014-09-18-deaths	7	1	0	8	Nigeria-deaths-2014-09-18
+United Kingdom	2015-02-19	deaths	2015-02-19-deaths	0	0	0	0	United Kingdom-deaths-2015-02-19
+Mali	2014-12-30	deaths	2014-12-30-deaths	0	0	0	6	Mali-deaths-2014-12-30
+United Kingdom	2015-02-19	cases	2015-02-19-cases	1	0	0	1	United Kingdom-cases-2015-02-19
+Sierra Leone	2015-01-06	deaths	2015-01-06-deaths	2577	208	158	2943	Sierra Leone-deaths-2015-01-06
+Nigeria	2014-12-29	cases	2014-12-29-cases	19	1	0	20	Nigeria-cases-2014-12-29
+Nigeria	2014-12-10	cases	2014-12-10-cases	19	1	0	20	Nigeria-cases-2014-12-10
+Senegal	2014-09-08	cases	2014-09-08-cases	1	0	2	3	Senegal-cases-2014-09-08
+Guinea	2015-02-02	deaths	2015-02-02-deaths	1595	342	0	1937	Guinea-deaths-2015-02-02
+Guinea	2014-12-31	deaths	2014-12-31-deaths	1433	276	0	1709	Guinea-deaths-2014-12-31
+Guinea	2015-01-26	cases	2015-01-26-cases	2559	332	18	2909	Guinea-cases-2015-01-26
+Nigeria	2015-01-26	deaths	2015-01-26-deaths	7	1	0	8	Nigeria-deaths-2015-01-26
+United States of America	2014-12-31	deaths	2014-12-31-deaths	1	0	0	1	United States of America-deaths-2014-12-31
+Nigeria	2014-10-22	deaths	2014-10-22-deaths	7	1	0	8	Nigeria-deaths-2014-10-22
+Senegal	2015-03-05	deaths	2015-03-05-deaths	0	0	0	0	Senegal-deaths-2015-03-05
+United Kingdom	2015-02-20	cases	2015-02-20-cases	1	0	0	1	United Kingdom-cases-2015-02-20
+Sierra Leone	2015-02-05	deaths	2015-02-05-deaths	2920	208	158	3286	Sierra Leone-deaths-2015-02-05
+Sierra Leone	2014-10-15	deaths	2014-10-15-deaths	926	157	100	1183	Sierra Leone-deaths-2014-10-15
+Sierra Leone	2015-01-23	cases	2015-01-23-cases	7921	287	2192	10400	Sierra Leone-cases-2015-01-23
+Mali	2015-01-26	cases	2015-01-26-cases	7	1	0	8	Mali-cases-2015-01-26
+Senegal	2014-12-10	cases	2014-12-10-cases	1	0	0	1	Senegal-cases-2014-12-10
+United States of America	2014-11-05	deaths	2014-11-05-deaths	1	0	0	1	United States of America-deaths-2014-11-05
+Liberia	2015-02-06	cases	2015-02-06-cases	3143	1870	3732	8745	Liberia-cases-2015-02-06
+Guinea	2015-02-18	cases	2015-02-18-cases	2727	374	7	3108	Guinea-cases-2015-02-18
+United Kingdom	2015-02-23	deaths	2015-02-23-deaths	0	0	0	0	United Kingdom-deaths-2015-02-23
+Spain	2014-11-19	deaths	2014-11-19-deaths	0	0	0	0	Spain-deaths-2014-11-19
+Spain	2015-03-05	cases	2015-03-05-cases	1	0	0	1	Spain-cases-2015-03-05
+United States of America	2014-12-31	cases	2014-12-31-cases	4	0	0	4	United States of America-cases-2014-12-31
+United Kingdom	2015-02-16	deaths	2015-02-16-deaths	0	0	0	0	United Kingdom-deaths-2015-02-16
+Guinea	2015-03-04	deaths	2015-03-04-deaths	1735	392	0	2127	Guinea-deaths-2015-03-04
+Nigeria	2014-10-03	cases	2014-10-03-cases	19	1	0	20	Nigeria-cases-2014-10-03
+United States of America	2014-12-22	deaths	2014-12-22-deaths	1	0	0	1	United States of America-deaths-2014-12-22
+United States of America	2014-10-22	cases	2014-10-22-cases	3	0	0	3	United States of America-cases-2014-10-22
+Guinea	2015-01-22	cases	2015-01-22-cases	2542	319	12	2873	Guinea-cases-2015-01-22
+Mali	2015-02-25	deaths	2015-02-25-deaths	0	0	0	6	Mali-deaths-2015-02-25
+Liberia	2015-01-20	cases	2015-01-20-cases	3135	1854	3489	8478	Liberia-cases-2015-01-20
+Senegal	2014-11-05	cases	2014-11-05-cases	1	0	0	1	Senegal-cases-2014-11-05
+Mali	2015-02-27	cases	2015-02-27-cases	7	1	0	8	Mali-cases-2015-02-27
+United States of America	2015-03-04	cases	2015-03-04-cases	4	0	0	4	United States of America-cases-2015-03-04
+Nigeria	2014-10-17	cases	2014-10-17-cases	19	1	0	20	Nigeria-cases-2014-10-17
+Nigeria	2015-01-21	deaths	2015-01-21-deaths	7	1	0	8	Nigeria-deaths-2015-01-21
+Nigeria	2015-02-16	deaths	2015-02-16-deaths	7	1	0	8	Nigeria-deaths-2015-02-16
+United States of America	2014-12-29	cases	2014-12-29-cases	4	0	0	4	United States of America-cases-2014-12-29
+United Kingdom	2015-01-09	deaths	2015-01-09-deaths	0	0	0	0	United Kingdom-deaths-2015-01-09
+Senegal	2014-11-14	cases	2014-11-14-cases	1	0	0	1	Senegal-cases-2014-11-14
+Liberia	2014-12-17	cases	2014-12-17-cases	2946	1801	3050	7797	Liberia-cases-2014-12-17
+Mali	2014-11-26	deaths	2014-11-26-deaths	5	1	0	6	Mali-deaths-2014-11-26
+United States of America	2014-12-01	cases	2014-12-01-cases	4	0	0	4	United States of America-cases-2014-12-01
+Sierra Leone	2015-02-13	cases	2015-02-13-cases	8155	287	2545	10987	Sierra Leone-cases-2015-02-13
+Liberia	2015-01-22	cases	2015-01-22-cases	3136	1854	3534	8524	Liberia-cases-2015-01-22
+Sierra Leone	2015-01-09	deaths	2015-01-09-deaths	2611	208	158	2977	Sierra Leone-deaths-2015-01-09
+Liberia	2014-12-10	cases	2014-12-10-cases	2830	1814	3075	7719	Liberia-cases-2014-12-10
+Spain	2015-03-10	cases	2015-03-10-cases	1	0	0	1	Spain-cases-2015-03-10
+Sierra Leone	2015-02-26	cases	2015-02-26-cases	8308	287	2746	11341	Sierra Leone-cases-2015-02-26
+Guinea	2014-09-08	cases	2014-09-08-cases	664	151	47	862	Guinea-cases-2014-09-08
+Senegal	2015-02-06	cases	2015-02-06-cases	1	0	0	1	Senegal-cases-2015-02-06
+Sierra Leone	2015-01-12	cases	2015-01-12-cases	7766	287	2041	10094	Sierra Leone-cases-2015-01-12
+Liberia	2015-02-05	cases	2015-02-05-cases	3143	1870	3732	8745	Liberia-cases-2015-02-05
+Sierra Leone	2015-02-06	cases	2015-02-06-cases	8084	287	2421	10792	Sierra Leone-cases-2015-02-06
+Spain	2015-02-23	cases	2015-02-23-cases	1	0	0	1	Spain-cases-2015-02-23
+Liberia	2014-09-26	cases	2014-09-26-cases	914	1539	1005	3458	Liberia-cases-2014-09-26
+Guinea	2014-10-31	cases	2014-10-31-cases	1409	204	54	1667	Guinea-cases-2014-10-31
+Spain	2015-03-02	cases	2015-03-02-cases	1	0	0	1	Spain-cases-2015-03-02
+Mali	2014-12-15	cases	2014-12-15-cases	7	1	0	8	Mali-cases-2014-12-15
+Sierra Leone	2014-10-29	deaths	2014-10-29-deaths	0	27	0	1500	Sierra Leone-deaths-2014-10-29
+Nigeria	2015-02-27	deaths	2015-02-27-deaths	7	1	0	8	Nigeria-deaths-2015-02-27
+Mali	2014-12-24	cases	2014-12-24-cases	7	1	0	8	Mali-cases-2014-12-24
+Liberia	2015-02-04	cases	2015-02-04-cases	3143	1870	3732	8745	Liberia-cases-2015-02-04
+Guinea	2015-02-04	deaths	2015-02-04-deaths	1597	347	0	1944	Guinea-deaths-2015-02-04
+Nigeria	2014-11-19	deaths	2014-11-19-deaths	7	1	0	8	Nigeria-deaths-2014-11-19
+Guinea	2015-03-05	cases	2015-03-05-cases	2833	392	12	3237	Guinea-cases-2015-03-05
+Sierra Leone	2014-12-15	deaths	2014-12-15-deaths	1824	174	35	2033	Sierra Leone-deaths-2014-12-15
+United Kingdom	2015-01-16	deaths	2015-01-16-deaths	0	0	0	0	United Kingdom-deaths-2015-01-16
+Senegal	2014-09-12	cases	2014-09-12-cases	1	0	2	0	Senegal-cases-2014-09-12
+Spain	2015-01-14	cases	2015-01-14-cases	1	0	0	1	Spain-cases-2015-01-14
+Nigeria	2015-02-11	deaths	2015-02-11-deaths	7	1	0	8	Nigeria-deaths-2015-02-11
+Guinea	2014-10-03	cases	2014-10-03-cases	977	177	45	1199	Guinea-cases-2014-10-03
+Liberia	2015-02-11	cases	2015-02-11-cases	3146	1873	3862	8881	Liberia-cases-2015-02-11
+Mali	2015-01-14	cases	2015-01-14-cases	7	1	0	8	Mali-cases-2015-01-14
+Liberia	2014-12-26	cases	2014-12-26-cases	3085	1757	3020	7862	Liberia-cases-2014-12-26
+Sierra Leone	2015-01-30	deaths	2015-01-30-deaths	2850	208	158	3216	Sierra Leone-deaths-2015-01-30
+Nigeria	2014-09-16	deaths	2014-09-16-deaths	7	1	0	8	Nigeria-deaths-2014-09-16
+Spain	2015-01-23	deaths	2015-01-23-deaths	0	0	0	0	Spain-deaths-2015-01-23
+Senegal	2014-12-15	cases	2014-12-15-cases	1	0	0	1	Senegal-cases-2014-12-15
+Liberia	2014-10-15	cases	2014-10-15-cases	950	1923	1376	4249	Liberia-cases-2014-10-15
+Spain	2015-02-10	deaths	2015-02-10-deaths	0	0	0	0	Spain-deaths-2015-02-10
+Senegal	2014-12-17	deaths	2014-12-17-deaths	0	0	0	0	Senegal-deaths-2014-12-17
+Mali	2015-01-05	cases	2015-01-05-cases	7	1	0	8	Mali-cases-2015-01-05
+Nigeria	2015-01-14	cases	2015-01-14-cases	19	1	0	20	Nigeria-cases-2015-01-14
+Guinea	2015-01-21	deaths	2015-01-21-deaths	1557	319	0	1876	Guinea-deaths-2015-01-21
+Senegal	2015-03-04	cases	2015-03-04-cases	1	0	0	1	Senegal-cases-2015-03-04
+Senegal	2014-12-30	deaths	2014-12-30-deaths	0	0	0	0	Senegal-deaths-2014-12-30
+Mali	2015-01-13	deaths	2015-01-13-deaths	0	0	0	6	Mali-deaths-2015-01-13
+Spain	2014-11-07	cases	2014-11-07-cases	1	0	0	1	Spain-cases-2014-11-07
+Mali	2015-01-22	deaths	2015-01-22-deaths	0	0	0	6	Mali-deaths-2015-01-22
+United Kingdom	2015-01-13	deaths	2015-01-13-deaths	0	0	0	0	United Kingdom-deaths-2015-01-13
+Mali	2015-01-19	deaths	2015-01-19-deaths	0	0	0	6	Mali-deaths-2015-01-19
+Senegal	2014-09-16	deaths	2014-09-16-deaths	0	0	0	0	Senegal-deaths-2014-09-16
+United Kingdom	2015-01-19	deaths	2015-01-19-deaths	0	0	0	0	United Kingdom-deaths-2015-01-19
+Sierra Leone	2015-03-04	deaths	2015-03-04-deaths	3164	208	158	3530	Sierra Leone-deaths-2015-03-04
+Guinea	2015-01-13	cases	2015-01-13-cases	2508	284	7	2799	Guinea-cases-2015-01-13
+Mali	2014-12-31	cases	2014-12-31-cases	7	1	0	8	Mali-cases-2014-12-31
+Liberia	2015-02-03	deaths	2015-02-03-deaths	0	0	0	3739	Liberia-deaths-2015-02-03
+Senegal	2015-02-20	cases	2015-02-20-cases	1	0	0	1	Senegal-cases-2015-02-20
+Mali	2015-01-15	cases	2015-01-15-cases	7	1	0	8	Mali-cases-2015-01-15
+United Kingdom	2015-02-12	cases	2015-02-12-cases	1	0	0	1	United Kingdom-cases-2015-02-12
+Sierra Leone	2014-12-26	deaths	2014-12-26-deaths	2289	208	158	2655	Sierra Leone-deaths-2014-12-26
+Sierra Leone	2014-10-08	deaths	2014-10-08-deaths	725	123	31	879	Sierra Leone-deaths-2014-10-08
+Guinea	2015-02-23	deaths	2015-02-23-deaths	1699	387	0	2086	Guinea-deaths-2015-02-23
+Sierra Leone	2015-01-27	cases	2015-01-27-cases	7968	287	2263	10518	Sierra Leone-cases-2015-01-27
+Guinea	2014-09-12	cases	2014-09-12-cases	678	151	32	65	Guinea-cases-2014-09-12
+United Kingdom	2015-02-27	cases	2015-02-27-cases	1	0	0	1	United Kingdom-cases-2015-02-27
+Mali	2015-03-06	cases	2015-03-06-cases	7	1	0	8	Mali-cases-2015-03-06
+Guinea	2015-02-25	deaths	2015-02-25-deaths	1704	387	0	2091	Guinea-deaths-2015-02-25
+Sierra Leone	2014-11-21	deaths	2014-11-21-deaths	1058	174	35	1267	Sierra Leone-deaths-2014-11-21
+Mali	2015-01-09	cases	2015-01-09-cases	7	1	0	0	Mali-cases-2015-01-09
+Spain	2015-01-26	deaths	2015-01-26-deaths	0	0	0	0	Spain-deaths-2015-01-26
+Guinea	2015-01-30	cases	2015-01-30-cases	2575	332	13	2920	Guinea-cases-2015-01-30
+United States of America	2015-01-14	cases	2015-01-14-cases	4	0	0	4	United States of America-cases-2015-01-14
+Spain	2015-02-13	deaths	2015-02-13-deaths	0	0	0	0	Spain-deaths-2015-02-13
+Mali	2015-03-04	deaths	2015-03-04-deaths	0	0	0	6	Mali-deaths-2015-03-04
+Spain	2014-10-25	deaths	2014-10-25-deaths	0	0	0	0	Spain-deaths-2014-10-25
+Guinea	2015-02-13	cases	2015-02-13-cases	2693	373	15	3081	Guinea-cases-2015-02-13
+Liberia	2014-10-17	deaths	2014-10-17-deaths	0	0	0	2484	Liberia-deaths-2014-10-17
+Nigeria	2014-10-31	cases	2014-10-31-cases	19	1	0	20	Nigeria-cases-2014-10-31
+Mali	2015-03-02	deaths	2015-03-02-deaths	0	0	0	6	Mali-deaths-2015-03-02
+Liberia	2014-12-29	deaths	2014-12-29-deaths	0	0	0	3413	Liberia-deaths-2014-12-29
+Mali	2015-01-29	deaths	2015-01-29-deaths	0	0	0	6	Mali-deaths-2015-01-29
+Senegal	2014-09-18	deaths	2014-09-18-deaths	0	0	0	0	Senegal-deaths-2014-09-18
+Nigeria	2014-09-16	cases	2014-09-16-cases	19	1	1	38	Nigeria-cases-2014-09-16
+Nigeria	2014-12-22	deaths	2014-12-22-deaths	7	1	0	8	Nigeria-deaths-2014-12-22
+Guinea	2014-12-03	cases	2014-12-03-cases	1929	210	25	2164	Guinea-cases-2014-12-03
+Nigeria	2014-11-12	deaths	2014-11-12-deaths	7	1	0	8	Nigeria-deaths-2014-11-12
+Sierra Leone	2014-12-15	cases	2014-12-15-cases	6638	79	1556	8273	Sierra Leone-cases-2014-12-15
+United States of America	2015-03-05	deaths	2015-03-05-deaths	1	0	0	1	United States of America-deaths-2015-03-05
+Senegal	2014-11-07	cases	2014-11-07-cases	1	0	0	1	Senegal-cases-2014-11-07
+Nigeria	2014-09-05	cases	2014-09-05-cases	18	1	3	36	Nigeria-cases-2014-09-05
+Guinea	2015-03-02	cases	2015-03-02-cases	2808	392	5	3205	Guinea-cases-2015-03-02
+United States of America	2015-02-06	cases	2015-02-06-cases	4	0	0	4	United States of America-cases-2015-02-06
+Nigeria	2014-12-23	deaths	2014-12-23-deaths	7	1	0	8	Nigeria-deaths-2014-12-23
+Sierra Leone	2015-01-16	deaths	2015-01-16-deaths	2717	208	158	3083	Sierra Leone-deaths-2015-01-16
+Nigeria	2015-01-29	cases	2015-01-29-cases	19	1	0	20	Nigeria-cases-2015-01-29
+Senegal	2015-02-12	cases	2015-02-12-cases	1	0	0	1	Senegal-cases-2015-02-12
+Senegal	2015-02-19	cases	2015-02-19-cases	1	0	0	1	Senegal-cases-2015-02-19
+Nigeria	2014-10-15	deaths	2014-10-15-deaths	7	1	0	8	Nigeria-deaths-2014-10-15
+Senegal	2014-09-08	deaths	2014-09-08-deaths	0	0	0	0	Senegal-deaths-2014-09-08
+United States of America	2015-02-23	deaths	2015-02-23-deaths	1	0	0	1	United States of America-deaths-2015-02-23
+Nigeria	2015-01-16	deaths	2015-01-16-deaths	7	1	0	8	Nigeria-deaths-2015-01-16
+Liberia	2015-02-17	deaths	2015-02-17-deaths	0	0	0	3900	Liberia-deaths-2015-02-17
+Sierra Leone	2015-02-17	cases	2015-02-17-cases	8212	287	2604	11103	Sierra Leone-cases-2015-02-17
+Guinea	2015-02-20	deaths	2015-02-20-deaths	1688	384	0	2072	Guinea-deaths-2015-02-20
+Spain	2015-02-18	cases	2015-02-18-cases	1	0	0	1	Spain-cases-2015-02-18
+Mali	2015-02-06	deaths	2015-02-06-deaths	0	0	0	6	Mali-deaths-2015-02-06
+Sierra Leone	2014-10-01	deaths	2014-10-01-deaths	574	37	11	622	Sierra Leone-deaths-2014-10-01
+Nigeria	2014-10-01	deaths	2014-10-01-deaths	7	1	0	8	Nigeria-deaths-2014-10-01
+Spain	2015-02-16	deaths	2015-02-16-deaths	0	0	0	0	Spain-deaths-2015-02-16
+Sierra Leone	2014-10-25	cases	2014-10-25-cases	3389	37	470	3896	Sierra Leone-cases-2014-10-25
+United States of America	2014-10-08	cases	2014-10-08-cases	1	0	0	1	United States of America-cases-2014-10-08
+Nigeria	2015-01-06	cases	2015-01-06-cases	19	1	0	20	Nigeria-cases-2015-01-06
+United States of America	2015-01-16	cases	2015-01-16-cases	4	0	0	4	United States of America-cases-2015-01-16
+United Kingdom	2015-02-02	cases	2015-02-02-cases	1	0	0	1	United Kingdom-cases-2015-02-02
+Senegal	2014-10-08	cases	2014-10-08-cases	1	0	0	1	Senegal-cases-2014-10-08
+United Kingdom	2015-01-28	cases	2015-01-28-cases	1	0	0	1	United Kingdom-cases-2015-01-28
+Sierra Leone	2014-12-23	cases	2014-12-23-cases	7017	287	1700	9004	Sierra Leone-cases-2014-12-23
+Sierra Leone	2014-12-29	cases	2014-12-29-cases	7326	287	1796	9409	Sierra Leone-cases-2014-12-29
+Senegal	2014-10-29	deaths	2014-10-29-deaths	0	0	0	0	Senegal-deaths-2014-10-29
+United Kingdom	2015-02-25	cases	2015-02-25-cases	1	0	0	1	United Kingdom-cases-2015-02-25
+United Kingdom	2015-02-02	deaths	2015-02-02-deaths	0	0	0	0	United Kingdom-deaths-2015-02-02
+Sierra Leone	2014-08-29	deaths	2014-08-29-deaths	380	9	8	25	Sierra Leone-deaths-2014-08-29
+Senegal	2014-12-23	cases	2014-12-23-cases	1	0	0	1	Senegal-cases-2014-12-23
+United States of America	2015-03-06	deaths	2015-03-06-deaths	1	0	0	1	United States of America-deaths-2015-03-06
+Liberia	2014-11-07	cases	2014-11-07-cases	2514	1629	2476	6619	Liberia-cases-2014-11-07
+Senegal	2015-01-27	cases	2015-01-27-cases	1	0	0	1	Senegal-cases-2015-01-27
+Guinea	2014-12-17	cases	2014-12-17-cases	2127	263	26	2416	Guinea-cases-2014-12-17
+Senegal	2014-10-25	cases	2014-10-25-cases	1	0	0	1	Senegal-cases-2014-10-25
+Nigeria	2014-12-01	cases	2014-12-01-cases	19	1	0	20	Nigeria-cases-2014-12-01
+Nigeria	2015-01-16	cases	2015-01-16-cases	19	1	0	20	Nigeria-cases-2015-01-16
+Senegal	2015-01-26	deaths	2015-01-26-deaths	0	0	0	0	Senegal-deaths-2015-01-26
+Liberia	2014-12-23	deaths	2014-12-23-deaths	0	0	0	3376	Liberia-deaths-2014-12-23
+Spain	2014-11-12	cases	2014-11-12-cases	1	0	0	1	Spain-cases-2014-11-12
+Senegal	2014-12-26	cases	2014-12-26-cases	1	0	0	1	Senegal-cases-2014-12-26
+United States of America	2015-02-20	deaths	2015-02-20-deaths	1	0	0	1	United States of America-deaths-2015-02-20
+Mali	2014-11-07	cases	2014-11-07-cases	1	0	0	1	Mali-cases-2014-11-07
+Liberia	2014-12-31	deaths	2014-12-31-deaths	0	92	0	3423	Liberia-deaths-2014-12-31
+Nigeria	2015-01-15	deaths	2015-01-15-deaths	7	1	0	8	Nigeria-deaths-2015-01-15
+Sierra Leone	2015-01-13	deaths	2015-01-13-deaths	2683	208	158	3049	Sierra Leone-deaths-2015-01-13
+Mali	2014-12-03	cases	2014-12-03-cases	7	1	0	8	Mali-cases-2014-12-03
+Senegal	2014-10-17	cases	2014-10-17-cases	1	0	0	1	Senegal-cases-2014-10-17
+United Kingdom	2015-03-02	deaths	2015-03-02-deaths	0	0	0	0	United Kingdom-deaths-2015-03-02
+Senegal	2015-01-02	cases	2015-01-02-cases	1	0	0	1	Senegal-cases-2015-01-02
+Liberia	2014-12-03	cases	2014-12-03-cases	2801	1792	3042	7635	Liberia-cases-2014-12-03
+Senegal	2014-09-12	deaths	2014-09-12-deaths	0	0	0	0	Senegal-deaths-2014-09-12
+Liberia	2015-01-23	deaths	2015-01-23-deaths	0	0	0	3636	Liberia-deaths-2015-01-23
+United States of America	2015-02-19	cases	2015-02-19-cases	4	0	0	4	United States of America-cases-2015-02-19
+Nigeria	2015-02-12	cases	2015-02-12-cases	19	1	0	20	Nigeria-cases-2015-02-12
+Senegal	2015-02-05	cases	2015-02-05-cases	1	0	0	1	Senegal-cases-2015-02-05
+Sierra Leone	2015-03-06	cases	2015-03-06-cases	8389	287	2841	11517	Sierra Leone-cases-2015-03-06
+Sierra Leone	2015-02-18	cases	2015-02-18-cases	8212	287	2604	11103	Sierra Leone-cases-2015-02-18
+Mali	2015-02-23	deaths	2015-02-23-deaths	0	0	0	6	Mali-deaths-2015-02-23
+Spain	2015-02-13	cases	2015-02-13-cases	1	0	0	1	Spain-cases-2015-02-13
+Nigeria	2014-12-22	cases	2014-12-22-cases	19	1	0	20	Nigeria-cases-2014-12-22
+Senegal	2015-02-17	deaths	2015-02-17-deaths	0	0	0	0	Senegal-deaths-2015-02-17
+Nigeria	2015-03-02	deaths	2015-03-02-deaths	7	1	0	8	Nigeria-deaths-2015-03-02
+Senegal	2015-01-21	deaths	2015-01-21-deaths	0	0	0	0	Senegal-deaths-2015-01-21
+Guinea	2015-02-23	cases	2015-02-23-cases	2758	387	10	3155	Guinea-cases-2015-02-23
+Spain	2014-11-05	deaths	2014-11-05-deaths	0	0	0	0	Spain-deaths-2014-11-05
+United Kingdom	2015-01-27	cases	2015-01-27-cases	1	0	0	1	United Kingdom-cases-2015-01-27
+Sierra Leone	2014-09-12	cases	2014-09-12-cases	1287	37	100	37	Sierra Leone-cases-2014-09-12
+United States of America	2015-02-25	deaths	2015-02-25-deaths	1	0	0	1	United States of America-deaths-2015-02-25
+Mali	2014-11-21	cases	2014-11-21-cases	5	1	0	6	Mali-cases-2014-11-21
+Guinea	2014-10-10	deaths	2014-10-10-deaths	598	180	0	778	Guinea-deaths-2014-10-10
+Liberia	2015-01-13	cases	2015-01-13-cases	3123	1833	3322	8278	Liberia-cases-2015-01-13
+Mali	2015-02-19	cases	2015-02-19-cases	7	1	0	8	Mali-cases-2015-02-19
+Guinea	2014-11-07	deaths	2014-11-07-deaths	850	204	0	1054	Guinea-deaths-2014-11-07
+Senegal	2015-01-20	cases	2015-01-20-cases	1	0	0	1	Senegal-cases-2015-01-20
+United Kingdom	2015-01-28	deaths	2015-01-28-deaths	0	0	0	0	United Kingdom-deaths-2015-01-28
+Guinea	2015-01-05	deaths	2015-01-05-deaths	1488	280	0	1767	Guinea-deaths-2015-01-05
+Nigeria	2015-01-02	deaths	2015-01-02-deaths	7	1	0	8	Nigeria-deaths-2015-01-02
+United States of America	2014-11-19	deaths	2014-11-19-deaths	1	0	0	1	United States of America-deaths-2014-11-19
+Mali	2015-02-06	cases	2015-02-06-cases	7	1	0	8	Mali-cases-2015-02-06
+United States of America	2014-10-17	deaths	2014-10-17-deaths	1	0	0	1	United States of America-deaths-2014-10-17
+Sierra Leone	2015-02-17	deaths	2015-02-17-deaths	3042	208	158	3408	Sierra Leone-deaths-2015-02-17
+Nigeria	2015-01-22	cases	2015-01-22-cases	19	1	0	20	Nigeria-cases-2015-01-22
+Mali	2015-01-05	deaths	2015-01-05-deaths	0	0	0	6	Mali-deaths-2015-01-05
+Guinea	2015-03-10	deaths	2015-03-10-deaths	1778	392	0	2170	Guinea-deaths-2015-03-10
+Mali	2015-02-26	deaths	2015-02-26-deaths	0	0	0	6	Mali-deaths-2015-02-26
+Nigeria	2014-10-25	deaths	2014-10-25-deaths	7	1	0	8	Nigeria-deaths-2014-10-25
+Spain	2015-01-23	cases	2015-01-23-cases	1	0	0	1	Spain-cases-2015-01-23
+Senegal	2014-10-03	deaths	2014-10-03-deaths	0	0	0	0	Senegal-deaths-2014-10-03
+Senegal	2015-02-12	deaths	2015-02-12-deaths	0	0	0	0	Senegal-deaths-2015-02-12
+Nigeria	2015-03-05	deaths	2015-03-05-deaths	7	1	0	8	Nigeria-deaths-2015-03-05
+Senegal	2014-12-31	deaths	2014-12-31-deaths	0	0	0	0	Senegal-deaths-2014-12-31
+Liberia	2015-02-11	deaths	2015-02-11-deaths	3826	12	0	3826	Liberia-deaths-2015-02-11
+Nigeria	2014-12-24	deaths	2014-12-24-deaths	7	1	0	8	Nigeria-deaths-2014-12-24
+Guinea	2014-12-22	cases	2014-12-22-cases	2259	263	49	2571	Guinea-cases-2014-12-22
+Senegal	2015-01-30	deaths	2015-01-30-deaths	0	0	0	0	Senegal-deaths-2015-01-30
+Liberia	2015-02-20	deaths	2015-02-20-deaths	0	0	0	3947	Liberia-deaths-2015-02-20
+Sierra Leone	2014-12-10	deaths	2014-12-10-deaths	1559	174	35	1768	Sierra Leone-deaths-2014-12-10
+Spain	2015-03-04	deaths	2015-03-04-deaths	0	0	0	0	Spain-deaths-2015-03-04
+Guinea	2014-10-15	deaths	2014-10-15-deaths	653	190	0	843	Guinea-deaths-2014-10-15
+United States of America	2015-03-02	cases	2015-03-02-cases	4	0	0	4	United States of America-cases-2015-03-02
+United States of America	2014-12-03	deaths	2014-12-03-deaths	1	0	0	1	United States of America-deaths-2014-12-03
+Nigeria	2014-10-03	deaths	2014-10-03-deaths	7	1	0	8	Nigeria-deaths-2014-10-03
+Guinea	2015-02-19	deaths	2015-02-19-deaths	1686	381	0	2067	Guinea-deaths-2015-02-19
+United States of America	2015-02-02	deaths	2015-02-02-deaths	1	0	0	1	United States of America-deaths-2015-02-02
+United Kingdom	2015-01-05	cases	2015-01-05-cases	1	0	0	0	United Kingdom-cases-2015-01-05
+Sierra Leone	2014-10-29	cases	2014-10-29-cases	3700	322	1213	5235	Sierra Leone-cases-2014-10-29
+Guinea	2015-02-13	deaths	2015-02-13-deaths	1659	373	0	2032	Guinea-deaths-2015-02-13
+United States of America	2015-03-10	deaths	2015-03-10-deaths	1	0	0	1	United States of America-deaths-2015-03-10
+Sierra Leone	2015-02-20	deaths	2015-02-20-deaths	3057	208	158	3423	Sierra Leone-deaths-2015-02-20
+Sierra Leone	2015-01-05	cases	2015-01-05-cases	7570	287	1915	9772	Sierra Leone-cases-2015-01-05
+Guinea	2014-08-29	deaths	2014-08-29-deaths	287	2	2	0	Guinea-deaths-2014-08-29
+Guinea	2015-01-30	deaths	2015-01-30-deaths	1581	332	0	1913	Guinea-deaths-2015-01-30
+Spain	2014-12-30	cases	2014-12-30-cases	1	0	0	1	Spain-cases-2014-12-30
+Sierra Leone	2014-10-10	cases	2014-10-10-cases	2593	37	320	2950	Sierra Leone-cases-2014-10-10
+Liberia	2015-01-15	cases	2015-01-15-cases	3127	1841	3394	8362	Liberia-cases-2015-01-15
+Sierra Leone	2015-02-10	deaths	2015-02-10-deaths	2975	208	158	3341	Sierra Leone-deaths-2015-02-10
+Mali	2015-01-06	deaths	2015-01-06-deaths	0	0	0	6	Mali-deaths-2015-01-06
+Sierra Leone	2015-01-27	deaths	2015-01-27-deaths	2833	208	158	3199	Sierra Leone-deaths-2015-01-27
+Guinea	2014-10-22	deaths	2014-10-22-deaths	710	193	1	904	Guinea-deaths-2014-10-22
+Mali	2015-01-08	deaths	2015-01-08-deaths	0	0	0	6	Mali-deaths-2015-01-08
+Senegal	2015-01-19	cases	2015-01-19-cases	1	0	0	1	Senegal-cases-2015-01-19
+United Kingdom	2015-03-06	cases	2015-03-06-cases	1	0	0	1	United Kingdom-cases-2015-03-06
+Nigeria	2015-01-07	deaths	2015-01-07-deaths	7	1	0	8	Nigeria-deaths-2015-01-07
+United States of America	2014-12-01	deaths	2014-12-01-deaths	1	0	0	1	United States of America-deaths-2014-12-01
+Liberia	2015-02-03	cases	2015-02-03-cases	3143	1869	3717	8729	Liberia-cases-2015-02-03
+Guinea	2014-11-21	cases	2014-11-21-cases	1745	216	86	2047	Guinea-cases-2014-11-21
+Liberia	2015-02-12	deaths	2015-02-12-deaths	3826	0	0	3826	Liberia-deaths-2015-02-12
+Mali	2015-02-12	cases	2015-02-12-cases	7	1	0	8	Mali-cases-2015-02-12
+Guinea	2014-12-26	cases	2014-12-26-cases	2342	269	19	2630	Guinea-cases-2014-12-26
+United Kingdom	2015-01-16	cases	2015-01-16-cases	1	0	0	1	United Kingdom-cases-2015-01-16
+Spain	2015-01-07	deaths	2015-01-07-deaths	0	0	0	0	Spain-deaths-2015-01-07
+Mali	2014-12-22	deaths	2014-12-22-deaths	0	0	0	6	Mali-deaths-2014-12-22
+Nigeria	2015-01-06	deaths	2015-01-06-deaths	7	1	0	8	Nigeria-deaths-2015-01-06
+Mali	2015-02-10	deaths	2015-02-10-deaths	0	0	0	6	Mali-deaths-2015-02-10
+Mali	2015-01-13	cases	2015-01-13-cases	7	1	1	0	Mali-cases-2015-01-13
+Mali	2015-02-25	cases	2015-02-25-cases	7	1	0	8	Mali-cases-2015-02-25
+Spain	2015-02-26	deaths	2015-02-26-deaths	0	0	0	0	Spain-deaths-2015-02-26
+Liberia	2014-10-03	cases	2014-10-03-cases	931	1713	1190	3834	Liberia-cases-2014-10-03
+Mali	2015-02-16	deaths	2015-02-16-deaths	0	0	0	6	Mali-deaths-2015-02-16
+Nigeria	2014-12-31	cases	2014-12-31-cases	19	1	0	20	Nigeria-cases-2014-12-31
+Liberia	2014-11-21	cases	2014-11-21-cases	2669	1750	2663	7082	Liberia-cases-2014-11-21
+Mali	2014-12-15	deaths	2014-12-15-deaths	0	0	0	6	Mali-deaths-2014-12-15
+United States of America	2014-10-08	deaths	2014-10-08-deaths	0	0	0	0	United States of America-deaths-2014-10-08
+Sierra Leone	2015-02-23	deaths	2015-02-23-deaths	3057	208	158	3423	Sierra Leone-deaths-2015-02-23
+Spain	2015-02-06	cases	2015-02-06-cases	1	0	0	1	Spain-cases-2015-02-06
+Senegal	2015-01-16	cases	2015-01-16-cases	1	0	0	1	Senegal-cases-2015-01-16
+Guinea	2014-12-10	deaths	2014-12-10-deaths	1207	221	0	1428	Guinea-deaths-2014-12-10
+United States of America	2015-02-11	deaths	2015-02-11-deaths	1	0	0	1	United States of America-deaths-2015-02-11
+Nigeria	2014-11-21	cases	2014-11-21-cases	19	1	0	20	Nigeria-cases-2014-11-21
+Liberia	2014-12-01	deaths	2014-12-01-deaths	0	0	0	3145	Liberia-deaths-2014-12-01
+Senegal	2014-11-19	deaths	2014-11-19-deaths	0	0	0	0	Senegal-deaths-2014-11-19
+United States of America	2015-02-17	deaths	2015-02-17-deaths	1	0	0	1	United States of America-deaths-2015-02-17
+Spain	2014-12-03	cases	2014-12-03-cases	1	0	0	1	Spain-cases-2014-12-03
+Nigeria	2014-09-12	deaths	2014-09-12-deaths	7	1	0	8	Nigeria-deaths-2014-09-12
+Sierra Leone	2015-01-20	deaths	2015-01-20-deaths	2779	208	158	3145	Sierra Leone-deaths-2015-01-20
+Nigeria	2015-02-18	deaths	2015-02-18-deaths	7	1	0	8	Nigeria-deaths-2015-02-18
+Spain	2014-10-22	cases	2014-10-22-cases	1	0	0	1	Spain-cases-2014-10-22
+Nigeria	2015-02-11	cases	2015-02-11-cases	19	1	0	20	Nigeria-cases-2015-02-11
+Senegal	2015-03-06	cases	2015-03-06-cases	1	0	0	1	Senegal-cases-2015-03-06
+Liberia	2015-01-06	cases	2015-01-06-cases	3118	1816	3223	8157	Liberia-cases-2015-01-06
+Guinea	2014-12-29	cases	2014-12-29-cases	2384	275	36	2695	Guinea-cases-2014-12-29
+Liberia	2015-02-23	cases	2015-02-23-cases	3153	1888	4188	9229	Liberia-cases-2015-02-23
+Guinea	2014-10-01	cases	2014-10-01-cases	950	170	37	1157	Guinea-cases-2014-10-01
+Guinea	2015-02-04	cases	2015-02-04-cases	2608	347	20	2975	Guinea-cases-2015-02-04
+Sierra Leone	2015-02-05	cases	2015-02-05-cases	8063	287	2406	10756	Sierra Leone-cases-2015-02-05
+Nigeria	2015-03-04	cases	2015-03-04-cases	19	1	0	20	Nigeria-cases-2015-03-04
+United Kingdom	2015-01-23	cases	2015-01-23-cases	1	0	0	1	United Kingdom-cases-2015-01-23
+United States of America	2014-12-15	cases	2014-12-15-cases	4	0	0	4	United States of America-cases-2014-12-15
+Nigeria	2015-01-19	deaths	2015-01-19-deaths	7	1	0	8	Nigeria-deaths-2015-01-19
+United Kingdom	2015-01-06	cases	2015-01-06-cases	1	0	0	1	United Kingdom-cases-2015-01-06
+Guinea	2015-01-26	deaths	2015-01-26-deaths	1574	332	0	1906	Guinea-deaths-2015-01-26
+Spain	2015-03-02	deaths	2015-03-02-deaths	0	0	0	0	Spain-deaths-2015-03-02
+Spain	2014-11-14	deaths	2014-11-14-deaths	0	0	0	0	Spain-deaths-2014-11-14
+Nigeria	2015-01-14	deaths	2015-01-14-deaths	7	1	0	8	Nigeria-deaths-2015-01-14
+Nigeria	2014-09-22	deaths	2014-09-22-deaths	7	1	0	8	Nigeria-deaths-2014-09-22
+Mali	2014-12-23	cases	2014-12-23-cases	7	1	0	8	Mali-cases-2014-12-23
+Senegal	2015-01-07	deaths	2015-01-07-deaths	0	0	0	0	Senegal-deaths-2015-01-07
+Spain	2015-02-23	deaths	2015-02-23-deaths	0	0	0	0	Spain-deaths-2015-02-23
+United Kingdom	2015-02-10	cases	2015-02-10-cases	1	0	0	1	United Kingdom-cases-2015-02-10
+Mali	2015-02-13	deaths	2015-02-13-deaths	0	0	0	6	Mali-deaths-2015-02-13
+Spain	2014-12-17	deaths	2014-12-17-deaths	0	0	0	0	Spain-deaths-2014-12-17
+Sierra Leone	2015-03-05	cases	2015-03-05-cases	8383	287	2827	11497	Sierra Leone-cases-2015-03-05
+Sierra Leone	2015-02-26	deaths	2015-02-26-deaths	3113	208	158	3479	Sierra Leone-deaths-2015-02-26
+Sierra Leone	2014-10-10	deaths	2014-10-10-deaths	753	142	35	930	Sierra Leone-deaths-2014-10-10
+Guinea	2015-01-16	deaths	2015-01-16-deaths	1541	288	0	1829	Guinea-deaths-2015-01-16
+Mali	2014-12-01	deaths	2014-12-01-deaths	0	0	0	6	Mali-deaths-2014-12-01
+Mali	2015-01-23	cases	2015-01-23-cases	7	1	0	8	Mali-cases-2015-01-23
+Liberia	2014-08-29	deaths	2014-08-29-deaths	225	8	168	8	Liberia-deaths-2014-08-29
+Nigeria	2014-12-30	cases	2014-12-30-cases	19	1	0	20	Nigeria-cases-2014-12-30
+United States of America	2015-02-12	deaths	2015-02-12-deaths	1	0	0	1	United States of America-deaths-2015-02-12
+Sierra Leone	2014-12-30	deaths	2014-12-30-deaths	2392	208	158	2758	Sierra Leone-deaths-2014-12-30
+Nigeria	2014-12-30	deaths	2014-12-30-deaths	7	1	0	8	Nigeria-deaths-2014-12-30
+United States of America	2015-01-27	deaths	2015-01-27-deaths	1	0	0	1	United States of America-deaths-2015-01-27
+United States of America	2015-01-23	deaths	2015-01-23-deaths	1	0	0	1	United States of America-deaths-2015-01-23
+United States of America	2015-02-18	deaths	2015-02-18-deaths	1	0	0	1	United States of America-deaths-2015-02-18
+Guinea	2015-01-16	cases	2015-01-16-cases	2525	288	12	2825	Guinea-cases-2015-01-16
+Nigeria	2015-01-21	cases	2015-01-21-cases	19	1	0	20	Nigeria-cases-2015-01-21
+Sierra Leone	2014-09-08	cases	2014-09-08-cases	1234	37	90	1361	Sierra Leone-cases-2014-09-08
+Liberia	2015-01-26	deaths	2015-01-26-deaths	0	0	0	3636	Liberia-deaths-2015-01-26
+Spain	2015-01-16	deaths	2015-01-16-deaths	0	0	0	0	Spain-deaths-2015-01-16
+Liberia	2015-01-20	deaths	2015-01-20-deaths	0	0	0	3605	Liberia-deaths-2015-01-20
+Spain	2015-01-06	deaths	2015-01-06-deaths	0	0	0	0	Spain-deaths-2015-01-06
+Liberia	2014-09-16	deaths	2014-09-16-deaths	563	472	261	1296	Liberia-deaths-2014-09-16
+Liberia	2014-12-30	cases	2014-12-30-cases	3108	1773	3096	7977	Liberia-cases-2014-12-30
+Sierra Leone	2014-09-22	deaths	2014-09-22-deaths	545	37	11	593	Sierra Leone-deaths-2014-09-22
+United Kingdom	2015-01-09	cases	2015-01-09-cases	1	0	0	0	United Kingdom-cases-2015-01-09
+Nigeria	2015-01-19	cases	2015-01-19-cases	19	1	0	20	Nigeria-cases-2015-01-19
+Sierra Leone	2014-10-31	deaths	2014-10-31-deaths	0	0	0	1510	Sierra Leone-deaths-2014-10-31
+Liberia	2015-02-27	deaths	2015-02-27-deaths	0	0	0	4057	Liberia-deaths-2015-02-27
+United Kingdom	2015-01-23	deaths	2015-01-23-deaths	0	0	0	0	United Kingdom-deaths-2015-01-23
+Mali	2015-01-16	cases	2015-01-16-cases	7	1	0	8	Mali-cases-2015-01-16
+Mali	2014-11-14	deaths	2014-11-14-deaths	0	0	0	3	Mali-deaths-2014-11-14
+Sierra Leone	2014-09-22	cases	2014-09-22-cases	1640	37	136	1813	Sierra Leone-cases-2014-09-22
+Senegal	2014-12-22	deaths	2014-12-22-deaths	0	0	0	0	Senegal-deaths-2014-12-22
+Nigeria	2015-03-06	cases	2015-03-06-cases	19	1	0	20	Nigeria-cases-2015-03-06
+United Kingdom	2015-03-05	cases	2015-03-05-cases	1	0	0	1	United Kingdom-cases-2015-03-05
+Nigeria	2014-11-05	deaths	2014-11-05-deaths	7	1	0	8	Nigeria-deaths-2014-11-05
+Liberia	2015-01-08	deaths	2015-01-08-deaths	0	0	0	3496	Liberia-deaths-2015-01-08
+Sierra Leone	2015-02-12	cases	2015-02-12-cases	8138	287	2529	10954	Sierra Leone-cases-2015-02-12
+United States of America	2014-11-14	deaths	2014-11-14-deaths	1	0	0	1	United States of America-deaths-2014-11-14
+Sierra Leone	2015-01-20	cases	2015-01-20-cases	7903	287	2150	10340	Sierra Leone-cases-2015-01-20
+United States of America	2015-01-28	cases	2015-01-28-cases	4	0	0	4	United States of America-cases-2015-01-28
+Liberia	2015-01-19	cases	2015-01-19-cases	3131	1850	3454	8435	Liberia-cases-2015-01-19
+Guinea	2015-01-06	cases	2015-01-06-cases	2471	282	22	2775	Guinea-cases-2015-01-06
+Sierra Leone	2014-10-15	cases	2014-10-15-cases	2849	37	366	3252	Sierra Leone-cases-2014-10-15
+United States of America	2015-01-22	deaths	2015-01-22-deaths	1	0	0	1	United States of America-deaths-2015-01-22
+Liberia	2015-01-21	cases	2015-01-21-cases	3135	1854	3489	8478	Liberia-cases-2015-01-21
+Guinea	2014-12-15	deaths	2014-12-15-deaths	1255	263	0	1518	Guinea-deaths-2014-12-15
+Sierra Leone	2015-01-08	deaths	2015-01-08-deaths	2611	208	158	2977	Sierra Leone-deaths-2015-01-08
+United States of America	2015-01-27	cases	2015-01-27-cases	4	0	0	4	United States of America-cases-2015-01-27
+Senegal	2015-02-19	deaths	2015-02-19-deaths	0	0	0	0	Senegal-deaths-2015-02-19
+Nigeria	2014-08-29	cases	2014-08-29-cases	15	1	3	37	Nigeria-cases-2014-08-29
+Senegal	2015-02-02	deaths	2015-02-02-deaths	0	0	0	0	Senegal-deaths-2015-02-02
+Senegal	2015-01-23	cases	2015-01-23-cases	1	0	0	1	Senegal-cases-2015-01-23
+United States of America	2015-01-26	cases	2015-01-26-cases	4	0	0	4	United States of America-cases-2015-01-26
+Guinea	2014-12-30	cases	2014-12-30-cases	2397	275	34	2706	Guinea-cases-2014-12-30
+Guinea	2015-01-05	cases	2015-01-05-cases	2465	280	26	2769	Guinea-cases-2015-01-05
+Nigeria	2014-12-17	deaths	2014-12-17-deaths	7	1	0	8	Nigeria-deaths-2014-12-17
+Liberia	2014-11-05	cases	2014-11-05-cases	2451	1627	2447	6525	Liberia-cases-2014-11-05
+United Kingdom	2015-02-10	deaths	2015-02-10-deaths	0	0	0	0	United Kingdom-deaths-2015-02-10
+Guinea	2015-01-27	cases	2015-01-27-cases	2569	332	16	2917	Guinea-cases-2015-01-27
+Nigeria	2015-02-26	deaths	2015-02-26-deaths	7	1	0	8	Nigeria-deaths-2015-02-26
+Senegal	2014-10-22	deaths	2014-10-22-deaths	0	0	0	0	Senegal-deaths-2014-10-22
+United Kingdom	2015-01-26	deaths	2015-01-26-deaths	0	0	0	0	United Kingdom-deaths-2015-01-26
+United States of America	2014-12-24	deaths	2014-12-24-deaths	1	0	0	1	United States of America-deaths-2014-12-24
+Spain	2014-11-14	cases	2014-11-14-cases	1	0	0	1	Spain-cases-2014-11-14
+Senegal	2015-01-15	cases	2015-01-15-cases	1	0	0	1	Senegal-cases-2015-01-15
+Guinea	2015-02-05	deaths	2015-02-05-deaths	1600	347	0	1947	Guinea-deaths-2015-02-05
+Nigeria	2015-01-07	cases	2015-01-07-cases	19	1	0	20	Nigeria-cases-2015-01-07
+Nigeria	2014-10-31	deaths	2014-10-31-deaths	7	1	0	8	Nigeria-deaths-2014-10-31
+Liberia	2015-01-14	deaths	2015-01-14-deaths	0	48	0	3538	Liberia-deaths-2015-01-14
+Guinea	2015-02-03	deaths	2015-02-03-deaths	1597	347	0	1944	Guinea-deaths-2015-02-03
+Mali	2014-10-31	cases	2014-10-31-cases	1	0	0	1	Mali-cases-2014-10-31
+Sierra Leone	2015-02-19	deaths	2015-02-19-deaths	3057	208	158	3423	Sierra Leone-deaths-2015-02-19
+Guinea	2015-01-29	cases	2015-01-29-cases	2571	332	18	2921	Guinea-cases-2015-01-29
+Sierra Leone	2015-02-10	cases	2015-02-10-cases	8135	287	2512	10934	Sierra Leone-cases-2015-02-10
+Nigeria	2015-02-20	deaths	2015-02-20-deaths	7	1	0	8	Nigeria-deaths-2015-02-20
+Senegal	2015-03-06	deaths	2015-03-06-deaths	0	0	0	0	Senegal-deaths-2015-03-06
+Senegal	2015-03-02	cases	2015-03-02-cases	1	0	0	1	Senegal-cases-2015-03-02
+Sierra Leone	2015-02-02	deaths	2015-02-02-deaths	2908	208	158	3274	Sierra Leone-deaths-2015-02-02
+Sierra Leone	2015-01-05	deaths	2015-01-05-deaths	2549	208	158	2915	Sierra Leone-deaths-2015-01-05
+Liberia	2015-03-05	deaths	2015-03-05-deaths	0	0	0	4117	Liberia-deaths-2015-03-05
+United States of America	2015-02-17	cases	2015-02-17-cases	4	0	0	4	United States of America-cases-2015-02-17
+Senegal	2015-02-26	deaths	2015-02-26-deaths	0	0	0	0	Senegal-deaths-2015-02-26
+Senegal	2014-12-26	deaths	2014-12-26-deaths	0	0	0	0	Senegal-deaths-2014-12-26
+Senegal	2015-01-30	cases	2015-01-30-cases	1	0	0	1	Senegal-cases-2015-01-30
+Guinea	2014-12-26	deaths	2014-12-26-deaths	1385	269	0	1654	Guinea-deaths-2014-12-26
+Guinea	2015-01-09	cases	2015-01-09-cases	2493	282	18	2793	Guinea-cases-2015-01-09
+United States of America	2015-02-16	cases	2015-02-16-cases	4	0	0	4	United States of America-cases-2015-02-16
+Spain	2014-12-17	cases	2014-12-17-cases	1	0	0	1	Spain-cases-2014-12-17
+Mali	2015-02-11	cases	2015-02-11-cases	7	1	0	8	Mali-cases-2015-02-11
+Spain	2015-02-25	deaths	2015-02-25-deaths	0	0	0	0	Spain-deaths-2015-02-25
+Senegal	2015-01-28	cases	2015-01-28-cases	1	0	0	1	Senegal-cases-2015-01-28
+Sierra Leone	2014-12-10	cases	2014-12-10-cases	6375	79	1443	7897	Sierra Leone-cases-2014-12-10
+United Kingdom	2015-02-17	deaths	2015-02-17-deaths	0	0	0	0	United Kingdom-deaths-2015-02-17
+Mali	2014-12-17	cases	2014-12-17-cases	7	1	0	8	Mali-cases-2014-12-17
+Sierra Leone	2014-12-01	deaths	2014-12-01-deaths	1321	174	35	1530	Sierra Leone-deaths-2014-12-01
+Senegal	2014-10-08	deaths	2014-10-08-deaths	0	0	0	0	Senegal-deaths-2014-10-08
+United States of America	2015-02-04	deaths	2015-02-04-deaths	1	0	0	1	United States of America-deaths-2015-02-04
+Guinea	2014-11-26	cases	2014-11-26-cases	1850	210	74	2134	Guinea-cases-2014-11-26
+Senegal	2015-02-25	cases	2015-02-25-cases	1	0	0	1	Senegal-cases-2015-02-25
+Liberia	2014-10-29	deaths	2014-10-29-deaths	0	13	0	2413	Liberia-deaths-2014-10-29
+Spain	2015-01-07	cases	2015-01-07-cases	1	0	0	1	Spain-cases-2015-01-07
+Nigeria	2015-01-02	cases	2015-01-02-cases	19	1	0	20	Nigeria-cases-2015-01-02
+Liberia	2014-12-03	deaths	2014-12-03-deaths	0	278	0	3145	Liberia-deaths-2014-12-03
+Guinea	2015-02-06	deaths	2015-02-06-deaths	1608	349	0	1957	Guinea-deaths-2015-02-06
+Mali	2015-01-27	cases	2015-01-27-cases	7	1	0	8	Mali-cases-2015-01-27
+Liberia	2014-12-29	cases	2014-12-29-cases	3108	1773	3096	7977	Liberia-cases-2014-12-29
+Liberia	2014-08-29	cases	2014-08-29-cases	322	674	382	50	Liberia-cases-2014-08-29
+Spain	2015-01-06	cases	2015-01-06-cases	1	0	0	1	Spain-cases-2015-01-06
+Nigeria	2015-01-22	deaths	2015-01-22-deaths	7	1	0	8	Nigeria-deaths-2015-01-22
+Spain	2014-10-10	cases	2014-10-10-cases	1	0	0	1	Spain-cases-2014-10-10
+Guinea	2015-01-14	cases	2015-01-14-cases	2514	284	8	2806	Guinea-cases-2015-01-14
+Nigeria	2015-02-17	deaths	2015-02-17-deaths	7	1	0	8	Nigeria-deaths-2015-02-17
+Mali	2015-01-08	cases	2015-01-08-cases	7	1	0	0	Mali-cases-2015-01-08
+Spain	2015-01-27	deaths	2015-01-27-deaths	0	0	0	0	Spain-deaths-2015-01-27
+Liberia	2014-10-25	cases	2014-10-25-cases	965	2106	1594	4665	Liberia-cases-2014-10-25
+Sierra Leone	2015-01-02	deaths	2015-01-02-deaths	2461	208	158	2827	Sierra Leone-deaths-2015-01-02
+Liberia	2015-01-13	deaths	2015-01-13-deaths	0	0	0	3515	Liberia-deaths-2015-01-13
+Liberia	2015-03-06	deaths	2015-03-06-deaths	0	0	0	4117	Liberia-deaths-2015-03-06
+Spain	2015-01-21	deaths	2015-01-21-deaths	0	0	0	0	Spain-deaths-2015-01-21
+Guinea	2014-12-22	deaths	2014-12-22-deaths	1323	263	0	1586	Guinea-deaths-2014-12-22
+Spain	2014-12-30	deaths	2014-12-30-deaths	0	0	0	0	Spain-deaths-2014-12-30
+Senegal	2014-12-01	cases	2014-12-01-cases	1	0	0	1	Senegal-cases-2014-12-01
+Mali	2015-02-03	cases	2015-02-03-cases	7	1	0	8	Mali-cases-2015-02-03
+Liberia	2015-01-07	cases	2015-01-07-cases	3118	1816	3223	8157	Liberia-cases-2015-01-07
+Mali	2015-01-28	deaths	2015-01-28-deaths	0	0	0	6	Mali-deaths-2015-01-28
+United States of America	2015-03-10	cases	2015-03-10-cases	4	0	0	4	United States of America-cases-2015-03-10
+Spain	2015-01-02	deaths	2015-01-02-deaths	0	0	0	0	Spain-deaths-2015-01-02
+Senegal	2014-10-15	cases	2014-10-15-cases	1	0	0	1	Senegal-cases-2014-10-15
+Mali	2014-11-21	deaths	2014-11-21-deaths	5	1	0	6	Mali-deaths-2014-11-21
+United States of America	2015-02-25	cases	2015-02-25-cases	4	0	0	4	United States of America-cases-2015-02-25
+Senegal	2015-01-05	cases	2015-01-05-cases	1	0	0	1	Senegal-cases-2015-01-05
+Senegal	2014-10-01	cases	2014-10-01-cases	1	0	0	1	Senegal-cases-2014-10-01
+United States of America	2015-02-05	cases	2015-02-05-cases	4	0	0	4	United States of America-cases-2015-02-05
+United Kingdom	2015-01-15	deaths	2015-01-15-deaths	0	0	0	0	United Kingdom-deaths-2015-01-15
+United Kingdom	2015-02-05	cases	2015-02-05-cases	1	0	0	1	United Kingdom-cases-2015-02-05
+Guinea	2014-12-31	cases	2014-12-31-cases	2397	276	34	2707	Guinea-cases-2014-12-31
+Sierra Leone	2015-03-02	deaths	2015-03-02-deaths	3164	208	158	3530	Sierra Leone-deaths-2015-03-02
+United States of America	2014-12-23	deaths	2014-12-23-deaths	1	0	0	1	United States of America-deaths-2014-12-23
+Nigeria	2014-09-12	cases	2014-09-12-cases	19	1	1	38	Nigeria-cases-2014-09-12
+United States of America	2014-11-26	cases	2014-11-26-cases	4	0	0	4	United States of America-cases-2014-11-26
+Mali	2015-02-23	cases	2015-02-23-cases	7	1	0	8	Mali-cases-2015-02-23
+Nigeria	2015-03-05	cases	2015-03-05-cases	19	1	0	20	Nigeria-cases-2015-03-05
+Guinea	2014-09-22	cases	2014-09-22-cases	818	162	28	1008	Guinea-cases-2014-09-22
+Sierra Leone	2014-12-24	deaths	2014-12-24-deaths	2216	208	158	2582	Sierra Leone-deaths-2014-12-24
+Liberia	2015-02-16	deaths	2015-02-16-deaths	0	0	0	3900	Liberia-deaths-2015-02-16
+Nigeria	2015-02-12	deaths	2015-02-12-deaths	7	1	0	8	Nigeria-deaths-2015-02-12
+United Kingdom	2015-01-21	cases	2015-01-21-cases	1	0	0	1	United Kingdom-cases-2015-01-21
+Senegal	2015-02-27	cases	2015-02-27-cases	1	0	0	1	Senegal-cases-2015-02-27
+Guinea	2014-10-15	cases	2014-10-15-cases	1184	190	98	1472	Guinea-cases-2014-10-15
+Spain	2015-02-17	deaths	2015-02-17-deaths	0	0	0	0	Spain-deaths-2015-02-17
+Sierra Leone	2014-11-05	deaths	2014-11-05-deaths	893	142	35	1070	Sierra Leone-deaths-2014-11-05
+Nigeria	2015-02-04	deaths	2015-02-04-deaths	7	1	0	8	Nigeria-deaths-2015-02-04
+Spain	2014-10-29	deaths	2014-10-29-deaths	0	0	0	0	Spain-deaths-2014-10-29
+Spain	2015-02-11	deaths	2015-02-11-deaths	0	0	0	0	Spain-deaths-2015-02-11
+Senegal	2014-12-29	cases	2014-12-29-cases	1	0	0	1	Senegal-cases-2014-12-29
+Guinea	2014-11-05	deaths	2014-11-05-deaths	837	204	0	1041	Guinea-deaths-2014-11-05
+Mali	2015-01-30	deaths	2015-01-30-deaths	0	0	0	6	Mali-deaths-2015-01-30
+Spain	2015-02-03	cases	2015-02-03-cases	1	0	0	1	Spain-cases-2015-02-03
+Guinea	2015-01-20	deaths	2015-01-20-deaths	1557	319	0	1876	Guinea-deaths-2015-01-20
+Spain	2015-02-27	cases	2015-02-27-cases	1	0	0	1	Spain-cases-2015-02-27
+Senegal	2015-01-27	deaths	2015-01-27-deaths	0	0	0	0	Senegal-deaths-2015-01-27
+Liberia	2014-12-15	cases	2014-12-15-cases	2946	1801	3050	7797	Liberia-cases-2014-12-15
+Senegal	2014-11-05	deaths	2014-11-05-deaths	0	0	0	0	Senegal-deaths-2014-11-05
+Nigeria	2014-10-10	cases	2014-10-10-cases	19	1	0	20	Nigeria-cases-2014-10-10
+Liberia	2015-01-30	cases	2015-01-30-cases	3138	1864	3641	8643	Liberia-cases-2015-01-30
+Mali	2015-02-19	deaths	2015-02-19-deaths	0	0	0	6	Mali-deaths-2015-02-19
+United Kingdom	2015-01-12	deaths	2015-01-12-deaths	0	0	0	0	United Kingdom-deaths-2015-01-12
+Mali	2015-02-18	cases	2015-02-18-cases	7	1	0	8	Mali-cases-2015-02-18
+Sierra Leone	2014-10-25	deaths	2014-10-25-deaths	1008	164	109	1281	Sierra Leone-deaths-2014-10-25
+Guinea	2014-09-05	cases	2014-09-05-cases	604	152	56	64	Guinea-cases-2014-09-05
+Nigeria	2014-09-18	cases	2014-09-18-cases	19	1	1	21	Nigeria-cases-2014-09-18
+Guinea	2014-10-08	cases	2014-10-08-cases	1044	180	74	1298	Guinea-cases-2014-10-08
+United Kingdom	2015-01-06	deaths	2015-01-06-deaths	0	0	0	0	United Kingdom-deaths-2015-01-06
+Liberia	2014-11-26	deaths	2014-11-26-deaths	0	319	0	3016	Liberia-deaths-2014-11-26
+Nigeria	2015-01-05	cases	2015-01-05-cases	19	1	0	20	Nigeria-cases-2015-01-05
+Guinea	2014-09-24	deaths	2014-09-24-deaths	468	162	5	635	Guinea-deaths-2014-09-24
+Nigeria	2014-12-26	deaths	2014-12-26-deaths	7	1	0	8	Nigeria-deaths-2014-12-26
+United States of America	2014-10-29	deaths	2014-10-29-deaths	1	0	0	1	United States of America-deaths-2014-10-29
+Mali	2014-12-10	deaths	2014-12-10-deaths	0	0	0	6	Mali-deaths-2014-12-10
+Sierra Leone	2014-11-26	deaths	2014-11-26-deaths	1189	174	35	1398	Sierra Leone-deaths-2014-11-26
+Sierra Leone	2014-12-29	deaths	2014-12-29-deaths	2366	208	158	2732	Sierra Leone-deaths-2014-12-29
+United States of America	2014-10-31	cases	2014-10-31-cases	4	0	0	4	United States of America-cases-2014-10-31
+Mali	2015-03-10	cases	2015-03-10-cases	7	1	0	8	Mali-cases-2015-03-10
+Senegal	2015-02-05	deaths	2015-02-05-deaths	0	0	0	0	Senegal-deaths-2015-02-05
+United States of America	2015-01-23	cases	2015-01-23-cases	4	0	0	4	United States of America-cases-2015-01-23
+Mali	2015-03-10	deaths	2015-03-10-deaths	0	0	0	6	Mali-deaths-2015-03-10
+Guinea	2015-01-20	cases	2015-01-20-cases	2539	319	13	2871	Guinea-cases-2015-01-20
+United States of America	2015-01-16	deaths	2015-01-16-deaths	1	0	0	1	United States of America-deaths-2015-01-16
+Spain	2014-12-01	cases	2014-12-01-cases	1	0	0	1	Spain-cases-2014-12-01
+Guinea	2014-09-05	deaths	2014-09-05-deaths	362	26	3	33	Guinea-deaths-2014-09-05
+Spain	2015-02-11	cases	2015-02-11-cases	1	0	0	1	Spain-cases-2015-02-11
+United States of America	2015-01-21	deaths	2015-01-21-deaths	1	0	0	1	United States of America-deaths-2015-01-21
+United States of America	2015-01-06	deaths	2015-01-06-deaths	1	0	0	1	United States of America-deaths-2015-01-06
+United Kingdom	2015-02-06	deaths	2015-02-06-deaths	0	0	0	0	United Kingdom-deaths-2015-02-06
+Guinea	2014-10-08	deaths	2014-10-08-deaths	587	179	2	768	Guinea-deaths-2014-10-08
+Liberia	2014-12-24	deaths	2014-12-24-deaths	0	0	0	3384	Liberia-deaths-2014-12-24
+Mali	2014-11-14	cases	2014-11-14-cases	3	1	0	4	Mali-cases-2014-11-14
+Mali	2014-11-07	deaths	2014-11-07-deaths	1	0	0	1	Mali-deaths-2014-11-07
+Spain	2015-01-28	deaths	2015-01-28-deaths	0	0	0	0	Spain-deaths-2015-01-28
+Nigeria	2014-10-29	cases	2014-10-29-cases	19	1	0	20	Nigeria-cases-2014-10-29
+Guinea	2014-11-05	cases	2014-11-05-cases	1457	204	70	1731	Guinea-cases-2014-11-05
+Sierra Leone	2014-10-17	deaths	2014-10-17-deaths	932	161	107	1200	Sierra Leone-deaths-2014-10-17
+Senegal	2015-01-26	cases	2015-01-26-cases	1	0	0	1	Senegal-cases-2015-01-26
+United States of America	2014-10-10	deaths	2014-10-10-deaths	0	0	0	0	United States of America-deaths-2014-10-10
+Liberia	2015-02-19	cases	2015-02-19-cases	3152	1882	4062	9096	Liberia-cases-2015-02-19
+United States of America	2015-01-21	cases	2015-01-21-cases	4	0	0	4	United States of America-cases-2015-01-21
+Liberia	2015-01-12	cases	2015-01-12-cases	3123	1833	3322	8278	Liberia-cases-2015-01-12
+Sierra Leone	2014-12-22	deaths	2014-12-22-deaths	2190	208	158	2556	Sierra Leone-deaths-2014-12-22
+United Kingdom	2015-01-15	cases	2015-01-15-cases	1	0	0	1	United Kingdom-cases-2015-01-15
+United Kingdom	2015-01-14	deaths	2015-01-14-deaths	0	0	0	0	United Kingdom-deaths-2015-01-14
+Sierra Leone	2015-01-07	cases	2015-01-07-cases	7602	287	1819	9780	Sierra Leone-cases-2015-01-07
+Nigeria	2015-02-04	cases	2015-02-04-cases	19	1	0	20	Nigeria-cases-2015-02-04
+Mali	2015-03-02	cases	2015-03-02-cases	7	1	0	8	Mali-cases-2015-03-02
+Spain	2015-02-04	cases	2015-02-04-cases	1	0	0	1	Spain-cases-2015-02-04
+United Kingdom	2015-02-25	deaths	2015-02-25-deaths	0	0	0	0	United Kingdom-deaths-2015-02-25
+Senegal	2014-10-29	cases	2014-10-29-cases	1	0	0	1	Senegal-cases-2014-10-29
+Nigeria	2014-09-08	cases	2014-09-08-cases	19	1	1	21	Nigeria-cases-2014-09-08
+Sierra Leone	2014-12-24	cases	2014-12-24-cases	7017	287	1700	9004	Sierra Leone-cases-2014-12-24
+United Kingdom	2015-03-04	deaths	2015-03-04-deaths	0	0	0	0	United Kingdom-deaths-2015-03-04
+Nigeria	2014-10-29	deaths	2014-10-29-deaths	7	1	0	8	Nigeria-deaths-2014-10-29
+United States of America	2014-11-07	deaths	2014-11-07-deaths	1	0	0	1	United States of America-deaths-2014-11-07
+Spain	2015-01-21	cases	2015-01-21-cases	1	0	0	1	Spain-cases-2015-01-21
+Mali	2015-03-06	deaths	2015-03-06-deaths	0	0	0	6	Mali-deaths-2015-03-06
+Nigeria	2015-02-13	cases	2015-02-13-cases	19	1	0	20	Nigeria-cases-2015-02-13
+United States of America	2014-12-17	cases	2014-12-17-cases	4	0	0	4	United States of America-cases-2014-12-17
+Spain	2015-02-16	cases	2015-02-16-cases	1	0	0	1	Spain-cases-2015-02-16
+Liberia	2015-02-20	cases	2015-02-20-cases	3152	1882	4062	9096	Liberia-cases-2015-02-20
+United Kingdom	2015-02-05	deaths	2015-02-05-deaths	0	0	0	0	United Kingdom-deaths-2015-02-05
+United States of America	2015-02-26	cases	2015-02-26-cases	4	0	0	4	United States of America-cases-2015-02-26
+Senegal	2015-02-20	deaths	2015-02-20-deaths	0	0	0	0	Senegal-deaths-2015-02-20
+Liberia	2014-10-31	deaths	2014-10-31-deaths	0	0	0	2413	Liberia-deaths-2014-10-31
+Senegal	2015-02-13	deaths	2015-02-13-deaths	0	0	0	0	Senegal-deaths-2015-02-13
+Liberia	2014-11-12	deaths	2014-11-12-deaths	0	466	0	2836	Liberia-deaths-2014-11-12
+Guinea	2015-02-11	cases	2015-02-11-cases	2674	352	18	3044	Guinea-cases-2015-02-11
+Liberia	2014-10-10	cases	2014-10-10-cases	943	1874	1259	4076	Liberia-cases-2014-10-10
+United Kingdom	2015-01-19	cases	2015-01-19-cases	1	0	0	1	United Kingdom-cases-2015-01-19
+Guinea	2015-02-27	cases	2015-02-27-cases	2790	392	8	3190	Guinea-cases-2015-02-27
+Guinea	2014-10-25	deaths	2014-10-25-deaths	732	194	0	926	Guinea-deaths-2014-10-25
+Senegal	2014-11-26	deaths	2014-11-26-deaths	0	0	0	0	Senegal-deaths-2014-11-26
+Nigeria	2015-01-29	deaths	2015-01-29-deaths	7	1	0	8	Nigeria-deaths-2015-01-29
+Mali	2015-01-28	cases	2015-01-28-cases	7	1	0	8	Mali-cases-2015-01-28
+Liberia	2015-01-29	cases	2015-01-29-cases	3138	1864	3641	8643	Liberia-cases-2015-01-29
+Spain	2014-11-07	deaths	2014-11-07-deaths	0	0	0	0	Spain-deaths-2014-11-07
+Liberia	2015-01-23	cases	2015-01-23-cases	3136	1854	3534	8524	Liberia-cases-2015-01-23
+Guinea	2014-10-17	cases	2014-10-17-cases	1217	191	111	1519	Guinea-cases-2014-10-17
+Mali	2015-01-07	deaths	2015-01-07-deaths	0	0	0	6	Mali-deaths-2015-01-07
+United States of America	2015-02-27	deaths	2015-02-27-deaths	1	0	0	1	United States of America-deaths-2015-02-27
+Sierra Leone	2014-11-14	cases	2014-11-14-cases	4683	79	824	5586	Sierra Leone-cases-2014-11-14
+United Kingdom	2015-02-17	cases	2015-02-17-cases	1	0	0	1	United Kingdom-cases-2015-02-17
+Liberia	2015-03-06	cases	2015-03-06-cases	3150	1877	4222	9249	Liberia-cases-2015-03-06
+Mali	2015-02-02	deaths	2015-02-02-deaths	0	0	0	6	Mali-deaths-2015-02-02
+Nigeria	2015-01-30	deaths	2015-01-30-deaths	7	1	0	8	Nigeria-deaths-2015-01-30
+Sierra Leone	2015-01-14	deaths	2015-01-14-deaths	2696	208	158	3062	Sierra Leone-deaths-2015-01-14
+Guinea	2015-01-09	deaths	2015-01-09-deaths	1515	282	0	1797	Guinea-deaths-2015-01-09
+Mali	2015-01-29	cases	2015-01-29-cases	7	1	0	8	Mali-cases-2015-01-29
+Nigeria	2015-02-17	cases	2015-02-17-cases	19	1	0	20	Nigeria-cases-2015-02-17
+Senegal	2015-02-10	cases	2015-02-10-cases	1	0	0	1	Senegal-cases-2015-02-10
+Senegal	2014-12-15	deaths	2014-12-15-deaths	0	0	0	0	Senegal-deaths-2014-12-15
+Guinea	2015-01-07	deaths	2015-01-07-deaths	1499	344	0	344	Guinea-deaths-2015-01-07
+Nigeria	2014-09-26	cases	2014-09-26-cases	19	1	0	20	Nigeria-cases-2014-09-26
