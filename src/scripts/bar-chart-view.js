@@ -27,9 +27,6 @@ Exhibit.BarChartView = function(containerElmt, uiContext) {
 	this.addSettingSpecs(Exhibit.BarChartView._settingSpecs);
 
 	this._accessors = {
-		getPointLabel : function(itemID, database, visitor) {
-			visitor(database.getObject(itemID, "label"));
-		},
 		getProxy : function(itemID, database, visitor) {
 			visitor(itemID);
 		},
@@ -62,47 +59,57 @@ Exhibit.BarChartView = function(containerElmt, uiContext) {
 	this.register();
 };
 Exhibit.BarChartView._settingSpecs = {
-	"plotHeight" 		: {type : "int", 	 defaultValue : 400},
-	"plotWidth"			: {type : "int"},
-	"xAxisMin" 			: {type : "float", 	 defaultValue : Number.POSITIVE_INFINITY},
-	"xAxisMax" 			: {type : "float", 	 defaultValue : Number.NEGATIVE_INFINITY},
-	"axisType" 			: {type : "enum", 	 defaultValue : "linear",choices : ["linear", "logarithmic", "log"]},
-	"yAxisMin" 			: {type : "float",	 defaultValue : Number.POSITIVE_INFINITY},
-	"yAxisMax" 			: {type : "float",	 defaultValue : Number.NEGATIVE_INFINITY},
-	"yAxisType" 		: {type : "enum",	 defaultValue : "linear",choices : ["linear", "logarithmic", "log"]},
-	"valueLabel" 		: {type : "text",	 defaultValue : "x"},
-	"groupLabel" 		: {type : "text",	 defaultValue : "y"},
-	"color" 			: {type : "text",	 defaultValue : "#FF9000"},
-	"colorCoder" 		: {type : "text",	 defaultValue : null},
-	"scroll" 			: {type : "boolean", defaultValue : false},
-	"verticalChart"  	: {type : "boolean", defaultValue : true},
-	"lineChart"			: {type : "boolean", defaultValue : false},
-	"tickNum"			: {type : "int"},
-	"barWidth"			: {type : "float",   defaultValue : 0.8},
-	"values"			: {type : "text"},
-	"stacked"			: {type : "boolean", defaultValue : false},
-	"stackLabels"		: {type : "text", 	 defaultValue : ""}
+	"plotHeight" 		: {type : "int", 	 defaultValue : 400, description: "height of plot in pixels", importance: 2},
+	"plotWidth"			: {type : "int", description: "width of plot in pixels", importance: 2},
+	"xAxisMin" 			: {type : "float", 	 defaultValue : Number.POSITIVE_INFINITY, description: "minimum value on X-axis", importance:5},
+	"xAxisMax" 			: {type : "float", 	 defaultValue : Number.NEGATIVE_INFINITY, description: "maximum value on X-axis", importance: 5},
+	"axisType" 			: {type : "enum", 	 defaultValue : "linear",choices : ["linear", "logarithmic", "log"], description: "scale for X-axis", importance: 6},
+	"valueLabel" 		: {type : "text",	 defaultValue : "x", description: "axis label for dependent variable", importance: 7},
+	"groupLabel" 		: {type : "text",	 defaultValue : "y", description: "axis label for independent variable", importance: 7},
+	"color" 			: {type : "text",	 defaultValue : "#FF9000", description: "all bars in graph will be of this color in the absence of color coders", importance: 2},
+	"colorCoder" 		: {type : "text",	 defaultValue : null, description: "id of color coder", importance: 2},
+	"verticalChart"  	: {type : "boolean", defaultValue : true, description: "orientation of bars; bars go horizontally in a vertical chart", importance: 6},
+	"lineChart"			: {type : "boolean", defaultValue : false, description: "plot data as a line instead of bars", importance: 6},
+	"tickNum"			: {type : "int", description: "number of ticks along the axis", importance: 2},
+	"barWidth"			: {type : "float",   defaultValue : 0.8, description: "width of each bar", importance: 2},
+	"stacked"			: {type : "boolean", defaultValue : false, description: "stacking of bars when values contain multiple properties", importance: 6},
+	"stackLabels"		: {type : "text", 	 defaultValue: "", dimensions: "*", description: "comma separated list of one or more labels for each stack; used when values contain multiple properties", importance: 6}
 };
 
 Exhibit.BarChartView._accessorSpecs = [{
 	accessorName : "getProxy",
-	attributeName : "proxy"
+	attributeName : "proxy",
+	importance: 1
 }, {
-	accessorName : "getPointLabel",
-	attributeName : "pointLabel"
-}, {
-	accessorName : "getXY",
+  accessorName : "getXY",
 	alternatives : [{
 		bindings : [{
 			attributeName : "axisData",
 			types : ["float", "text"],
 			bindingNames : ["values", "groupedBy"]
 		}]
-	}]
-}, {
+	}, {
+		bindings : [{
+			attributeName : "values",
+			dimensions: "*",
+			type : "float",
+			bindingName : "x"
+		}, {
+			attributeName : "groupedBy",
+			type : "text",
+			bindingName : "y"
+		}]
+	}],
+	required: true,
+	description: "values: comma separated list of one or more properties to plot \n\
+								groupedBy: property used to label each item",
+	importance: 9
+}	, {
 	accessorName : "getColorKey",
 	attributeName : "colorKey",
-	type : "text"
+	type : "text",
+	description: "property used by the color coder",
+	importance: 2
 }];
 
 Exhibit.BarChartView.create = function(configuration, containerElmt, uiContext) {
@@ -117,9 +124,7 @@ Exhibit.BarChartView.create = function(configuration, containerElmt, uiContext) 
 Exhibit.BarChartView.createFromDOM = function(configElmt, containerElmt, uiContext) {
 	var configuration = Exhibit.getConfigurationFromDOM(configElmt);
 	var view = new Exhibit.BarChartView(containerElmt != null ? containerElmt : configElmt, Exhibit.UIContext.createFromDOM(configElmt, uiContext));
-
 	Exhibit.SettingsUtilities.collectSettingsFromDOM(configElmt, view.getSettingSpecs(), view._settings);
-	Exhibit.BarChartView.updateAccessorSpecs(Exhibit.BarChartView._accessorSpecs, view._settings['values'], view._settings['stacked'], configElmt);
 	Exhibit.SettingsUtilities.createAccessorsFromDOM(configElmt, Exhibit.BarChartView._accessorSpecs, view._accessors);
 	Exhibit.BarChartView._configure(view, configuration);
 
@@ -148,42 +153,6 @@ Exhibit.BarChartView._configure = function(view, configuration) {
 		});
 	};
 };
-
-// Update accessor specs based on values attribute
-Exhibit.BarChartView.updateAccessorSpecs = function(specs, values, stacked, configElmt){
-	var valuesList = values.split(",");
-	var binding = [];
-	// one value given
-	if (!stacked) {
-		binding = [{
-			attributeName : "values",
-			type : "float",
-			bindingName : "x0"
-		}, {
-			attributeName : "groupedBy",
-			type : "text",
-			bindingName : "y"
-		}]
-	} else{
-		// multiple values given
-		for (var i = 0; i < valuesList.length; i++){
-			var value = valuesList[i].trim();
-			(function (value){
-				binding.push({
-					attributeName: function(){return value},
-					type: "float",
-					bindingName : "x" + i.toString()
-				});
-			})(value);
-		}
-		binding.push({
-			attributeName : "groupedBy",
-			type : "text",
-			bindingName : "y"
-		});
-	}
-	specs[2].alternatives.push({bindings : binding});
-}
 
 // Convenience function that maps strings to respective functions
 Exhibit.BarChartView._getAxisFunc = function(s) {
@@ -284,11 +253,10 @@ Exhibit.BarChartView.prototype._reconstruct = function() {
 	this._dom.plotContainer.innerHTML = "";
 
 	scaleX = self._axisFuncs.x;
-	//    var scaleY = self._axisFuncs.y;
 	unscaleX = self._axisInverseFuncs.x;
-	//    var unscaleY = self._axisInverseFuncs.y;
 
 	currentSize = collection.countRestrictedItems();
+
 	xyDataPub = [];
 	flotrCoord = {};
 	unplottableItems = [];
@@ -301,22 +269,18 @@ Exhibit.BarChartView.prototype._reconstruct = function() {
 		index = 0;
 		xAxisMin = settings.xAxisMin;
 		xAxisMax = settings.xAxisMax;
-		numStacks = settings.values.split(",").length
-
-		//        var yAxisMin = settings.yAxisMin;
-		//        var yAxisMax = settings.yAxisMax;
+		numStacks = 1;
 
 		/*
 		 *  Iterate through all items, collecting min and max on both axes
 		 */
-
 		currentSet.visit(function(itemID) {
-    		var group, xys, colorKeys, xy, xyKey, xyData, barSum;
-    		group = [];
-	    		if (hasColorKey){
-					accessors.getColorKey(itemID, database, function(item) {
-						group.push(item);
-				});
+  		var group, xys, colorKeys, xy, xyKey, xyData, barSum;
+  		group = [];
+  		if (hasColorKey){
+				accessors.getColorKey(itemID, database, function(item) {
+					group.push(item);
+				}); 
 			}
 			if (group.length > 0) {
 				colorKeys = null;
@@ -351,31 +315,38 @@ Exhibit.BarChartView.prototype._reconstruct = function() {
 				
 				for (var i = 0; i < xys.length; i++) {
 					xy = xys[i];
-					if (!settings.stacked){
-						try {
-							xy['scaledX0'] = scaleX(xy['x0']);
-							//                            xy.scaledY = scaleY(xy.y);
-							//                            if (!isFinite(xy.scaledX) || !isFinite(xy.scaledY)) {
-							if (!isFinite(xy['scaledX0'])) {
+					barSum = 0;
+					if (Array.isArray(xy.x)) {
+						numStacks = xy.x.length;
+					} else {
+						xy.x = [xy.x];
+					}
+			
+					xy['scaledX'] = [];
+					for (var j = 0; j < numStacks; j++) {
+						if (!settings.stacked) {
+							try {
+								var scaled_value = scaleX(xy['x'][j]);
+								xy['scaledX'].push(scaled_value);
+								if (!isFinite(xy['scaledX'][j])) {
+									continue;
+								}
+								xAxisMin = Math.min(xAxisMin, scaled_value);
+								xAxisMax = Math.max(xAxisMax, scaled_value);
+							} catch (e) {
 								continue;
+								// ignore the point since we can't scale it, e.g., log(0)
 							}
-						} catch (e) {
-							continue;
-							// ignore the point since we can't scale it, e.g., log(0)
+						} else {
+							// scaling doesn't make sense for stacked values, so use original value
+							xy['scaledX'].push(xy['x'][j]);
+							barSum = barSum + xy['x'][j];
 						}
-						xAxisMin = Math.min(xAxisMin, xy['scaledX0']);
-						xAxisMax = Math.max(xAxisMax, xy['scaledX0']);
-					} else{
-						// no scaling for stacked bar charts
-						barSum = 0;
-						for (var j = 0; j < numStacks; j++){
-							xy['scaledX' + j.toString()] = xy['x' + j.toString()];
-							barSum = barSum + xy['scaledX' + j.toString()];
-						}
+					}
+					if (settings.stacked) {
 						xAxisMin = Math.min(xAxisMin, barSum);
 						xAxisMax = Math.max(xAxisMax, barSum);
-					}
-										
+					}										
 
 					xyData = {
 						xy : xy,
@@ -393,20 +364,23 @@ Exhibit.BarChartView.prototype._reconstruct = function() {
 				if (vertical_chart){
 					xyData.xy.z=index;
 					index--;
-					if (!settings.stacked){
+					if (numStacks == 1){
 						try {
-							flotrCoord[color].push([xyData.xy.scaledX0, xyData.xy.z]);
+							flotrCoord[color].push([xyData.xy.scaledX[0], xyData.xy.z]);
 						}
 						catch(e){
-							flotrCoord[color] = [[xyData.xy.scaledX0, xyData.xy.z]];
+							flotrCoord[color] = [[xyData.xy.scaledX[0], xyData.xy.z]];
 						}
 					} else{
 						for (var j = 0; j < numStacks; j++){
 							try {
-								flotrCoord[j].push([xyData.xy['scaledX' + j.toString()], xyData.xy.z]);
+								flotrCoord[j].push([xyData.xy['scaledX'][j], xyData.xy.z]);
 							}
 							catch(e){
-								flotrCoord[j] = [[xyData.xy['scaledX' + j.toString()], xyData.xy.z]];
+								flotrCoord[j] = [[xyData.xy['scaledX'][j], xyData.xy.z]];
+							}
+							if (!settings.stacked){
+								xyData.xy.z = xyData.xy.z - 1 / (numStacks + 1);
 							}
 						}
 					}	
@@ -414,20 +388,23 @@ Exhibit.BarChartView.prototype._reconstruct = function() {
 				else{
 					xyData.xy.z=index;
 					index++;
-					if (!settings.stacked){
+					if (numStacks == 1){
 						try {
-							flotrCoord[color].push([xyData.xy.z, xyData.xy.scaledX0]);
+							flotrCoord[color].push([xyData.xy.z, xyData.xy.scaledX[0]]);
 						}
 						catch(e){
-							flotrCoord[color] = [[xyData.xy.z, xyData.xy.scaledX0]];
+							flotrCoord[color] = [[xyData.xy.z, xyData.xy.scaledX[0]]];
 						}
 					} else{
 						for (var j = 0; j < numStacks; j++){
 							try {
-								flotrCoord[j].push([xyData.xy.z, xyData.xy['scaledX' + j.toString()]]);
+								flotrCoord[j].push([xyData.xy.z, xyData.xy['scaledX'][j]]);
 							}
 							catch(e){
-								flotrCoord[j] = [[xyData.xy.z, xyData.xy['scaledX' + j.toString()]]];
+								flotrCoord[j] = [[xyData.xy.z, xyData.xy['scaledX'][j] ]];
+							}
+							if (!settings.stacked){
+								xyData.xy.z = xyData.xy.z + 1 / (numStacks + 1);
 							}
 						}
 					}
@@ -436,44 +413,30 @@ Exhibit.BarChartView.prototype._reconstruct = function() {
 				xyDataPub.push(xyData);
 			}
 		});
-		
 		/*
 		 *  Finalize mins, and maxes for both axes
 		 */
 		xDiff = xAxisMax - xAxisMin;
-		//        var yDiff = yAxisMax - yAxisMin;
 
-		var xInterval = 1;
-		if (xDiff > 1) {
-			while (xInterval * 20 < xDiff) {
-				xInterval *= 10;
+		if (isFinite(xDiff)) {
+			var xInterval = 1;
+			if (xDiff > 1) {
+				while (xInterval * 20 < xDiff) {
+					xInterval *= 10;
+				}
+			} else {
+				while (xInterval > xDiff * 20) {                //There was a typo here.
+					xInterval /= 10;			//Often crashes the browser when something isn't done correctly.
+				}
 			}
-		} else {
-			while (xInterval > xDiff * 20) {                //There was a typo here.
-				xInterval /= 10;			//Often crashes the browser when something isn't done correctly.
-			}
+
+			settings.xAxisMin = Math.floor(xAxisMin / xInterval) * xInterval;
+			settings.xAxisMax = Math.ceil(xAxisMax / xInterval) * xInterval;
 		}
-		settings.xAxisMin = Math.floor(xAxisMin / xInterval) * xInterval;
-		settings.xAxisMax = Math.ceil(xAxisMax / xInterval) * xInterval;
 	}
 	
 	if (currentSize > 0){
 		prepareData();
-		
-		/*if (vertical_chart && !this._settings.plotHeight) {
-			if (currentSize >= 15){
-				this._dom.plotContainer.style.height = currentSize * 20 + 100 + "px";
-			}else{
-				this._dom.plotContainer.style.height = currentSize * 30 + 100 + "px";
-			}
-		} 
-		if (!vertical_chart && !this._settings.plotWidth){
-			if (currentSize >= 30){
-				this._dom.plotContainer.style.width = currentSize * 20 + 100 + "px";
-			}else{
-				this._dom.plotContainer.style.width = currentSize * 40 + 100 + "px";
-			}
-		}*/
 
 		container = document.createElement("div");
 		container.className = "barChartViewContainer";
@@ -487,7 +450,7 @@ Exhibit.BarChartView.prototype._reconstruct = function() {
 };
 
 Exhibit.BarChartView.prototype._flotrConstructor = function(xyDataPub, flotrCoord, container,  currentSize) {
-	var self, settings, xAxisMax, xAxisMin, vertical_chart, axisScale, popupPresent;
+	var self, settings, xAxisMax, xAxisMin, vertical_chart, axisScale, popupPresent, accessClosest, values, numStacks;
 	self = this;
 	settings= this._settings;
 	line_chart  =settings.lineChart;
@@ -498,6 +461,12 @@ Exhibit.BarChartView.prototype._flotrConstructor = function(xyDataPub, flotrCoor
 	num_tick = settings.tickNum;
 	stacked = settings.stacked;
 	stackLabels = settings.stackLabels;
+	numStacks = 0;
+	for (var i in flotrCoord) {
+		numStacks ++;
+	}
+	
+
 
 		
 			Flotr.addPlugin('clickHit', {
@@ -561,18 +530,15 @@ Exhibit.BarChartView.prototype._flotrConstructor = function(xyDataPub, flotrCoor
 
 							if (distanceX < compareX && !vertical_chart) {
 								compareX = distanceX;
-								//console.log("closeX: ", closestX);
 								setClosest(closestX);
 								(mouseY>=0 && mouseY-y<.04*xAxisMax)? within_bar = true : within_bar = false;
 							}
 							if (distanceY < compareY && vertical_chart) {
 								compareY = distanceY;
-								//console.log("closeY: ", closestY);
 								setClosest(closestY);
 								(mouseX>=0 && mouseX-x<.04*xAxisMax)? within_bar = true : within_bar = false;
 							}
 							if (line_chart && (Math.abs(mouseY-y)+Math.abs(mouseX-x))<compareXY){
-								//console.log("in: ", (Math.abs(mouseY-y)+Math.abs(mouseX-x)), (Math.abs(mouseY-y)+Math.abs(mouseX-x)<.04*xAxisMax));
 								if (Math.abs(mouseY-y)+Math.abs(mouseX-x)<.01*xAxisMax) {
 									compareXY = (Math.abs(mouseY-y)+Math.abs(mouseX-x));
 									within_bar = true;
@@ -624,6 +590,9 @@ Exhibit.BarChartView.prototype._flotrConstructor = function(xyDataPub, flotrCoor
 
 			numtickFn = function(horizontal_bars, axis) {
 				if ((horizontal_bars && axis == "y") || (!horizontal_bars && axis == "x")) {
+					// if (!stacked && numStacks > 0){
+					// 	return currentSize * numStacks;
+					// }
 					return currentSize;
 				} else {
 					if(num_tick){
@@ -676,9 +645,9 @@ Exhibit.BarChartView.prototype._flotrConstructor = function(xyDataPub, flotrCoor
 			// generate stack labels
 			if (stackLabels != ""){
 				label = true;
-				labelList = stackLabels.split(',');
+				labelList = stackLabels;
 			}
-			if (!stacked){
+			if (!stacked && numStacks == 1){
 				for (k in flotrCoord){
 					dataList.push({data:flotrCoord[k], color:k});
 				}
@@ -691,8 +660,13 @@ Exhibit.BarChartView.prototype._flotrConstructor = function(xyDataPub, flotrCoor
 					}
 				}
 			}
+
 			if (barW > 1.0 || barW <=0.0){
 				barW = 0.8;			//keep at <= 1.0 for the bars to display properly.
+			}
+
+			if (!stacked && numStacks > 1){
+				barW = barW / (numStacks + 1);
 			}
 			
 			Flotr.draw(container, dataList, {
@@ -729,20 +703,17 @@ Exhibit.BarChartView.prototype._flotrConstructor = function(xyDataPub, flotrCoor
 						}
 						
 					}
-					//relative : true 
 				},
 				xaxis : {
 					min : xMin,
 					labelsAngle : 45,
 					noTicks : numtickFn(vertical_chart, "x"),
-					//autoscale: true,
 					title : xAxislabel,
 					tickFormatter : function(n) {
 						return tickFormatterFn(n, "x");
 					}
 				},
 				yaxis : {
-					//max: xAxisMax*1.1,  //originally used to fix the tick label cutoff issue.
 					min : yMin,
 					noTicks : numtickFn(vertical_chart, "y"),
 					title : yAxislabel,

@@ -451,31 +451,36 @@ Exhibit.ScatterPlotView.prototype._reconstruct = function() {
         xInterval = 1;
         yInterval = 1;
         
-        if (xDiff > 1) {
-            while (xInterval * 20 < xDiff) { 
-                xInterval *= 10;
+        if (isFinite(xDiff)){
+            if (xDiff > 1) {
+                while (xInterval * 20 < xDiff) { 
+                    xInterval *= 10;
+                }
+            } else {
+                while (xInterval < xDiff * 20) {
+                    xInterval /= 10;
+                }
             }
-        } else {
-            while (xInterval < xDiff * 20) {
-                xInterval /= 10;
-            }
-        }
-        
-        if (yDiff > 1) {
-            while (yInterval * 20 < yDiff) {
-                yInterval *= 10;
-            }
-        } else {
-            while (yInterval < yDiff * 20) {
-                yInterval /= 10;
-            }
-        }
-        
-        settings.xAxisMin = Math.floor(xAxisMin / xInterval) * xInterval;
-        settings.xAxisMax = Math.ceil(xAxisMax / xInterval) * xInterval;
-        settings.yAxisMin = Math.floor(yAxisMin / yInterval) * yInterval;
-        settings.yAxisMax = Math.ceil(yAxisMax / yInterval) * yInterval;
+            
+            settings.xAxisMin = Math.floor(xAxisMin / xInterval) * xInterval;
+            settings.xAxisMax = Math.ceil(xAxisMax / xInterval) * xInterval;
 
+        }
+        
+        if (isFinite(yDiff)) {
+            if (yDiff > 1) {
+                while (yInterval * 20 < yDiff) {
+                    yInterval *= 10;
+                }
+            } else {
+                while (yInterval < yDiff * 20) {
+                    yInterval /= 10;
+                }
+            }
+
+            settings.yAxisMin = Math.floor(yAxisMin / yInterval) * yInterval;
+            settings.yAxisMax = Math.ceil(yAxisMax / yInterval) * yInterval;
+        }
     }
     
     createLegend = function() {
